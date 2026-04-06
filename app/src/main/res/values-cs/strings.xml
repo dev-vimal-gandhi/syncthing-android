@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <string name="app_name">Syncthing-Fork</string>
+    <string name="app_name">Serva Sync</string>
     <string name="app_description">Otevřená, důvěryhodná a decentralizovaná aplikace pro synchronizaci souborů.</string>
     <!-- FirstStartActivity -->
     <!-- Title for dialog displayed on first start -->
-    <string name="welcome_title">Vítejte v Syncthing pro Android</string>
+    <string name="welcome_title">Vítejte v Serva Sync pro Android</string>
     <!-- Slide "Ignore battery optimizations" -->
     <string name="ignore_doze_permission_title">Optimalizace využití baterie</string>
     <string name="dialog_disable_battery_optimizations_not_supported">Vaše zařízení nepodporuje vypnutí optimalizací baterie</string>
@@ -64,7 +64,7 @@
     <!-- Title for announce server status -->
     <string name="announce_server">Globální oznamování</string>
     <string name="restart">Restartovat</string>
-    <string name="dialog_confirm_restart">Opravdu chcete restartovat Syncthing?</string>
+    <string name="dialog_confirm_restart">Opravdu chcete restartovat Serva Sync?</string>
     <!-- FolderActivity -->
     <!-- Setting title -->
     <string name="folder_id">ID složky</string>
@@ -85,7 +85,7 @@
     <!-- Menu item to confirm folder creation -->
     <string name="create">Přidat</string>
     <!-- Dialog shown when attempting to remove a folder -->
-    <string name="remove_folder_confirm">Opravdu chcete tuto složku odebrat ze Syncthing?</string>
+    <string name="remove_folder_confirm">Opravdu chcete tuto složku odebrat ze Serva Sync?</string>
     <!-- Toast shown when trying to create a folder with an empty ID -->
     <string name="folder_id_required">ID složky nesmí být prázdné</string>
     <!-- Toast shown when trying to create a folder with an empty path -->
@@ -124,14 +124,14 @@
     <string name="scan_qr_code_description">Načíst QR kód</string>
     <!-- WebGuiActivity -->
     <!-- Title of the web gui activity -->
-    <string name="web_gui_title">Syncthing GUI</string>
+    <string name="web_gui_title">Serva Sync GUI</string>
     <!-- Text for WebGuiActivity loading view -->
-    <string name="web_gui_loading">Čeká se na Syncthing GUI</string>
+    <string name="web_gui_loading">Čeká se na Serva Sync GUI</string>
     <!-- SettingsFragment -->
     <string name="settings_title">Nastavení</string>
     <string name="category_run_conditions">Podmínky spuštění</string>
     <string name="category_behaviour">Chování</string>
-    <string name="category_syncthing_options">Nastavení Syncthing</string>
+    <string name="category_syncthing_options">Nastavení Serva Sync</string>
     <string name="category_experimental">Experimentální</string>
     <!-- Preference screen - Run conditions -->
     <string name="run_conditions_title">Podmínky spuštění</string>
@@ -170,20 +170,20 @@
     <string name="environment_variables">Proměnné prostředí</string>
     <!-- Toast after entering invalid STTRACE params -->
     <string name="toast_invalid_environment_variables">Hodnota není platným řetězcem proměnné prostředí</string>
-    <!-- Title for the preference to reset Syncthing indexes -->
+    <!-- Title for the preference to reset Serva Sync indexes -->
     <string name="st_reset_database_title">Resetovat databázi</string>
-    <!-- Syncthing was reset -->
-    <string name="st_reset_database_done">Databáze aplikace Syncthing úspěšně resetována</string>
+    <!-- Serva Sync was reset -->
+    <string name="st_reset_database_done">Databáze aplikace Serva Sync úspěšně resetována</string>
     <string name="category_about">O aplikaci</string>
     <!-- Settings item that opens the log activity -->
     <string name="open_log">Otevřít log</string>
     <!-- Summary for the log activity -->
-    <string name="open_log_summary">Otevřít okno logu pro Syncthing a Android</string>
+    <string name="open_log_summary">Otevřít okno logu pro Serva Sync a Android</string>
     <!-- Settings item that opens issue tracker -->
     <string name="report_issue_title">Nahlásit chybu</string>
     <!-- Menu item to donate -->
     <!-- Title of the preference showing upstream version name -->
-    <string name="syncthing_version_title">Verze Syncthing</string>
+    <string name="syncthing_version_title">Verze Serva Sync</string>
     <!-- FolderPickerAcitivity -->
     <!-- Activity title -->
     <string name="folder_picker_title">Výběr složky</string>
@@ -195,17 +195,17 @@
     <string name="select_folder">Vybrat složku</string>
     <string name="create_folder_failed">Vytvoření složky selhalo</string>
     <!-- LogActivity -->
-    <string name="syncthing_log_title">Log Syncthing</string>
+    <string name="syncthing_log_title">Log Serva Sync</string>
     <string name="android_log_title">Log Androidu</string>
     <!-- Title of the "log android" menu button -->
     <string name="view_android_log">Zobrazit log Androidu</string>
-    <!-- Title of the "log Syncthing" menu button -->
+    <!-- Title of the "log Serva Sync" menu button -->
     <string name="view_syncthing_log">Zobrazit log Syncthingu</string>
     <string name="retrieving_logs">Získávám logy…</string>
     <!-- Title of the "share log" menu button -->
     <string name="share_title">Sdílet</string>
     <!-- Title of the "share" activity -->
-    <string name="share_activity_title">Uložit do Syncthing</string>
+    <string name="share_activity_title">Uložit do Serva Sync</string>
     <!-- Title of the "save" button -->
     <string name="save_title">Uložit</string>
     <!-- Title of the "cancel" button -->
@@ -258,7 +258,7 @@
     <!-- Text for positive button in restart dialog -->
     <!-- Text for the dismiss button of the restart Activity -->
     <!-- Text of the notification shown when a restart is needed -->
-    <string name="restart_notification_text">Klepněte sem pro restart aplikace Syncthing</string>
+    <string name="restart_notification_text">Klepněte sem pro restart aplikace Serva Sync</string>
     <!-- Shown when a device ID is copied to the clipboard -->
     <string name="device_id_copied_to_clipboard">ID přístroje bylo zkopírováno schránky</string>
     <!-- Strings representing units for file sizes, from smallest to largest -->
@@ -291,9 +291,9 @@
     <string name="command">Příkaz</string>
     <!-- File versioning dialog descriptions for file versioning types and file versioning configuration options. -->
     <string name="keep_versions_description">Počet udržovaných starších verzí souboru.</string>
-    <string name="simple_file_versioning_description">Po nahrazení nebo smazání aplikací Syncthing jsou soubory přesunuty do verzí označených daty ve složce .stversions.</string>
-    <string name="trashcan_versioning_description">Po nahrazení nebo smazání aplikací Syncthing jsou soubory přesunuty do složky .stversions.</string>
-    <string name="staggered_versioning_description">Po nahrazení nebo smazání aplikací Syncthing jsou soubory přesunuty do verzí označených daty ve složce .stversions. Verze jsou automaticky smazány, pokud jsou starší než maximální časový limit nebo překročí počet souborů povolených pro interval. \n \nJsou použity následující intervaly: za první hodinu jsou ponechány verze pro každých 30 sekund, za první den jsou ponechány verze pro každou hodinu, za prvních 30 dní jsou ponechány verze pro každý den a do nejvyššího nastaveného stáří jsou ponechány verze pro každý týden.</string>
+    <string name="simple_file_versioning_description">Po nahrazení nebo smazání aplikací Serva Sync jsou soubory přesunuty do verzí označených daty ve složce .stversions.</string>
+    <string name="trashcan_versioning_description">Po nahrazení nebo smazání aplikací Serva Sync jsou soubory přesunuty do složky .stversions.</string>
+    <string name="staggered_versioning_description">Po nahrazení nebo smazání aplikací Serva Sync jsou soubory přesunuty do verzí označených daty ve složce .stversions. Verze jsou automaticky smazány, pokud jsou starší než maximální časový limit nebo překročí počet souborů povolených pro interval. \n \nJsou použity následující intervaly: za první hodinu jsou ponechány verze pro každých 30 sekund, za první den jsou ponechány verze pro každou hodinu, za prvních 30 dní jsou ponechány verze pro každý den a do nejvyššího nastaveného stáří jsou ponechány verze pro každý týden.</string>
     <string name="maximum_age_description">Maximální doba pro zachování verze (dny, zapsáním hodnoty 0 bude ponecháno navždy).</string>
     <string name="versions_path_description">Cesta pro ukládání verzí (ponechte prázdné pro výchozí adresář .stversions ve sdíleném adresáři).</string>
     <string name="cleanout_after_description">Počet dní, po který budou soubory uchovány v koši. Nula znamená navždy</string>
@@ -316,32 +316,32 @@
     <string name="no_sub_folder_is_selected">Není vybrána žádná podsložka</string>
     <string name="share_device_id_chooser">Sdílet ID zařízení s</string>
     <string name="pull_order_type_random_description">Stahovat soubory v náhodném pořadí.</string>
-    <string name="respect_master_sync_summary">Vypnout Syncthing, pokud je vypnutá dlaždice rychlého nastavení ‚Automaticky synchronizovat data‘.</string>
+    <string name="respect_master_sync_summary">Vypnout Serva Sync, pokud je vypnutá dlaždice rychlého nastavení ‚Automaticky synchronizovat data‘.</string>
     <string name="open_file_manager">Otevřít správce souborů</string>
-    <string name="syncthing_starting">Syncthing se spouští.</string>
+    <string name="syncthing_starting">Serva Sync se spouští.</string>
     <string name="folder_fileWatcher">Sledovat změny</string>
     <string name="folder_pause">Pozastavit složku</string>
-    <string name="folder_path_readonly">Vaše verze Androidu umožňuje aplikaci Syncthing pouze čtení vybrané složky.</string>
+    <string name="folder_path_readonly">Vaše verze Androidu umožňuje aplikaci Serva Sync pouze čtení vybrané složky.</string>
     <string name="run_on_mobile_data_title">Spustit na mobilních datech</string>
     <string name="run_on_wifi_title">Spustit na Wi-Fi</string>
     <string name="sync_only_wifi_ssids_need_to_grant_location_permission">Pro použití této funkce je nutné udělit oprávnění k poloze.</string>
-    <string name="respect_battery_saving_summary">Vypnout Syncthing pokud je zapnuto šetření energie.</string>
+    <string name="respect_battery_saving_summary">Vypnout Serva Sync pokud je zapnuto šetření energie.</string>
     <string name="respect_master_sync_title">Dodržovat nastavení automatické synchronizace dat z Androidu</string>
-    <string name="st_reset_database_question">Tato akce by měla být provedena pouze na základě doporučení naší podpory. \nSkutečně chcete vymazat databázi Syncthing?</string>
+    <string name="st_reset_database_question">Tato akce by měla být provedena pouze na základě doporučení naší podpory. \nSkutečně chcete vymazat databázi Serva Sync?</string>
     <string name="st_reset_deltas_title">Resetovat rejstříky přírůstků</string>
     <string name="syncthing_terminated">Ukončeno</string>
     <string name="config_file_missing">Soubor s nastaveními nezbytný pro fungování nebyl nalezen</string>
-    <string name="notifications_persistent_channel">Syncthing je aktivní</string>
+    <string name="notifications_persistent_channel">Serva Sync je aktivní</string>
     <string name="storage_permission_title">Oprávnění pro přístup k úložišti</string>
     <string name="dialog_exit_while_running_as_service_message">Ke zvážení: nastavili jste aplikaci tak, aby se spouštěla automaticky po zapnutí zařízení. K synchronizaci tedy dochází i na pozadí. Ručně byste měli aplikaci vypnout pouze v případě, že narazíte na problémy, jinak můžete v nastavení zakázat možnost \'Spouštět službu automaticky při startu systému\'. Přejete si nyní aplikaci vypnout až do restartu zařízení?</string>
     <string name="device_paused">Pozastaveno</string>
-    <string name="syncthing_running">Syncthing je spuštěn.</string>
-    <string name="syncthing_not_running">Syncthing není spuštěn.</string>
-    <string name="syncthing_has_crashed">Syncthing havaroval.</string>
-    <string name="folder_path_readwrite">Vaše verze Androidu umožňuje aplikaci Syncthing ve vybrané složce čtení i zápis.</string>
+    <string name="syncthing_running">Serva Sync je spuštěn.</string>
+    <string name="syncthing_not_running">Serva Sync není spuštěn.</string>
+    <string name="syncthing_has_crashed">Serva Sync havaroval.</string>
+    <string name="folder_path_readwrite">Vaše verze Androidu umožňuje aplikaci Serva Sync ve vybrané složce čtení i zápis.</string>
     <string name="folder_fileWatcherDescription">Operační systém bude oznamovat změny souborů. Jinak budou změny sledovány periodickým prohledáváním.</string>
     <string name="toast_invalid_folder_selected">Promiňte, ale zvolenou složku není možné použít. Vyberte složku, která se nachází na vestavěném nebo externím úložišti.</string>
-    <string name="run_conditions_summary">Zvolte možnosti pro určení situací kdy bude Syncthing spuštěn.</string>
+    <string name="run_conditions_summary">Zvolte možnosti pro určení situací kdy bude Serva Sync spuštěn.</string>
     <string name="run_on_mobile_data_summary">Spouštět když je zařízení připojené prostřednictvím mobilní datové sítě. Varování: toto může spotřebovat mnoho dat z vašeho tarifu, pokud synchronizujete větší objemy dat.</string>
     <string name="run_on_metered_wifi_summary">Spouštět když je zařízení připojeno k placené Wi-Fi sítí jako např. hotspotu nebo tethered síti. Pozor, může spotřebovat velkou část Vašich tarifních dat, pokud synchronizujete hodně dat.</string>
     <string name="run_on_whitelisted_wifi_title">Spouštět na zadaných Wi-Fi sítích</string>
@@ -350,9 +350,9 @@
     <string name="power_source_title">Spouštět když je zařízení napájeno z</string>
     <string name="toast_invalid_socks_proxy_address">Vstup neodpovídá syntaxi proxy \'socks5://[IP/HOSTNAME]:[PORT]\'</string>
     <string name="sync_only_wifi_ssids_location_permission_rejected_dialog_content">Počínaje Androidem 8.1 je jméno Wi-Fi přístupné jen s oprávněním k přístupu k poloze. Tuto funkci lze použít jen pokud oprávnění povolíte.</string>
-    <string name="st_reset_deltas_question">Tato akce by měla být provedena pouze na základě doporučení naší podpory. \nSkutečně chcete vymazat delta indexy Syncthing?</string>
+    <string name="st_reset_deltas_question">Tato akce by měla být provedena pouze na základě doporučení naší podpory. \nSkutečně chcete vymazat delta indexy Serva Sync?</string>
     <string name="pull_order_oldest_first">Od nejstaršího</string>
-    <string name="st_reset_deltas_done">Delta indexy aplikace Syncthing úspěšně resetovány</string>
+    <string name="st_reset_deltas_done">Delta indexy aplikace Serva Sync úspěšně resetovány</string>
     <string name="override_changes">Vynutit změny</string>
     <string name="status_fragment_title">Stav</string>
     <string name="run_on_metered_wifi_title">Spouštět na Wi-Fi s účtovanými daty</string>
@@ -370,7 +370,7 @@
     <string name="do_not_use_proxy">Není nastavena žádná proxy.</string>
     <string name="toast_invalid_http_proxy_address">Vstup neodpovídá syntaxi proxy \'http://[IP/HOSTNAME]:[PORT]\'</string>
     <string name="notification_persistent_waiting_channel">Monitorování podmínek běhu</string>
-    <string name="storage_permission_desc">Aby Syncthing mohl synchronizovat soubory, potřebuje přístup k úložišti.</string>
+    <string name="storage_permission_desc">Aby Serva Sync mohl synchronizovat soubory, potřebuje přístup k úložišti.</string>
     <string name="dialog_all_files_access_not_supported">Vaše zařízení nepodporuje přístup ke všem souborům</string>
     <string name="pause_device">Pozastavit zařízení</string>
     <string name="device_syncing_percent_bytes">Synchronizace (%1$d%%, %2$s)</string>
@@ -379,7 +379,7 @@
     <string name="main_menu">Hlavní nabídka</string>
     <string name="refresh">Obnovit</string>
     <string name="exception_known_bug_notice">Vyskytla se známá chyba, která dosud nebyla vyřešena.Další informace naleznete v %1$s/%2$s. Předtím nám prosím zanechte přesný popis toho, co se stalo.</string>
-    <string name="photo_shoot_intro_permission_desc">Aplikace Syncthing Camera vyžaduje váš souhlas k pořizování snímků a jejich ukládání do zařízení. Tato funkce je volitelná. Chcete-li ji používat, udělte oprávnění a klepněte na možnost „Pokračovat“. Nastavíme pro vás složku Syncthing Camera, kterou můžete později sdílet s ostatními zařízeními Syncthing.</string>
+    <string name="photo_shoot_intro_permission_desc">Aplikace Serva Sync Camera vyžaduje váš souhlas k pořizování snímků a jejich ukládání do zařízení. Tato funkce je volitelná. Chcete-li ji používat, udělte oprávnění a klepněte na možnost „Pokračovat“. Nastavíme pro vás složku Serva Sync Camera, kterou můžete později sdílet s ostatními zařízeními Serva Sync.</string>
     <string name="folder_rejected">Zařízení „%1$s“ chce sdílet složku „%2$s“</string>
     <string name="override_changes_question">Tím zrušíte všechny změny provedené v ostatních zařízeních sdílejících tuto složku. Pokračovat?</string>
     <string name="category_backup">Import a Export</string>
@@ -392,9 +392,9 @@
     <string name="photo_shoot_intro_missing_permissions">K pokračování potřebujeme povolení k uložišti a používání fotoaparátu.</string>
     <string name="grant_camera_permission">Udělit oprávnění k fotoaparátu</string>
     <string name="grant_storage_permission">Udělit oprávnění k uložišti</string>
-    <string name="photo_shoot_take_picture_success">Snímek byl úspěšně uložen do složky Syncthing Camera.</string>
+    <string name="photo_shoot_take_picture_success">Snímek byl úspěšně uložen do složky Serva Sync Camera.</string>
     <string name="photo_shoot_take_picture_failure">Nepodařilo se vám pořídit snímek nebo jste ho zrušili.</string>
-    <string name="default_syncthing_camera_folder_label">Syncthing Camera</string>
+    <string name="default_syncthing_camera_folder_label">Serva Sync Camera</string>
     <string name="activity_main_bottom_navigation_rescan_all">Znovu prohledat vše</string>
     <string name="open_main_menu">Otevřít hlavní nabídku</string>
     <string name="dialog_exit_while_running_as_service_title">Potvrdit ukončení aplikace</string>
@@ -425,14 +425,14 @@
     </plurals>
     <string name="devices_list_empty">Nejsou nakonfigurována žádná zařízení. Klepnutím přidáte nové zařízení.</string>
     <string name="folder_ignore_delete_description">Expertní volba, která ovlivňuje zpracování příchozích aktualizací indexu.Je-li nastavena, jsou příchozí aktualizace s nastaveným příznakem odstranění ignorovány. Viz https://docs.syncthing.net/advanced/folder-ignoredelete.html</string>
-    <string name="welcome_text">Syncthing je synchronizační aplikace s otevřeným zdrojovým kódem. Pro sdílení dat s dalšími přístroji je třeba přidat jejich unikátní ID do seznamu. Poté lze určovat, které adresáře jsou sdíleny s kterými přístroji.\n\nVšechny zaznamenané chyby prosím hlašte přes GitHub.</string>
-    <string name="ignore_doze_permission_desc">Systém Android může po určité době synchronizaci zastavit. Chcete-li tomu zabránit, vypněte optimalizaci baterie. Některá zařízení mají předinstalované další aplikace, které ukončují úlohy. Do jejich bílého seznamu byste měli přidat také Syncthing.</string>
+    <string name="welcome_text">Serva Sync je synchronizační aplikace s otevřeným zdrojovým kódem. Pro sdílení dat s dalšími přístroji je třeba přidat jejich unikátní ID do seznamu. Poté lze určovat, které adresáře jsou sdíleny s kterými přístroji.\n\nVšechny zaznamenané chyby prosím hlašte přes GitHub.</string>
+    <string name="ignore_doze_permission_desc">Systém Android může po určité době synchronizaci zastavit. Chcete-li tomu zabránit, vypněte optimalizaci baterie. Některá zařízení mají předinstalované další aplikace, které ukončují úlohy. Do jejich bílého seznamu byste měli přidat také Serva Sync.</string>
     <string name="recent_changes_title">Nedávné změny</string>
     <string name="notification_permission_desc">Nutné pro zobrazení oznámení o nových připojeních zařízení, požadavcích na sdílení složek a pro udržení služby při životě a připojení.</string>
-    <string name="toast_notification_permission_required">Syncthing vyžaduje oprávnění k oznámení, aby udržel svou službu běžet a připojenou.</string>
+    <string name="toast_notification_permission_required">Serva Sync vyžaduje oprávnění k oznámení, aby udržel svou službu běžet a připojenou.</string>
     <string name="grant_permission">Udělit oprávnění</string>
     <string name="permission_granted">Orávnění uděleno</string>
-    <string name="photo_shoot_intro_welcome_title">Vítejte v Syncthing Camera</string>
+    <string name="photo_shoot_intro_welcome_title">Vítejte v Serva Sync Camera</string>
     <string name="close_main_menu">Zavřít hlavní nabídku</string>
     <string name="revert_local_changes_question">Tím zrušíte všechny změny provedené v tomto zařízení v rámci této složky. Pokračovat?</string>
     <string name="open_file_with">Otevřít soubor pomocí</string>
@@ -456,7 +456,7 @@
     <string name="toast_ignore_doze_permission_required">Tato aplikace funguje spolehlivě, pouze pokud je vyjmuta z úsporného režimu „Doze“.</string>
     <string name="location_permission_title">Oprávnění k poloze</string>
     <string name="dialog_confirm_skip_ignore_doze_permission">Pozor: Pokud se SyncthingNative přeruší a udělá něco divného, je to vaše vina. Přeskočte pouze v případě, že vaše zařízení nepodporuje udělení oprávnění. Opravdu přeskočit?</string>
-    <string name="photo_shoot_activity_title">Syncthing-Fork Fotoaparát</string>
+    <string name="photo_shoot_activity_title">Serva Sync Fotoaparát</string>
     <string name="folder_ignore_delete_caption">Ignorovat Odstranění</string>
     <string name="discovered_devices_title">Objevená zařízení - Klepnutím vyberte</string>
     <string name="folders">Složky</string>
@@ -466,7 +466,7 @@
     <string name="open_in_browser">Otevřít v prohlížeči</string>
     <string name="preference_app_theme_follow_light">Světlé</string>
     <string name="run_on_roaming_title">Spustit během roamingu</string>
-    <string name="run_on_roaming_summary">Povolit používání mobilních dat v roamingu pomocí Syncthing. (!) Pokud to funguje správně, napište prosím zpětnou vazbu na GitHub.</string>
+    <string name="run_on_roaming_summary">Povolit používání mobilních dat v roamingu pomocí Serva Sync. (!) Pokud to funguje správně, napište prosím zpětnou vazbu na GitHub.</string>
     <string name="run_on_wifi_summary">Spustí se, když je zařízení připojeno k síti Wi-Fi nebo ethernetu.</string>
     <string name="run_on_whitelisted_wifi_networks">Vybrané sítě Wi-Fi: %1$s</string>
     <string name="specify_wifi_ssid_whitelist">Vybrat sítě Wi-Fi</string>
@@ -492,13 +492,13 @@
     <string name="dialog_settings_restart_app_question">Změna této možnosti vyžaduje okamžitý restart aplikace. Všechny ostatní změny budou zahozeny. Pokračovat?</string>
     <string name="verbose_log_summary">Povolení této možnosti pomůže generovat logy ladění na velmi podrobné úrovni.</string>
     <string name="log_to_file_title">Log do souboru</string>
-    <string name="app_version_title">Verze Syncthing-Fork Wrapper</string>
-    <string name="syncthing_api_key">Syncthing API Key (kliknutím zkopírujete)</string>
-    <string name="syncthing_database_size">Velikost databáze Syncthing</string>
+    <string name="app_version_title">Verze Serva Sync Wrapper</string>
+    <string name="syncthing_api_key">Serva Sync API Key (kliknutím zkopírujete)</string>
+    <string name="syncthing_database_size">Velikost databáze Serva Sync</string>
     <string name="os_open_file_limit">Omezení otevřených souborů systému Android</string>
-    <string name="api_key_copied_to_clipboard">Klíč Syncthing API zkopírován do schránky</string>
-    <string name="reason_not_on_mobile_data">Syncthing může běžet na mobilním datovém připojení, ale mobilní data nejsou zapnuta.</string>
-    <string name="reason_not_nonroaming_mobile_data">Syncthing neběží, protože jste zakázali spuštění na roamingových mobilních datových připojeních.</string>
+    <string name="api_key_copied_to_clipboard">Klíč Serva Sync API zkopírován do schránky</string>
+    <string name="reason_not_on_mobile_data">Serva Sync může běžet na mobilním datovém připojení, ale mobilní data nejsou zapnuta.</string>
+    <string name="reason_not_nonroaming_mobile_data">Serva Sync neběží, protože jste zakázali spuštění na roamingových mobilních datových připojeních.</string>
     <string name="reason_run_condition_monitor_not_instantiated">RunConditionMonitor bnemá vytvořenu instance. Pokud tato chyba po restartu aplikace nezmizí, odešlete prosím hlášení o chybě.</string>
     <string name="custom_wifi_ssid_whitelist_empty">Žádné WiFi sítě na seznamu povolených. Přidejte nějaké v nastavení.</string>
     <string name="syncthing_disabled">Pozastaveno</string>
@@ -525,7 +525,7 @@
     <string name="pull_order_type_alphabetic_description">Stahuje soubory seřazené abecedně podle názvu souboru.</string>
     <string name="pull_order_type_newestFirst_description">Stahuje soubory seřazené podle času úpravy. Nejnovější jako první.</string>
     <string name="pull_order_type_oldestFirst_description">Stahuje soubory seřazené podle času úpravy. Nejstarší jako první.</string>
-    <string name="file_versioning_generic_description">Syncthing podporuje archivaci staré verze souboru, když je odstraněn nebo nahrazen novější verzí z clusteru. Kliknutím zobrazíte dostupné strategie verzování. Správa verzí souborů se konfiguruje pro jednotlivé složky a zařízení. Zvolená strategie:</string>
+    <string name="file_versioning_generic_description">Serva Sync podporuje archivaci staré verze souboru, když je odstraněn nebo nahrazen novější verzí z clusteru. Kliknutím zobrazíte dostupné strategie verzování. Správa verzí souborů se konfiguruje pro jednotlivé složky a zařízení. Zvolená strategie:</string>
     <string name="run_on_whitelisted_wifi_summary">Zapnutím seznamu povolených omezíte synchronizaci pouze na zvolené sítě WiFi.</string>
     <string name="custom_sync_conditions_title">Vlastní podmínky synchronizace</string>
     <string name="qs_forced_to_run">Spuštění vynuceno</string>
@@ -542,28 +542,28 @@
     <string name="modified_by_device">Zařízení: %1$s</string>
     <string name="modification_time">Čas: %1$s</string>
     <string name="this_device">Toto zařízení</string>
-    <string name="category_syncthing_options_summary">Tato nabídka je k dispozici pouze v případě, že je aplikace Syncthing spuštěna.</string>
+    <string name="category_syncthing_options_summary">Tato nabídka je k dispozici pouze v případě, že je aplikace Serva Sync spuštěna.</string>
     <string name="category_debug">Odstraňování problémů</string>
     <string name="discovered_device_list_empty">Místní zjišťování nenašlo v místní síti žádné zařízení.Spusťte tuto aplikaci na druhém telefonu. Instalační soubory pro počítače jsou k dispozici na adrese: %1$s</string>
     <string name="preference_app_theme_follow_dark">Tmavé</string>
     <string name="category_user_interface">Uživatelské rozhraní</string>
     <string name="preference_app_theme_follow_system">Podle systému</string>
     <string name="local_discovery_disabled">Místní zjišťování jste zakázali v nabídce „Nastavení“ &gt; „Možnosti synchronizace“ &gt; „Místní zjišťování“. Povolte jej, abyste mohli vyhledávat zařízení v místní síti.</string>
-    <string name="device_addresses_invalid">Adresy zařízení nejsou správně naformátovány. Zkuste to prosím znovu. Další informace naleznete v dokumentaci Syncthing.</string>
+    <string name="device_addresses_invalid">Adresy zařízení nejsou správně naformátovány. Zkuste to prosím znovu. Další informace naleznete v dokumentaci Serva Sync.</string>
     <string name="security_notice">Bezpečnostní upozornění</string>
     <string name="ssl_cert_invalid_text">Webová stránka na adrese %1$s má zřejmě neplatný certifikát pro šifrování SSL. Pokračovat?</string>
     <string name="folder_type">Typ složky</string>
     <string name="folder_type_sendreceive_description">Složka bude odesílat změny i přijímat změny ze vzdálených zařízení.</string>
     <string name="reason_not_within_time_frame">Povolili jste „Spustit podle časového plánu“ a poslední synchronizace neproběhla před více než hodinou.</string>
-    <string name="reason_wifi_disallowed">Syncthing nemá povoleno běžet na WiFi nebo ethernetu.</string>
-    <string name="reason_force_stop">Syncthing neběží, protože bylo vynuceno zastavení bez ohledu na podmínky běhu.</string>
-    <string name="reason_not_on_wifi">Syncthing může běžet na WiFi, ale WiFi není připojeno nebo je telefon v režimu letadla.</string>
+    <string name="reason_wifi_disallowed">Serva Sync nemá povoleno běžet na WiFi nebo ethernetu.</string>
+    <string name="reason_force_stop">Serva Sync neběží, protože bylo vynuceno zastavení bez ohledu na podmínky běhu.</string>
+    <string name="reason_not_on_wifi">Serva Sync může běžet na WiFi, ale WiFi není připojeno nebo je telefon v režimu letadla.</string>
     <string name="reason_not_nonmetered_wifi">Synchronizace neběží, protože jste ji zakázali spouštět na měřených WiFi připojeních.</string>
-    <string name="reason_not_on_whitelisted_wifi">Syncthing neběží, protože název aktuální sítě WiFi není na seznamu povolených.</string>
-    <string name="reason_location_unavailable">V nastavení jste povolili „Spustit na vybraných sítích WiFi“. Služby určování polohy Android jsou aktuálně vypnuté. Podle omezení systému Android nemůže Syncthing určit aktuální název sítě WiFi, aby se rozhodl, zda se má spustit. Řešení: Zapněte polohu, udělte oprávnění k poloze a znovu připojte WiFi.</string>
+    <string name="reason_not_on_whitelisted_wifi">Serva Sync neběží, protože název aktuální sítě WiFi není na seznamu povolených.</string>
+    <string name="reason_location_unavailable">V nastavení jste povolili „Spustit na vybraných sítích WiFi“. Služby určování polohy Android jsou aktuálně vypnuté. Podle omezení systému Android nemůže Serva Sync určit aktuální název sítě WiFi, aby se rozhodl, zda se má spustit. Řešení: Zapněte polohu, udělte oprávnění k poloze a znovu připojte WiFi.</string>
     <string name="download_support_bundle_in_progress">Příprava stažení podpůrného balíčku …</string>
     <string name="behaviour_autostart_summary">Spustit aplikaci automaticky při spuštění systému.</string>
-    <string name="run_in_flight_mode_summary">Povolení této možnosti způsobí, že Syncthing poběží, i když budete offline. Aktivujte, pokud má vaše zařízení problémy s detekcí ručních připojení Wi-Fi během letového režimu.</string>
+    <string name="run_in_flight_mode_summary">Povolení této možnosti způsobí, že Serva Sync poběží, i když budete offline. Aktivujte, pokud má vaše zařízení problémy s detekcí ručních připojení Wi-Fi během letového režimu.</string>
     <string name="qs_forced_to_stop">Vynuceno zastavení</string>
     <string name="folder_go_up">Přejít nahoru</string>
     <string name="photo_shoot_launcher_title">Sync. fotoaparát</string>
@@ -572,13 +572,13 @@
     <string name="expert_mode_title">Expertní režim</string>
     <string name="advanced_storage_path_overview">Pokročilý přehled cesty k úložišti</string>
     <string name="current_path">Aktuální cesta: %1$s</string>
-    <string name="reason_on_wifi">Syncthing může běžet na WiFi a WiFi je aktuálně připojeno.</string>
+    <string name="reason_on_wifi">Serva Sync může běžet na WiFi a WiFi je aktuálně připojeno.</string>
     <string name="notification_crash_text">Zobrazit logy (%1$s)</string>
     <string name="folder_type_receive_encrypted_description">Ukládá a synchronizuje pouze šifrovaná data. Složky na všech připojených zařízeních musí být nastaveny se stejným heslem nebo musí být také typu „Přijímat šifrovaně“.</string>
     <string name="sleep_interval_minutes_title">Trvání intervalu synchronizační pauzy</string>
     <string name="web_page_loading">Načítání webové stránky:\n%1$s …</string>
     <string name="behaviour_autostart_title">Automatické spuštění</string>
-    <string name="expert_mode_summary">Povolením této možnosti zobrazíte pokročilé možnosti konfigurace. Nejprve byste se měli podívat na Syncthing Docs, abyste se ujistili, že víte, jak je správně používat. Nesprávné nastavení může způsobit vybití baterie, vyčerpání systémových zdrojů nebo neúplnou synchronizaci.</string>
+    <string name="expert_mode_summary">Povolením této možnosti zobrazíte pokročilé možnosti konfigurace. Nejprve byste se měli podívat na Serva Sync Docs, abyste se ujistili, že víte, jak je správně používat. Nesprávné nastavení může způsobit vybití baterie, vyčerpání systémových zdrojů nebo neúplnou synchronizaci.</string>
     <string name="download_support_bundle_succeeded">Balíček podpory byl úspěšně stažen do %s.</string>
     <string name="download_support_bundle_failed">Stažení balíčku podpory selhalo. Zkontrolujte logy.</string>
     <string name="undo_ignored_devices_folders_question">Tímto budou předchozí rozhodnutí o ignorování zařízení a složek vrácena zpět. Pokračovat?</string>
@@ -589,9 +589,9 @@
     <string name="config_export_failed">Export konfigurace selhal. Jděte do Nastavení-Odstraňování problémů-Otevřít log pro důvod selhání.</string>
     <string name="verbose_log_title">Podrobný log</string>
     <string name="log_to_file_summary">Výstup SyncthingNative bude zapsán do souboru.</string>
-    <string name="open_issue_tracker_summary">Otevřete nástroj pro sledování problémů Syncthing-Fork na adrese %1$s</string>
+    <string name="open_issue_tracker_summary">Otevřete nástroj pro sledování problémů Serva Sync na adrese %1$s</string>
     <string name="complete_welcome_wizard_first">Nejprve spusťte aplikaci a před sdílením souborů dokončete uvítacího průvodce.</string>
-    <string name="reason_force_start">Syncthing běží, protože bylo vynuceno spuštění bez ohledu na podmínky spuštění.</string>
+    <string name="reason_force_start">Serva Sync běží, protože bylo vynuceno spuštění bez ohledu na podmínky spuštění.</string>
     <string name="reason_not_within_time_frame_2">Povolili jste „Spustit podle časového plánu“ a poslední synchronizace proběhla před %s.</string>
     <string name="reason_not_within_time_frame_0_min">méně než minutu</string>
     <plurals name="reason_not_within_time_frame_minutes">
@@ -602,16 +602,16 @@
     </plurals>
     <string name="reason_not_charging">Telefon se nenabíjí.</string>
     <string name="reason_not_on_battery_power">Telefon je připojen k nabíječce.</string>
-    <string name="reason_not_while_power_saving">Syncthing neběží, protože je telefon aktuálně v režimu šetření energie.</string>
-    <string name="reason_not_while_auto_sync_data_disabled">Syncthing neběží, protože Android má momentálně vypnutou funkci „Synchronizace dat“.</string>
-    <string name="reason_mobile_data_disallowed">Syncthing není nakonfigurován pro spuštění na mobilním datovém připojení.</string>
-    <string name="reason_on_mobile_data">Syncthing může běžet při zapnutých mobilních datech.</string>
-    <string name="reason_on_roaming_nonroaming_mobile_data">Syncthing může běžet na roamingových i neroamových mobilních datových připojeních.</string>
-    <string name="reason_on_nonroaming_mobile_data">Syncthing může běžet na mobilních datových připojeních bez roamingu. Současné aktivní připojení není roamingové.</string>
-    <string name="reason_on_metered_nonmetered_wifi">Syncthing může běžet na měřených i neměřených WiFi připojeních.</string>
-    <string name="reason_on_whitelisted_wifi">Syncthing může běžet na aktuální WiFi síti.</string>
+    <string name="reason_not_while_power_saving">Serva Sync neběží, protože je telefon aktuálně v režimu šetření energie.</string>
+    <string name="reason_not_while_auto_sync_data_disabled">Serva Sync neběží, protože Android má momentálně vypnutou funkci „Synchronizace dat“.</string>
+    <string name="reason_mobile_data_disallowed">Serva Sync není nakonfigurován pro spuštění na mobilním datovém připojení.</string>
+    <string name="reason_on_mobile_data">Serva Sync může běžet při zapnutých mobilních datech.</string>
+    <string name="reason_on_roaming_nonroaming_mobile_data">Serva Sync může běžet na roamingových i neroamových mobilních datových připojeních.</string>
+    <string name="reason_on_nonroaming_mobile_data">Serva Sync může běžet na mobilních datových připojeních bez roamingu. Současné aktivní připojení není roamingové.</string>
+    <string name="reason_on_metered_nonmetered_wifi">Serva Sync může běžet na měřených i neměřených WiFi připojeních.</string>
+    <string name="reason_on_whitelisted_wifi">Serva Sync může běžet na aktuální WiFi síti.</string>
     <string name="no_remote_devices_connected">Nejsou připojena žádná vzdálená zařízení</string>
-    <string name="reason_on_nonmetered_wifi">Syncthing může běžet na neměřených WiFi připojeních. Aktivní WiFi připojení není měřeno.</string>
+    <string name="reason_on_nonmetered_wifi">Serva Sync může běžet na neměřených WiFi připojeních. Aktivní WiFi připojení není měřeno.</string>
     <string name="reason_on_flight_mode">Synchronizace běží tak, jak jste ji povolili, když je aktivní letový režim.</string>
     <string name="executable_not_found">Chybí hlavní spustitelný soubor \"%s\". Zkontrolujte sestavení a výstup logcat.</string>
     <string name="webui_tcp_port_unavailable">WebUI tcp port %s je zaneprázdněn. Vytvořit druhou instanci?</string>
@@ -623,8 +623,8 @@
     <string name="state_unshared">Nesdíleno</string>
     <string name="folder_type_receive_encrypted">Přijímat šifrovaně</string>
     <string name="pull_order_type_random">Náhodně</string>
-    <string name="start_into_web_gui_title">Spustit přímo do Syncthing GUI</string>
-    <string name="start_into_web_gui_summary">Při spouštění aplikace, otevřít Syncthing GUI namísto hlavní obrazovky</string>
+    <string name="start_into_web_gui_title">Spustit přímo do Serva Sync GUI</string>
+    <string name="start_into_web_gui_summary">Při spouštění aplikace, otevřít Serva Sync GUI namísto hlavní obrazovky</string>
     <string name="open_source_licenses_title">Licence Open Source</string>
     <string name="open_source_licenses_summary">Ukázat využité licence open source</string>
     <plurals name="conflicts">
@@ -652,10 +652,10 @@
     <string name="preference_category_explanation">Informace</string>
     <string name="preference_category_prepare">Připravit</string>
     <string name="config_export_successful_no_path">Konfigurace byla exportována. Prosím, nezapomeňte heslo pro pozdější import.</string>
-    <string name="syncthing_forum_title">Fórum Syncthing</string>
-    <string name="syncthing_forum_summary">Získat pomoc na fóru Syncthing</string>
+    <string name="syncthing_forum_title">Fórum Serva Sync</string>
+    <string name="syncthing_forum_summary">Získat pomoc na fóru Serva Sync</string>
     <string name="privacy_title">Zásady ochrany soukromí</string>
-    <string name="privacy_summary">Otevřete zásady ochrany soukromí Syncthing-Android, které popisují používání (pokud existuje) osobních údajů, například polohy.</string>
+    <string name="privacy_summary">Otevřete zásady ochrany soukromí Serva Sync-Android, které popisují používání (pokud existuje) osobních údajů, například polohy.</string>
     <string name="share_log_file_missing">Chybí soubor logu pro sdílení.</string>
     <string name="backup_password_set_masked">✅ Nasatvení hesla - Klepnutím změnit</string>
     <string name="toggle_password_visibility">Zobrazit/skrýt heslo</string>

@@ -1,1 +1,1 @@
-Wrapper voor Syncthing - Open, en gedecentraliseerde bestandssynchronisatie
+Wrapper voor Serva Sync - Open, en gedecentraliseerde bestandssynchronisatie

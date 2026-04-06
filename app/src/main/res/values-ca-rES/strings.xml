@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <string name="app_name">Syncthing-Fork</string>
+    <string name="app_name">Serva Sync</string>
     <string name="app_description">Una aplicació de sincronització de fitxers oberta, confiable i descentralitzada.</string>
     <!-- FirstStartActivity -->
     <!-- Title for dialog displayed on first start -->
-    <string name="welcome_title">Benvinguts al Syncthing per Android</string>
+    <string name="welcome_title">Benvinguts al Serva Sync per Android</string>
     <!-- Welcome wizard -->
     <!-- Slide "Introduction" -->
     <string name="introduction">Introducció</string>
-    <string name="welcome_text">El Syncthing és una aplicació de sincronització de fitxers de codi obert. Per compartir dades amb altres dispositius, cal que afegiu els seus identificadors únics a la llista de dispositius. Un cop fet això podreu triar quines carpetes voleu compartir i amb quins dispositius. \n \nEns podeu informar dels problemes que trobeu a través de GitHub.</string>
+    <string name="welcome_text">El Serva Sync és una aplicació de sincronització de fitxers de codi obert. Per compartir dades amb altres dispositius, cal que afegiu els seus identificadors únics a la llista de dispositius. Un cop fet això podreu triar quines carpetes voleu compartir i amb quins dispositius. \n \nEns podeu informar dels problemes que trobeu a través de GitHub.</string>
     <!-- Slide "Storage Permission" -->
     <string name="storage_permission_title">Permís d\'emmagatzematge</string>
-    <string name="storage_permission_desc">El Syncthing necessita accés a l\'emmagatzematge per poder sincronitzar els arxius</string>
+    <string name="storage_permission_desc">El Serva Sync necessita accés a l\'emmagatzematge per poder sincronitzar els arxius</string>
     <!-- Slide "Ignore battery optimizations" -->
     <string name="ignore_doze_permission_title">Optimització de bateria</string>
     <string name="toast_ignore_doze_permission_required">Aquesta aplicació només pot funcionar de maner fiable si està eximida del mode d\'estalvi d\'energia \"doze\"</string>
     <string name="dialog_disable_battery_optimizations_not_supported">El teu dispositiu no permet desactivar les optimitzacions de bateria</string>
     <!-- Slide "Location Permission" -->
     <string name="location_permission_title">Permís d\'ubicació</string>
-    <string name="location_permission_desc">Podeu configurar el Syncthing perquè funcioni amb les xarxes Wi-Fi que seleccioneu. L\'Android requereix que les aplicacions tinguin permís d\'ubicació per poder cercar el nom de les xarxes Wi-Fi actives. Si voleu utilitzar aquesta característica, premeu el botó de la part superior. Podeu ometre aquest pas. Vegeu la nostra política de privacitat per més detalls.</string>
+    <string name="location_permission_desc">Podeu configurar el Serva Sync perquè funcioni amb les xarxes Wi-Fi que seleccioneu. L\'Android requereix que les aplicacions tinguin permís d\'ubicació per poder cercar el nom de les xarxes Wi-Fi actives. Si voleu utilitzar aquesta característica, premeu el botó de la part superior. Podeu ometre aquest pas. Vegeu la nostra política de privacitat per més detalls.</string>
     <!-- Slide "Key Generation" -->
     <string name="key_generation_title">Generació de Claus</string>
     <string name="key_generation_success">S\'han generat amb èxit les claus segures per a l\'intercanvi privat de dades</string>
@@ -98,9 +98,9 @@
     <string name="upload_title">Pujada</string>
     <!-- StatusFragment -->
     <string name="status_fragment_title">Estat</string>
-    <string name="syncthing_starting">El Syncthing s\'està iniciant.</string>
-    <string name="syncthing_running">El Syncthing està en funcionament.</string>
-    <string name="syncthing_not_running">El Syncthing no està en funcionament.</string>
+    <string name="syncthing_starting">El Serva Sync s\'està iniciant.</string>
+    <string name="syncthing_running">El Serva Sync està en funcionament.</string>
+    <string name="syncthing_not_running">El Serva Sync no està en funcionament.</string>
     <string name="syncthing_has_crashed">El Syncthinc s\'ha tancat inesperadament.</string>
     <!-- DrawerFragment -->
     <!-- Same as download_title with a colon and space appended -->
@@ -114,7 +114,7 @@
     <!-- Title for uptime status -->
     <string name="uptime">Temps actiu</string>
     <string name="restart">Reinicia</string>
-    <string name="dialog_confirm_restart">Voleu reiniciar el Syncthing?</string>
+    <string name="dialog_confirm_restart">Voleu reiniciar el Serva Sync?</string>
     <!-- FolderActivity -->
     <!-- Setting title -->
     <string name="folder_id">ID de la carpeta</string>
@@ -142,7 +142,7 @@
     <!-- Menu item to confirm folder creation -->
     <string name="create">Crea</string>
     <!-- Dialog shown when attempting to remove a folder -->
-    <string name="remove_folder_confirm">Realment voleu eliminar aquesta carpeta del Syncthing?</string>
+    <string name="remove_folder_confirm">Realment voleu eliminar aquesta carpeta del Serva Sync?</string>
     <!-- Toast shown when trying to create a folder with an empty ID -->
     <string name="folder_id_required">L\'ID de la carpeta no pot ser buit</string>
     <!-- Toast shown when trying to create a folder with an empty label -->
@@ -151,9 +151,9 @@
     <string name="folder_path_required">El camí de la carpeta no pot ser buit</string>
     <string name="dialog_discard_changes">Voleu descartar els canvis?</string>
     <!-- Summary shown if we only have readonly access to the folder path -->
-    <string name="folder_path_readonly">La vostra versió d\'Android només permet accés de lectura al Syncthing per la carpeta seleccionada</string>
+    <string name="folder_path_readonly">La vostra versió d\'Android només permet accés de lectura al Serva Sync per la carpeta seleccionada</string>
     <!-- Summary shown if we only have readwrite access to the folder path -->
-    <string name="folder_path_readwrite">La vostra versió d\'Android permet accés de lectura i escriptura al Syncthing per la carpeta seleccionada</string>
+    <string name="folder_path_readwrite">La vostra versió d\'Android permet accés de lectura i escriptura al Serva Sync per la carpeta seleccionada</string>
     <!-- Toast shown if the user selected an invalid location for a new syncthing folder -->
     <string name="toast_invalid_folder_selected">Ho sentim. La capeta seleccionada no es pot utilitzar. Trieu una carpeta de l\'emmagatzematge intern o extern.</string>
     <string name="ignore_patterns">Patrons a ignorar</string>
@@ -216,14 +216,14 @@
     <string name="settings_title">Configuració</string>
     <string name="category_run_conditions">Condicions d\'execució</string>
     <string name="category_behaviour">Comportament</string>
-    <string name="category_syncthing_options">Opcions del Syncthing</string>
-    <string name="category_syncthing_options_summary">Aquest menú només està disponible si el Syncthing s\'està executant.</string>
+    <string name="category_syncthing_options">Opcions del Serva Sync</string>
+    <string name="category_syncthing_options_summary">Aquest menú només està disponible si el Serva Sync s\'està executant.</string>
     <string name="category_backup">Importa i Exporta</string>
     <string name="category_debug">Resolució de problemes</string>
     <string name="category_experimental">Experimental</string>
     <!-- Preference screen - Run conditions -->
     <string name="run_conditions_title">Condicions d\'execució</string>
-    <string name="run_conditions_summary">Utilitzeu les següents opcions per decidir quan s\'executarà el Syncthing.</string>
+    <string name="run_conditions_summary">Utilitzeu les següents opcions per decidir quan s\'executarà el Serva Sync.</string>
     <string name="run_on_mobile_data_title">Executa amb dades mòbils</string>
     <string name="run_on_mobile_data_summary">Executa quan el dispositiu es connecti a través de la xarxa de dades mòbils. Advertència: Si sincronitzeu gran quantitat de dades podríeu consumir un volum important del pla de dades del vostre operador mòbil.</string>
     <string name="run_on_wifi_title">Executa amb Wi-Fi</string>
@@ -242,9 +242,9 @@
     <string name="power_source_ac_power">Connectat a la corrent</string>
     <string name="power_source_battery_power">Amb bateria</string>
     <string name="respect_battery_saving_title">Respecta la configuració d\'estalvi de bateria de l\'Android</string>
-    <string name="respect_battery_saving_summary">Desactiva el Syncthing durant el mode d\'estalvi de bateria.</string>
+    <string name="respect_battery_saving_summary">Desactiva el Serva Sync durant el mode d\'estalvi de bateria.</string>
     <string name="respect_master_sync_title">Respecta l\'ajustament de l\'Android d\'\'Auto-sincronitzar dades\'</string>
-    <string name="respect_master_sync_summary">Desactiva el Syncthing quan l\'ajustament ràpid d\'\'Auto-sincronitzar dades\' estigui apagat.</string>
+    <string name="respect_master_sync_summary">Desactiva el Serva Sync quan l\'ajustament ràpid d\'\'Auto-sincronitzar dades\' estigui apagat.</string>
     <string name="run_in_flight_mode_title">Executa sense connexió a la xarxa</string>
     <string name="run_on_time_schedule_title">Executa segons un horari</string>
     <!-- Preferences - Behaviour -->
@@ -321,38 +321,38 @@
     <string name="environment_variables">Variables d\'entorn</string>
     <!-- Toast after entering invalid STTRACE params -->
     <string name="toast_invalid_environment_variables">Aquest valor no és una cadena de variable d\'entorn vàlida</string>
-    <!-- Title for the preference to reset Syncthing indexes -->
+    <!-- Title for the preference to reset Serva Sync indexes -->
     <string name="st_reset_database_title">Reinicia la base de dades</string>
-    <!-- Syncthing was reset -->
-    <string name="st_reset_database_question">Això només ho heu de fer si us ho recomana l\'equip de suport tècnic. \nSegur que voleu esborrar la base de dades del Syncthing?</string>
-    <!-- Syncthing was reset -->
-    <string name="st_reset_database_done">La base de dades del Syncthing s\'ha reiniciat amb èxit</string>
-    <!-- Title for the preference to reset Syncthing indexes -->
+    <!-- Serva Sync was reset -->
+    <string name="st_reset_database_question">Això només ho heu de fer si us ho recomana l\'equip de suport tècnic. \nSegur que voleu esborrar la base de dades del Serva Sync?</string>
+    <!-- Serva Sync was reset -->
+    <string name="st_reset_database_done">La base de dades del Serva Sync s\'ha reiniciat amb èxit</string>
+    <!-- Title for the preference to reset Serva Sync indexes -->
     <string name="st_reset_deltas_title">Reinicia els Índexs Delta</string>
-    <!-- Syncthing was reset -->
-    <string name="st_reset_deltas_question">Això només ho heu de fer si us ho recomana l\'equip de suport tècnic. \nSegur que voleu esborrar els índex delta del Syncthing?</string>
-    <!-- Syncthing was reset -->
-    <string name="st_reset_deltas_done">S\'han reiniciat correctament els índexs delta del Syncthing</string>
+    <!-- Serva Sync was reset -->
+    <string name="st_reset_deltas_question">Això només ho heu de fer si us ho recomana l\'equip de suport tècnic. \nSegur que voleu esborrar els índex delta del Serva Sync?</string>
+    <!-- Serva Sync was reset -->
+    <string name="st_reset_deltas_done">S\'han reiniciat correctament els índexs delta del Serva Sync</string>
     <string name="category_about">Quant a</string>
     <string name="verbose_log_title">Registre detallat</string>
     <string name="verbose_log_summary">Si activeu aquesta opció generareu registres molt detallats.</string>
     <!-- Settings item that opens the log activity -->
     <string name="open_log">Obre el registre</string>
     <!-- Summary for the log activity -->
-    <string name="open_log_summary">Obre la finestra de registre del Syncthing i de l\'Android</string>
+    <string name="open_log_summary">Obre la finestra de registre del Serva Sync i de l\'Android</string>
     <!-- Settings item that opens issue tracker -->
     <string name="report_issue_title">Informeu d\'un problema</string>
     <!-- Menu item to donate -->
     <!-- Title of the preference showing upstream version name -->
-    <string name="syncthing_version_title">Versió del Syncthing</string>
+    <string name="syncthing_version_title">Versió del Serva Sync</string>
     <!-- Title of the preference showing this app's version name -->
-    <string name="app_version_title">Versió de l\'embolcall del Syncthing-Fork</string>
+    <string name="app_version_title">Versió de l\'embolcall del Serva Sync</string>
     <!-- Title of the preference showing the REST API key -->
-    <string name="syncthing_api_key">Clau d\'API del Syncthing (feu clic per copiar)</string>
+    <string name="syncthing_api_key">Clau d\'API del Serva Sync (feu clic per copiar)</string>
     <!-- Shown when the API key is copied to the clipboard -->
-    <string name="api_key_copied_to_clipboard">Clau d\'API del Syncthing copiada al porta-retalls</string>
+    <string name="api_key_copied_to_clipboard">Clau d\'API del Serva Sync copiada al porta-retalls</string>
     <!-- Title of the preference showing database size -->
-    <string name="syncthing_database_size">Mida de la Base de dades del Syncthing</string>
+    <string name="syncthing_database_size">Mida de la Base de dades del Serva Sync</string>
     <!-- Title of the preference showing the OS open file limit -->
     <string name="os_open_file_limit">Límit de Fitxers Oberts de l\'Android</string>
     <!-- FolderPickerAcitivity -->
@@ -368,17 +368,17 @@
     <!-- Menu item to go up to parent folder -->
     <string name="folder_go_up">Puja</string>
     <!-- LogActivity -->
-    <string name="syncthing_log_title">Registre del Syncthing</string>
+    <string name="syncthing_log_title">Registre del Serva Sync</string>
     <string name="android_log_title">Registre de l\'Android</string>
     <!-- Title of the "log android" menu button -->
     <string name="view_android_log">Mostra el registre de l\'Android</string>
-    <!-- Title of the "log Syncthing" menu button -->
-    <string name="view_syncthing_log">Mostra el registre del Syncthing</string>
+    <!-- Title of the "log Serva Sync" menu button -->
+    <string name="view_syncthing_log">Mostra el registre del Serva Sync</string>
     <string name="retrieving_logs">Obtenint registres…</string>
     <!-- Title of the "share log" menu button -->
     <string name="share_title">Comparteix</string>
     <!-- Title of the "share" activity -->
-    <string name="share_activity_title">Desa al Syncthing</string>
+    <string name="share_activity_title">Desa al Serva Sync</string>
     <!-- Title of the "save" button -->
     <string name="save_title">Desa</string>
     <!-- Title of the "cancel" button -->
@@ -414,17 +414,17 @@
     <string name="sub_folder">Subcarpeta</string>
     <string name="reason_not_charging">El telèfon no s\'està carregant.</string>
     <string name="reason_not_on_battery_power">El telèfon no està connectat a la corrent.</string>
-    <string name="reason_not_while_power_saving">El Syncthing no està funcionant perquè el telèfon està en mode d\'estalvi d\'energia.</string>
-    <string name="reason_not_while_auto_sync_data_disabled">El Syncthing no està funcionant perquè l\'Android té la funció \'Sincronització automàtica de dades\' desactivada.</string>
-    <string name="reason_on_mobile_data">El Syncthing està funcionant perquè les dades mòbils estan actives.</string>
-    <string name="reason_not_on_mobile_data">El Syncthing pot funcionar amb connexions de dades mòbils però les dades mòbils no estan connectades.</string>
+    <string name="reason_not_while_power_saving">El Serva Sync no està funcionant perquè el telèfon està en mode d\'estalvi d\'energia.</string>
+    <string name="reason_not_while_auto_sync_data_disabled">El Serva Sync no està funcionant perquè l\'Android té la funció \'Sincronització automàtica de dades\' desactivada.</string>
+    <string name="reason_on_mobile_data">El Serva Sync està funcionant perquè les dades mòbils estan actives.</string>
+    <string name="reason_not_on_mobile_data">El Serva Sync pot funcionar amb connexions de dades mòbils però les dades mòbils no estan connectades.</string>
     <!-- SyncthingService -->
     <!-- Text for the exit button on the drawer -->
     <string name="exit">Surt</string>
     <!-- Title of the notification shown while syncthing is running and enabled -->
-    <string name="syncthing_active">El Syncthing s\'està executant</string>
-    <string name="syncthing_disabled">El Syncthing està adormit</string>
-    <string name="syncthing_terminated">El Syncthing s\'ha aturat</string>
+    <string name="syncthing_active">El Serva Sync s\'està executant</string>
+    <string name="syncthing_disabled">El Serva Sync està adormit</string>
+    <string name="syncthing_terminated">El Serva Sync s\'ha aturat</string>
     <!-- Toast shown if syncthing failed to create or read the config -->
     <string name="executable_not_found">Falta l\'executable essencial \"%s\". Comproveu el fitxer de registre.</string>
     <string name="config_create_failed">No s\'ha pogut crear el fitxer de configuració</string>
@@ -432,8 +432,8 @@
     <string name="config_file_missing">Falta un fitxer de configuració esencial per al funcionament</string>
     <!-- ID of the default folder created on first start (camera folder). Must only contain 'a-z0-9_-'. Parameter is the device name-->
     <string name="default_folder_id">%1$s-fotos</string>
-    <string name="notification_crash_title">El Syncthing s\'ha bloquejat %1$s</string>
-    <string name="notifications_persistent_channel">El Syncthing està actiu</string>
+    <string name="notification_crash_title">El Serva Sync s\'ha bloquejat %1$s</string>
+    <string name="notifications_persistent_channel">El Serva Sync està actiu</string>
     <string name="notification_persistent_waiting_channel">Vigilant les condicions d\'execució</string>
     <string name="notifications_other_channel">Altres notificacions</string>
     <!-- RestApi -->
@@ -442,7 +442,7 @@
     <!-- Text for positive button in restart dialog -->
     <!-- Text for the dismiss button of the restart Activity -->
     <!-- Text of the notification shown when a restart is needed -->
-    <string name="restart_notification_text">Feu clic aquí per reiniciar el Syncthing ara</string>
+    <string name="restart_notification_text">Feu clic aquí per reiniciar el Serva Sync ara</string>
     <!-- Shown when a device ID is copied to the clipboard -->
     <string name="device_id_copied_to_clipboard">S\'ha copiat la ID del dispositiu al porta-retalls</string>
     <!-- Strings representing units for file sizes, from smallest to largest -->
@@ -495,9 +495,9 @@
     <string name="command">Ordre</string>
     <!-- File versioning dialog descriptions for file versioning types and file versioning configuration options. -->
     <string name="keep_versions_description">Nombre de versions antigues a conservar de cada fitxer.</string>
-    <string name="simple_file_versioning_description">Els fitxers substituïts o esborrats pel Syncthing es mouen a una carpeta .stversions com a versions amb la data afegida.</string>
-    <string name="trashcan_versioning_description">Els fitxers substituïts o esborrats pel Syncthing es mouen a la carpeta .stversions.</string>
-    <string name="staggered_versioning_description">Els fitxers substituïts o esborrats pel Syncthing es mouen a una carpeta .stversions com a versions amb la data afegida. Les versions s\'esborren automàticament si superen l\'antiguitat màxima o el nombre de fitxers permesos en un interval. \n \nS\'utilitzen els següents intervals: la primera hora es manté una versió cada 30 segons, el primer dia es manté una versió cada hora, els primers 30 dies es manté una versió cada dia, i fins a l\'antiguitat màxima es manté una versió cada setmana.</string>
+    <string name="simple_file_versioning_description">Els fitxers substituïts o esborrats pel Serva Sync es mouen a una carpeta .stversions com a versions amb la data afegida.</string>
+    <string name="trashcan_versioning_description">Els fitxers substituïts o esborrats pel Serva Sync es mouen a la carpeta .stversions.</string>
+    <string name="staggered_versioning_description">Els fitxers substituïts o esborrats pel Serva Sync es mouen a una carpeta .stversions com a versions amb la data afegida. Les versions s\'esborren automàticament si superen l\'antiguitat màxima o el nombre de fitxers permesos en un interval. \n \nS\'utilitzen els següents intervals: la primera hora es manté una versió cada 30 segons, el primer dia es manté una versió cada hora, els primers 30 dies es manté una versió cada dia, i fins a l\'antiguitat màxima es manté una versió cada setmana.</string>
     <string name="maximum_age_description">El temps màxim que es conservarà una versió (en dies, indiqueu 0 per mantenir-les per sempre).</string>
     <string name="versions_path_description">Camí on voleu que es desin les versions (deixeu-ho en blanc per utilitzar el directori .stversions dins de la capeta compartida).</string>
     <string name="cleanout_after_description">Nombre de dies que cal mantenir els fitxers a la paperera. Zero significa per sempre</string>
@@ -524,8 +524,8 @@
     <string name="dialog_all_files_access_not_supported">El vostre dispositiu no admet l\'accés a tots els fitxers</string>
     <string name="start_into_web_gui_title">Comença directament a la GUI web</string>
     <string name="start_into_web_gui_summary">Quan inicieu l\'aplicació, obriu la GUI web en lloc de la pantalla principal</string>
-    <string name="reason_on_wifi">Es permet que Syncthing funcioni amb Wi-Fi i el Wi-Fi està connectat actualment.</string>
-    <string name="reason_on_flight_mode">Syncthing s\'està executant tal com li has permès executar-se quan el mode de vol està actiu.</string>
+    <string name="reason_on_wifi">Es permet que Serva Sync funcioni amb Wi-Fi i el Wi-Fi està connectat actualment.</string>
+    <string name="reason_on_flight_mode">Serva Sync s\'està executant tal com li has permès executar-se quan el mode de vol està actiu.</string>
     <string name="reason_run_condition_monitor_not_instantiated">No s\'ha instanciat RunConditionMonitor. Reinicieu l\'aplicació i envieu un informe d\'error si aquest error no desapareix després de reiniciar.</string>
     <string name="config_read_failed">No s\'ha pogut llegir la configuració. Penseu a fer una còpia de seguretat de les dades de les carpetes de sincronització, després esborreu les dades d\'aquesta aplicació de la configuració d\'Android i torneu-la a iniciar.</string>
     <string name="state_sync_preparing">Preparant per a la sincronització</string>
@@ -535,34 +535,34 @@
     <string name="qs_forced_to_run">Forçat a executar-se</string>
     <string name="notification_crash_text">Feu clic per veure els registres (%1$s)</string>
     <string name="state_clean_waiting">Esperant per netejar</string>
-    <string name="open_issue_tracker_summary">Obre el rastrejador d\'incidències de Syncthing-Fork a %1$s</string>
-    <string name="reason_not_on_wifi">Syncthing pot funcionar amb Wi-Fi, però no hi ha Wi-Fi connectat o el telèfon està en mode vol.</string>
-    <string name="reason_on_nonmetered_wifi">Syncthing pot funcionar en connexions WiFi no mesurades. La connexió WiFi activa no té límits.</string>
-    <string name="reason_location_unavailable">Heu activat \"Executa a les xarxes WiFi seleccionades\" a la configuració. Els serveis de localització d\'Android estan actualment desactivats. Segons les restriccions d\'Android, Syncthing no pot determinar el nom de la xarxa WiFi actual per decidir si s\'ha d\'executar. Solució: activeu la localització, concediu permís de localització i torneu a connectar el WiFi.</string>
+    <string name="open_issue_tracker_summary">Obre el rastrejador d\'incidències de Serva Sync a %1$s</string>
+    <string name="reason_not_on_wifi">Serva Sync pot funcionar amb Wi-Fi, però no hi ha Wi-Fi connectat o el telèfon està en mode vol.</string>
+    <string name="reason_on_nonmetered_wifi">Serva Sync pot funcionar en connexions WiFi no mesurades. La connexió WiFi activa no té límits.</string>
+    <string name="reason_location_unavailable">Heu activat \"Executa a les xarxes WiFi seleccionades\" a la configuració. Els serveis de localització d\'Android estan actualment desactivats. Segons les restriccions d\'Android, Serva Sync no pot determinar el nom de la xarxa WiFi actual per decidir si s\'ha d\'executar. Solució: activeu la localització, concediu permís de localització i torneu a connectar el WiFi.</string>
     <string name="folder_type_receiveonly_description">Els fitxers se sincronitzen des del clúster, però els canvis fets localment no s\'enviaran a altres dispositius.</string>
     <string name="log_to_file_title">Registra al fitxer</string>
     <string name="preference_app_theme_follow_dark">Fosc</string>
     <string name="sync_duration_minutes_summary">%1$s minuts</string>
-    <string name="expert_mode_summary">Si activeu aquesta opció, es mostraran opcions de configuració avançades. Primer hauríeu de consultar la documentació de Syncthing per assegurar-vos que sabeu com utilitzar-la correctament. Una configuració incorrecta pot provocar que la bateria s\'esgoti, que els recursos del sistema s\'esgotin o que la sincronització sigui incompleta.</string>
+    <string name="expert_mode_summary">Si activeu aquesta opció, es mostraran opcions de configuració avançades. Primer hauríeu de consultar la documentació de Serva Sync per assegurar-vos que sabeu com utilitzar-la correctament. Una configuració incorrecta pot provocar que la bateria s\'esgoti, que els recursos del sistema s\'esgotin o que la sincronització sigui incompleta.</string>
     <string name="webui_remote_access_summary">Especifiqueu per permetre l\'accés a la interfície web des d\'un altre dispositiu. Si està habilitat, podreu iniciar sessió amb l\'usuari \'syncthing\' i la clau API com a contrasenya. Per defecte: desactivat (el més segur)</string>
-    <string name="clear_stversions_question">Això suprimirà totes les versions anteriors dels fitxers gestionats per Syncthing. Voleu continuar?</string>
+    <string name="clear_stversions_question">Això suprimirà totes les versions anteriors dels fitxers gestionats per Serva Sync. Voleu continuar?</string>
     <string name="config_import_failed_no_path">La importació de la configuració ha fallat. Ves a Configuració-Resolució de problemes-Obre el registre per veure\'n els detalls.</string>
-    <string name="backup_password_summary">ℹ️ Recomanat:\nIntroduïu una contrasenya segura que s\'utilitzi per xifrar la configuració durant l\'exportació i desxifrar-la durant la importació. Guardeu aquesta contrasenya en un lloc segur per al procés de recuperació. La necessitareu per utilitzar la funció d\'importació.\n\n⚠️ No recomanat:\nSi no feu servir cap contrasenya, altres aplicacions poden llegir i manipular la configuració de Syncthing. Exposar la configuració comporta el risc que un malfactor pugui obtenir accés no autoritzat als vostres fitxers mitjançant exportacions de configuració perdudes.</string>
-    <string name="default_syncthing_camera_folder_label">Càmera Syncthing</string>
+    <string name="backup_password_summary">ℹ️ Recomanat:\nIntroduïu una contrasenya segura que s\'utilitzi per xifrar la configuració durant l\'exportació i desxifrar-la durant la importació. Guardeu aquesta contrasenya en un lloc segur per al procés de recuperació. La necessitareu per utilitzar la funció d\'importació.\n\n⚠️ No recomanat:\nSi no feu servir cap contrasenya, altres aplicacions poden llegir i manipular la configuració de Serva Sync. Exposar la configuració comporta el risc que un malfactor pugui obtenir accés no autoritzat als vostres fitxers mitjançant exportacions de configuració perdudes.</string>
+    <string name="default_syncthing_camera_folder_label">Càmera Serva Sync</string>
     <string name="activity_main_bottom_navigation_rescan_all">Torna a escanejar-ho tot</string>
     <string name="device_state_unused">Sense utilitzar</string>
     <string name="advanced_directory_selection">Selecció avançada de directoris</string>
     <string name="category_user_interface">Interfície d\'usuari</string>
     <string name="sync_duration_minutes_title">Durada del cicle de sincronització</string>
-    <string name="reason_on_roaming_nonroaming_mobile_data">Syncthing pot executar-se en connexions de dades mòbils en roaming i no en roaming.</string>
-    <string name="reason_on_whitelisted_wifi">Syncthing pot executar-se a la xarxa WiFi actual.</string>
-    <string name="reason_not_on_whitelisted_wifi">Syncthing no s\'està executant perquè el nom de la xarxa WiFi actual no està a la llista blanca.</string>
+    <string name="reason_on_roaming_nonroaming_mobile_data">Serva Sync pot executar-se en connexions de dades mòbils en roaming i no en roaming.</string>
+    <string name="reason_on_whitelisted_wifi">Serva Sync pot executar-se a la xarxa WiFi actual.</string>
+    <string name="reason_not_on_whitelisted_wifi">Serva Sync no s\'està executant perquè el nom de la xarxa WiFi actual no està a la llista blanca.</string>
     <string name="no_remote_devices_connected">No hi ha dispositius remots connectats</string>
     <string name="folder_type_sendreceive_description">La carpeta enviarà canvis a dispositius remots i en rebrà.</string>
     <string name="open_source_licenses_title">Llicències de codi obert</string>
-    <string name="reason_force_start">Syncthing s\'està executant perquè l\'has forçat a iniciar-se independentment de les condicions d\'execució.</string>
-    <string name="reason_on_nonroaming_mobile_data">Syncthing pot executar-se en connexions de dades mòbils que no siguin roaming. La connexió activa no és roaming.</string>
-    <string name="reason_not_nonroaming_mobile_data">Syncthing no s\'està executant perquè has desactivat la seva execució en connexions de dades mòbils en itinerància.</string>
+    <string name="reason_force_start">Serva Sync s\'està executant perquè l\'has forçat a iniciar-se independentment de les condicions d\'execució.</string>
+    <string name="reason_on_nonroaming_mobile_data">Serva Sync pot executar-se en connexions de dades mòbils que no siguin roaming. La connexió activa no és roaming.</string>
+    <string name="reason_not_nonroaming_mobile_data">Serva Sync no s\'està executant perquè has desactivat la seva execució en connexions de dades mòbils en itinerància.</string>
     <string name="state_cleaning">Netejant versions</string>
     <string name="state_scan_waiting">Esperant per escanejar</string>
     <string name="pull_order_type_newestFirst_description">Fitxers d\'extracció ordenats per hora de modificació. Els més nous primer, respectivament.</string>
@@ -574,15 +574,15 @@
         <item quantity="many">Sincronització: %1$d%% completat, %2$d dispositius en línia</item>
         <item quantity="other">Sincronització: %1$d%% completat, %2$d dispositius en línia</item>
     </plurals>
-    <string name="ignore_doze_permission_desc">És possible que Android aturi la sincronització al cap d\'un temps. Per evitar-ho, desactiveu l\'optimització de la bateria. Alguns dispositius tenen preinstal·lades aplicacions addicionals que eliminen tasques. També hauríeu d\'afegir Syncthing a la seva llista blanca.</string>
+    <string name="ignore_doze_permission_desc">És possible que Android aturi la sincronització al cap d\'un temps. Per evitar-ho, desactiveu l\'optimització de la bateria. Alguns dispositius tenen preinstal·lades aplicacions addicionals que eliminen tasques. També hauríeu d\'afegir Serva Sync a la seva llista blanca.</string>
     <string name="folders">Carpetes</string>
-    <string name="device_addresses_invalid">Les adreces dels dispositius no tenen el format correcte. Torneu-ho a intentar. Consulteu la documentació de Syncthing per obtenir més informació.</string>
+    <string name="device_addresses_invalid">Les adreces dels dispositius no tenen el format correcte. Torneu-ho a intentar. Consulteu la documentació de Serva Sync per obtenir més informació.</string>
     <string name="folder_run_script_caption">Executa l\'script</string>
     <string name="untrusted_device_explanation">Totes les carpetes compartides amb aquest dispositiu han d\'estar protegides amb una contrasenya, de manera que totes les dades enviades siguin il·legibles sense la contrasenya proporcionada.</string>
     <string name="this_device">Aquest dispositiu</string>
     <string name="run_on_roaming_title">Executar en roaming</string>
     <string name="run_on_wifi_summary">S\'executa quan el dispositiu està connectat a una xarxa Wi-Fi o Ethernet.</string>
-    <string name="run_on_roaming_summary">Permet que Syncthing utilitzi dades mòbils en roaming. (!) Si us plau, envia comentaris a GitHub si això funciona correctament.</string>
+    <string name="run_on_roaming_summary">Permet que Serva Sync utilitzi dades mòbils en roaming. (!) Si us plau, envia comentaris a GitHub si això funciona correctament.</string>
     <string name="sync_only_wifi_ssids_wifi_turn_on_location">Si us plau, activa la ubicació per seleccionar xarxes.</string>
     <string name="invalid_port_number" tools:ignore="PluralsCandidate">Número de port no vàlid. Introduïu un port entre %1$d i %2$d.</string>
     <string name="privacy_summary">Obre la política de privadesa de syncthing-android, que cobreix l\'ús (si n\'hi ha) de dades personals, p. ex. la ubicació.</string>
@@ -593,12 +593,12 @@
     <string name="run_on_whitelisted_wifi_summary">Activa la llista blanca per restringir la sincronització que només es produeixi en xarxes Wi-Fi especificades.</string>
     <string name="dialog_confirm_skip_ignore_doze_permission">Atenció: si SyncthingNative s\'interromp i fa alguna cosa estranya, la culpa és teva. Només cal ometre-ho en cas que el dispositiu no admeti l\'atorgament del permís. De debò que ho vols ometre?</string>
     <string name="photo_shoot_launcher_title">Sincronitza. Càmera</string>
-    <string name="photo_shoot_activity_title">Càmera de Syncthing-Fork</string>
+    <string name="photo_shoot_activity_title">Càmera de Serva Sync</string>
     <string name="photo_shoot_intro_permission_title">Permisos necessaris</string>
     <string name="photo_shoot_intro_no_camera">Ho sento, aquest dispositiu no té càmera.</string>
     <string name="grant_storage_permission">Atorga permís d\'emmagatzematge</string>
     <string name="grant_camera_permission">Concedeix permís de càmera</string>
-    <string name="photo_shoot_take_picture_success">La imatge s\'ha desat correctament a la carpeta de la càmera de Syncthing.</string>
+    <string name="photo_shoot_take_picture_success">La imatge s\'ha desat correctament a la carpeta de la càmera de Serva Sync.</string>
     <string name="photo_shoot_take_picture_failure">No s\'ha pogut fer una foto o has cancel·lat.</string>
     <string name="revert_local_changes">Reverteix els canvis locals</string>
     <string name="override_changes_question">Això desfarà tots els canvis fets als altres dispositius que comparteixen aquesta carpeta. Voleu continuar?</string>
@@ -628,9 +628,9 @@
     <string name="crash_reporting">Informes d\'errors anònims</string>
     <string name="webui_password_title">Contrasenya de la interfície d\'usuari web</string>
     <string name="clear_stversions_title">Buida totes les carpetes de versions</string>
-    <string name="clear_stversions_summary">Els fitxers es mouen al directori .stversions quan Syncthing els reemplaça o els elimina. Probablement hi podeu trobar i recuperar fitxers eliminats accidentalment, però les versions obsoletes dels fitxers ocupen espai d\'emmagatzematge al dispositiu.</string>
+    <string name="clear_stversions_summary">Els fitxers es mouen al directori .stversions quan Serva Sync els reemplaça o els elimina. Probablement hi podeu trobar i recuperar fitxers eliminats accidentalment, però les versions obsoletes dels fitxers ocupen espai d\'emmagatzematge al dispositiu.</string>
     <string name="log_to_file_summary">La sortida de SyncthingNative s\'escriurà a un fitxer.</string>
-    <string name="syncthing_forum_summary">Ves al fòrum de Syncthing i demana ajuda.</string>
+    <string name="syncthing_forum_summary">Ves al fòrum de Serva Sync i demana ajuda.</string>
     <string name="pizza_url_title">» Als gats els encanta la pizza « 😺🍕</string>
     <string name="qs_schedule_label">Executa durant 5 minuts</string>
     <string name="photo_shoot_intro_missing_permissions">Necessitem permís d\'emmagatzematge i de càmera per continuar.</string>
@@ -640,7 +640,7 @@
     <string name="state_failed_items">Elements fallats (%1$d)</string>
     <string name="state_local_additions">Addicions locals</string>
     <string name="folder_type_receive_encrypted_description">Emmagatzema i sincronitza només les dades xifrades. Les carpetes de tots els dispositius connectats també han d\'estar configurades amb la mateixa contrasenya o ser del tipus \"Rebre xifrades\".</string>
-    <string name="file_versioning_generic_description">Syncthing admet l\'arxivament de la versió antiga d\'un fitxer quan s\'elimina o es substitueix per una versió més nova del clúster. Feu clic per veure les estratègies de control de versions disponibles. El control de versions de fitxers es configura per carpeta i per dispositiu. Estratègia seleccionada:</string>
+    <string name="file_versioning_generic_description">Serva Sync admet l\'arxivament de la versió antiga d\'un fitxer quan s\'elimina o es substitueix per una versió més nova del clúster. Feu clic per veure les estratègies de control de versions disponibles. El control de versions de fitxers es configura per carpeta i per dispositiu. Estratègia seleccionada:</string>
     <string name="qs_schedule_label_minutes" tools:ignore="PluralsCandidate">Executa durant %1$d minuts</string>
     <string name="qs_force_label">Força l\'execució</string>
     <plurals name="conflicts">
@@ -652,15 +652,15 @@
     <string name="location_permission_desc_api_29">Consell per a Android 10+: \"Permet-ho tot el temps\"</string>
     <string name="device_last_seen_never">Mai</string>
     <string name="folder_type_switch_to_receive_encrypted_not_allowed">No es permet canviar les carpetes existents a \"Rebre connexions xifrades\".</string>
-    <string name="run_in_flight_mode_summary">Si activeu aquesta opció, Syncthing s\'executarà fins i tot quan esteu fora de línia. Activeu-la si el dispositiu té problemes per detectar connexions Wi-Fi manuals durant el mode vol.</string>
-    <string name="broadcast_service_control_summary">Per defecte: Desactivat. Activeu-ho per permetre que les aplicacions d\'adb o de tercers, p. ex., les aplicacions d\'automatització, indiquin a Syncthing que segueixi les condicions d\'execució, forci l\'inici o forci l\'aturada.</string>
+    <string name="run_in_flight_mode_summary">Si activeu aquesta opció, Serva Sync s\'executarà fins i tot quan esteu fora de línia. Activeu-la si el dispositiu té problemes per detectar connexions Wi-Fi manuals durant el mode vol.</string>
+    <string name="broadcast_service_control_summary">Per defecte: Desactivat. Activeu-ho per permetre que les aplicacions d\'adb o de tercers, p. ex., les aplicacions d\'automatització, indiquin a Serva Sync que segueixi les condicions d\'execució, forci l\'inici o forci l\'aturada.</string>
     <string name="photo_shoot_intro_welcome_title">Benvingut/da a Synchroning Camera</string>
     <string name="notification_permission_title">Permís de notificació</string>
-    <string name="toast_notification_permission_required">Syncthing requereix el permís de notificació per mantenir el servei actiu i connectat.</string>
-    <string name="photo_shoot_intro_permission_desc">La càmera Syncthing requereix el vostre consentiment per fer fotos i emmagatzemar-les al dispositiu. Aquesta funció és opcional. Per utilitzar-la, doneu-li permisos i toqueu \"Continua\". Configurarem una carpeta de la càmera Syncthing que podreu compartir amb altres dispositius Syncthing més endavant.</string>
+    <string name="toast_notification_permission_required">Serva Sync requereix el permís de notificació per mantenir el servei actiu i connectat.</string>
+    <string name="photo_shoot_intro_permission_desc">La càmera Serva Sync requereix el vostre consentiment per fer fotos i emmagatzemar-les al dispositiu. Aquesta funció és opcional. Per utilitzar-la, doneu-li permisos i toqueu \"Continua\". Configurarem una carpeta de la càmera Serva Sync que podreu compartir amb altres dispositius Serva Sync més endavant.</string>
     <string name="notification_permission_desc">Necessari per mostrar notificacions sobre noves connexions de dispositius, sol·licituds per compartir carpetes i per mantenir el servei actiu i connectat.</string>
     <string name="sleep_interval_minutes_title">Durada de l\'interval de pausa de sincronització</string>
-    <string name="reason_mobile_data_disallowed">Syncthing no està configurat per executar-se amb una connexió de dades mòbil.</string>
+    <string name="reason_mobile_data_disallowed">Serva Sync no està configurat per executar-se amb una connexió de dades mòbil.</string>
     <plurals name="device_online_up_to_date">
         <item quantity="one">%1$d dispositiu en línia i actualitzat</item>
         <item quantity="many">%1$d dispositius en línia i actualitzats</item>
@@ -685,18 +685,18 @@
     <string name="preference_category_explanation">Explicació</string>
     <string name="preference_category_prepare">Prepara</string>
     <string name="config_export_successful_no_path">La configuració s\'ha exportat. Assegureu-vos de recordar la contrasenya per a una importació posterior.</string>
-    <string name="syncthing_forum_title">Fòrum de Syncthing</string>
+    <string name="syncthing_forum_title">Fòrum de Serva Sync</string>
     <string name="privacy_title">Política de privacitat</string>
     <string name="complete_welcome_wizard_first">Primer, obre l\'aplicació des del calaix d\'aplicacions i completa l\'assistent de benvinguda abans de compartir fitxers.</string>
-    <string name="reason_force_stop">Syncthing no s\'està executant perquè l\'has forçat a aturar-se independentment de les condicions d\'execució.</string>
+    <string name="reason_force_stop">Serva Sync no s\'està executant perquè l\'has forçat a aturar-se independentment de les condicions d\'execució.</string>
     <plurals name="reason_not_within_time_frame_minutes">
         <item quantity="one">%d minut</item>
         <item quantity="many">%d minuts</item>
         <item quantity="other">%d minuts</item>
     </plurals>
-    <string name="reason_wifi_disallowed">No es permet que Syncthing s\'executi per WiFi o Ethernet.</string>
-    <string name="reason_on_metered_nonmetered_wifi">Syncthing pot funcionar en connexions WiFi amb i sense dades mètriques del seu funcionament</string>
-    <string name="reason_not_nonmetered_wifi">Syncthing no s\'està executant perquè has desactivat el seu funcionament amb connexions Wi-Fi de pagament.</string>
+    <string name="reason_wifi_disallowed">No es permet que Serva Sync s\'executi per WiFi o Ethernet.</string>
+    <string name="reason_on_metered_nonmetered_wifi">Serva Sync pot funcionar en connexions WiFi amb i sense dades mètriques del seu funcionament</string>
+    <string name="reason_not_nonmetered_wifi">Serva Sync no s\'està executant perquè has desactivat el seu funcionament amb connexions Wi-Fi de pagament.</string>
     <string name="default_android_camera_folder_label">Càmera Android</string>
     <string name="qs_following_run_conditions">Seguint les condicions d\'execució</string>
     <string name="qs_schedule_disabled">Programació desactivada</string>

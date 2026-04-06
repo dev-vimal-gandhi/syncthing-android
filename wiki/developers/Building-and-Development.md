@@ -4,7 +4,7 @@
 
 A Linux VM, for example running Debian, is recommended to build this.
 
-Build SyncthingNative and the Syncthing-Android wrapper using the following commands:
+Build SyncthingNative and the Serva Sync-Android wrapper using the following commands:
 
 ```bash
 #
@@ -50,12 +50,14 @@ ll "app/build/outputs/apk/release/app-universal-release-unsigned.apk"
 You may want to add the following folder exceptions to your antivirus solution if the build process takes too long and you intend to develop regularly.
 
 Exception list
+
 ```bash
 %LocalAppData%\go-build
 %userprofile%\.gradle\caches
 ```
 
 build-windows.cmd
+
 ```bash
 @echo off
 ::
@@ -75,10 +77,10 @@ call build
 
 ## Development Notes
 
-The Syncthing native used for this android application provides a web interface by default. It can be accessed via the Settings menu -> 'Web GUI'. It is quite helpful to access this web interface from your development machine. Read android documentation on how to access the network of your emulator. Or use the following command to connect to the single currently running emulator/AVD.
+The Serva Sync native used for this android application provides a web interface by default. It can be accessed via the Settings menu -> 'Web GUI'. It is quite helpful to access this web interface from your development machine. Read android documentation on how to access the network of your emulator. Or use the following command to connect to the single currently running emulator/AVD.
 
 ```bash
 adb forward tcp:18384 tcp:8384
 ```
 
-Start Syncthing app on your emulator and access the web interface from you favorite browser of your development machine via [`127.0.0.1:18384`](https://127.0.0.1:18384)
+Start Serva Sync app on your emulator and access the web interface from you favorite browser of your development machine via [`127.0.0.1:18384`](https://127.0.0.1:18384)

@@ -32,9 +32,9 @@
                 android:background="?selectableItemBackground"
                 android:orientation="horizontal">
 
-                <com.nutomic.syncthingandroid.views.EnhancedEditText
+                <com.servalabs.sync.views.EnhancedEditText
                     android:id="@+id/editDeviceId"
-                    style="@style/Widget.Syncthing.TextView.Label.Details.Field"
+                    style="@style/Widget.ServaSync.TextView.Label.Details.Field"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -59,7 +59,7 @@
             </LinearLayout>
 
             <TextView
-                style="@style/Widget.Syncthing.TextView.Label.Details"
+                style="@style/Widget.ServaSync.TextView.Label.Details"
                 android:id="@+id/discoveredDevicesTitle"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -91,9 +91,9 @@
                 android:focusable="true"
                 android:nextFocusDown="@+id/name" >
 
-                <com.nutomic.syncthingandroid.views.EnhancedEditText
+                <com.servalabs.sync.views.EnhancedEditText
                     android:id="@+id/showDeviceId"
-                    style="@style/Widget.Syncthing.TextView.Label.Details.Field"
+                    style="@style/Widget.ServaSync.TextView.Label.Details.Field"
                     android:enabled="false"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
@@ -119,7 +119,7 @@
             <!-- Device Name -->
             <EditText
                 android:id="@+id/name"
-                style="@style/Widget.Syncthing.TextView.Label.Details.Field"
+                style="@style/Widget.ServaSync.TextView.Label.Details.Field"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 app:drawableLeftCompat="@drawable/baseline_sort_by_alpha_24"
@@ -132,7 +132,7 @@
             <!-- Device Addresses-->
             <EditText
                 android:id="@+id/addresses"
-                style="@style/Widget.Syncthing.TextView.Label.Details.Field"
+                style="@style/Widget.ServaSync.TextView.Label.Details.Field"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 app:drawableLeftCompat="@drawable/baseline_link_24"
@@ -143,7 +143,7 @@
                 android:importantForAutofill="no" />
 
             <TextView
-                style="@style/Widget.Syncthing.TextView.Label.Details"
+                style="@style/Widget.ServaSync.TextView.Label.Details"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 app:drawableLeftCompat="@drawable/ic_device_hub_black_24dp_active"
@@ -169,7 +169,7 @@
                 android:focusable="true">
 
                 <TextView
-                    style="@style/Widget.Syncthing.TextView.Label.Details"
+                    style="@style/Widget.ServaSync.TextView.Label.Details"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -189,7 +189,7 @@
 
             <androidx.appcompat.widget.SwitchCompat
                 android:id="@+id/introducer"
-                style="@style/Widget.Syncthing.TextView.Label.Details"
+                style="@style/Widget.ServaSync.TextView.Label.Details"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:checked="false"
@@ -199,7 +199,7 @@
 
             <androidx.appcompat.widget.SwitchCompat
                 android:id="@+id/autoAcceptFolders"
-                style="@style/Widget.Syncthing.TextView.Label.Details"
+                style="@style/Widget.ServaSync.TextView.Label.Details"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:checked="false"
@@ -209,7 +209,7 @@
 
             <androidx.appcompat.widget.SwitchCompat
                 android:id="@+id/devicePause"
-                style="@style/Widget.Syncthing.TextView.Label.Details"
+                style="@style/Widget.ServaSync.TextView.Label.Details"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:checked="false"
@@ -227,7 +227,7 @@
 
                 <androidx.appcompat.widget.SwitchCompat
                     android:id="@+id/deviceUntrusted"
-                    style="@style/Widget.Syncthing.TextView.Label.Details"
+                    style="@style/Widget.ServaSync.TextView.Label.Details"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:checked="false"
@@ -258,7 +258,7 @@
 
                 <androidx.appcompat.widget.SwitchCompat
                     android:id="@+id/customSyncConditionsSwitch"
-                    style="@style/Widget.Syncthing.TextView.Label.Details"
+                    style="@style/Widget.ServaSync.TextView.Label.Details"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:checked="false"
@@ -278,7 +278,7 @@
 
                 <TextView
                     android:id="@+id/customSyncConditionsDialog"
-                    style="@style/Widget.Syncthing.TextView.Label.Details"
+                    style="@style/Widget.ServaSync.TextView.Label.Details"
                     android:layout_marginStart="56dp"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -297,7 +297,7 @@
 
             <TextView
                 android:id="@+id/currentAddress"
-                style="@style/Widget.Syncthing.TextView.Label.Details"
+                style="@style/Widget.ServaSync.TextView.Label.Details"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 app:drawableLeftCompat="@drawable/ic_info_black_24dp_inactive"
@@ -309,7 +309,7 @@
 
             <TextView
                 android:id="@+id/syncthingVersion"
-                style="@style/Widget.Syncthing.TextView.Label.Details"
+                style="@style/Widget.ServaSync.TextView.Label.Details"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:paddingStart="72dp"

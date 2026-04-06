@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <string name="app_name">Syncthing-Fork</string>
+    <string name="app_name">Serva Sync</string>
     <string name="app_description">Una aplicación para sincronización de archivos abierta, confiable y descentralizada.</string>
     <!-- FirstStartActivity -->
     <!-- Title for dialog displayed on first start -->
-    <string name="welcome_title">Bienvenido a Syncthing para Android</string>
+    <string name="welcome_title">Bienvenido a Serva Sync para Android</string>
     <string name="generic_error">Error</string>
     <string name="ignore">Ignorar</string>
     <!-- Title of the "add folder" menu action -->
@@ -70,7 +70,7 @@
     <!-- Menu item to confirm folder creation -->
     <string name="create">Crear</string>
     <!-- Dialog shown when attempting to remove a folder -->
-    <string name="remove_folder_confirm">¿Realmente quiere borrar esta carpeta de Syncthing?</string>
+    <string name="remove_folder_confirm">¿Realmente quiere borrar esta carpeta de Serva Sync?</string>
     <!-- Toast shown when trying to create a folder with an empty ID -->
     <string name="folder_id_required">El ID de la carpeta no debe estar vacío</string>
     <!-- Toast shown when trying to create a folder with an empty path -->
@@ -112,7 +112,7 @@
     <string name="web_gui_loading">Esperando por la Interfaz</string>
     <!-- SettingsFragment -->
     <string name="settings_title">Configuración</string>
-    <string name="category_syncthing_options">Opciones de Syncthing</string>
+    <string name="category_syncthing_options">Opciones de Serva Sync</string>
     <string name="category_experimental">Experimental</string>
     <string name="sync_only_wifi_ssids_wifi_turn_on_wifi">Por favor encienda el WiFi para seleccionar redes.</string>
     <string name="device_name">Nombre del dispositivo</string>
@@ -131,20 +131,20 @@
     <string name="import_config">Importar Configuración</string>
     <!-- Toast shown after config was imported -->
     <string name="config_imported_successful">Configuración importada</string>
-    <!-- Title for the preference to reset Syncthing indexes -->
+    <!-- Title for the preference to reset Serva Sync indexes -->
     <string name="st_reset_database_title">Reiniciar Base de Datos</string>
-    <!-- Syncthing was reset -->
-    <string name="st_reset_database_done">Satisfactoriamente reiniciada la base de datos de Syncthing</string>
+    <!-- Serva Sync was reset -->
+    <string name="st_reset_database_done">Satisfactoriamente reiniciada la base de datos de Serva Sync</string>
     <string name="category_about">Acerca de</string>
     <!-- Settings item that opens the log activity -->
     <string name="open_log">Abrir Registro</string>
     <!-- Summary for the log activity -->
-    <string name="open_log_summary">Abrir la ventana de registro de Syncthing y Android</string>
+    <string name="open_log_summary">Abrir la ventana de registro de Serva Sync y Android</string>
     <!-- Settings item that opens issue tracker -->
     <string name="report_issue_title">Reportar un problema</string>
     <!-- Menu item to donate -->
     <!-- Title of the preference showing upstream version name -->
-    <string name="syncthing_version_title">Versión de Syncthing</string>
+    <string name="syncthing_version_title">Versión de Serva Sync</string>
     <!-- FolderPickerAcitivity -->
     <!-- Activity title -->
     <string name="folder_picker_title">Seleccionador de Carpetas</string>
@@ -157,15 +157,15 @@
     <string name="create_folder_failed">Fallo al crear carpeta</string>
     <!-- Title of the "log android" menu button -->
     <string name="view_android_log">Ver registro de Android</string>
-    <!-- Title of the "log Syncthing" menu button -->
-    <string name="view_syncthing_log">Ver registro de Syncthing</string>
+    <!-- Title of the "log Serva Sync" menu button -->
+    <string name="view_syncthing_log">Ver registro de Serva Sync</string>
     <!-- Title of the "share log" menu button -->
     <string name="share_title">Compartir</string>
     <!-- SyncthingService -->
     <!-- Text for the exit button on the drawer -->
     <string name="exit">Salir</string>
     <!-- Title of the notification shown while syncthing is running and enabled -->
-    <string name="syncthing_active">Syncthing está en ejecución</string>
+    <string name="syncthing_active">Serva Sync está en ejecución</string>
     <!-- ID of the default folder created on first start (camera folder). Must only contain 'a-z0-9_-'. Parameter is the device name-->
     <string name="default_folder_id">%1$s-photos</string>
     <!-- RestApi -->

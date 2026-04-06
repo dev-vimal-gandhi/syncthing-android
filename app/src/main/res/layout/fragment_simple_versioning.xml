@@ -29,7 +29,7 @@
 
         <fragment
             android:id="@+id/fragment_numberpicker_simple_versioning_keep"
-            android:name="com.nutomic.syncthingandroid.fragments.NumberPickerFragment"
+            android:name="com.servalabs.sync.fragments.NumberPickerFragment"
             android:layout_width="match_parent"
             android:layout_height="100dp"
             android:tag="numberpicker_simple_versioning_keep"
@@ -55,7 +55,7 @@
 
         <fragment
             android:id="@+id/fragment_numberpicker_simple_versioning_cleanoutdays"
-            android:name="com.nutomic.syncthingandroid.fragments.NumberPickerFragment"
+            android:name="com.servalabs.sync.fragments.NumberPickerFragment"
             android:layout_width="match_parent"
             android:layout_height="100dp"
             android:tag="numberpicker_simple_versioning_cleanoutdays"

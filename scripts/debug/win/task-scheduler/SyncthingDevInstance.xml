@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-16"?>
 <Task version="1.2" xmlns="http://schemas.microsoft.com/windows/2004/02/mit/task">
   <RegistrationInfo>
-    <URI>\Syncthing\SyncthingDevInstance</URI>
+    <URI>\Serva Sync\SyncthingDevInstance</URI>
   </RegistrationInfo>
   <Triggers />
   <Principals>
@@ -32,7 +32,7 @@
   </Settings>
   <Actions Context="Author">
     <Exec>
-      <Command>%LocalAppData%\Syncthing\syncthing.exe</Command>
+      <Command>%LocalAppData%\Serva Sync\syncthing.exe</Command>
       <Arguments>--no-console --no-browser</Arguments>
     </Exec>
   </Actions>

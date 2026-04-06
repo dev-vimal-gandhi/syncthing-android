@@ -1,1 +1,1 @@
-Wrapper para Syncthing: sincronización de archivos abierta y descentralizada
+Wrapper para Serva Sync: sincronización de archivos abierta y descentralizada

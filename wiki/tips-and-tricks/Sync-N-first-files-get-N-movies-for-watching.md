@@ -1,10 +1,11 @@
-User [SerVB](https://github.com/SerVB) made a script to care about moving files into the Syncthing folder until N movie episodes are present.
+User [SerVB](https://github.com/SerVB) made a script to care about moving files into the Serva Sync folder until N movie episodes are present.
 
 See [syncthing#1279](https://github.com/syncthing/syncthing-android/issues/1279) for more details on the idea.
 
 Thanks for your contribution!
 
 # sequentialMover.py
+
 Source: [https://gist.github.com/SerVB/26fd23d9b4e0b8aa57a6169ab1508812](https://gist.github.com/SerVB/26fd23d9b4e0b8aa57a6169ab1508812)
 
 Copy of the script from the source linked above by 2019-02-24_16:19

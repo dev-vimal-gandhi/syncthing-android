@@ -31,7 +31,7 @@
                 android:gravity="center_vertical">
 
                 <TextView
-                    style="@style/Widget.Syncthing.TextView.Label.Details"
+                    style="@style/Widget.ServaSync.TextView.Label.Details"
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
                     android:layout_weight="1"
@@ -61,7 +61,7 @@
 
                 <androidx.appcompat.widget.SwitchCompat
                     android:id="@+id/sync_on_wifi_title"
-                    style="@style/Widget.Syncthing.TextView.Label.Details"
+                    style="@style/Widget.ServaSync.TextView.Label.Details"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:checked="false"
@@ -90,7 +90,7 @@
 
                 <androidx.appcompat.widget.SwitchCompat
                     android:id="@+id/sync_on_whitelisted_wifi_title"
-                    style="@style/Widget.Syncthing.TextView.Label.Details"
+                    style="@style/Widget.ServaSync.TextView.Label.Details"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:checked="false"
@@ -125,7 +125,7 @@
 
                 <androidx.appcompat.widget.SwitchCompat
                     android:id="@+id/sync_on_metered_wifi_title"
-                    style="@style/Widget.Syncthing.TextView.Label.Details"
+                    style="@style/Widget.ServaSync.TextView.Label.Details"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:checked="false"
@@ -154,7 +154,7 @@
 
                 <androidx.appcompat.widget.SwitchCompat
                     android:id="@+id/sync_on_mobile_data_title"
-                    style="@style/Widget.Syncthing.TextView.Label.Details"
+                    style="@style/Widget.ServaSync.TextView.Label.Details"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:checked="false"
@@ -184,7 +184,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    style="@style/Widget.Syncthing.TextView.Label.Details"
+                    style="@style/Widget.ServaSync.TextView.Label.Details"
                     android:textAppearance="@style/TextAppearance.AppCompat.Caption"
                     android:text="@string/power_source_title"
                     android:textSize="15sp"

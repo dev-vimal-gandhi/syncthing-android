@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <string name="app_name">Syncthing-Fork</string>
+    <string name="app_name">Serva Sync</string>
     <string name="app_description">En åben, troværdig og decentraliseret fil-synkroniserings applikation.</string>
     <!-- FirstStartActivity -->
     <!-- Title for dialog displayed on first start -->
-    <string name="welcome_title">Velkommen til Syncthing til Android</string>
+    <string name="welcome_title">Velkommen til Serva Sync til Android</string>
     <!-- Welcome wizard -->
     <!-- Slide "Introduction" -->
     <string name="introduction">Introduktion</string>
-    <string name="welcome_text">Syncthing er en open-source filsynkroniserings-applikation. For at dele data med andre enheder, skal du tilføje deres unikke enheds-ID til enhedslisten. Derefter kan du vælge, hvilke mapper der skal deles med hvilke enheder. \n \nRapporter eventuelle problemer, du støder på, via GitHub.</string>
+    <string name="welcome_text">Serva Sync er en open-source filsynkroniserings-applikation. For at dele data med andre enheder, skal du tilføje deres unikke enheds-ID til enhedslisten. Derefter kan du vælge, hvilke mapper der skal deles med hvilke enheder. \n \nRapporter eventuelle problemer, du støder på, via GitHub.</string>
     <!-- Slide "Storage Permission" -->
     <string name="storage_permission_title">Lagertilladelser</string>
-    <string name="storage_permission_desc">Syncthing skal have adgang til dit lager for at kunne synkronisere filer.</string>
+    <string name="storage_permission_desc">Serva Sync skal have adgang til dit lager for at kunne synkronisere filer.</string>
     <!-- Slide "Ignore battery optimizations" -->
     <string name="ignore_doze_permission_title">Batterioptimering</string>
-    <string name="ignore_doze_permission_desc">Android vil måske stoppe synkroniseringen efter noget tid. For at forhindre dette, slå batterioptimering fra. Nogle enheder har yderligere task-killing applikationer preinstallierede. Du burde også tilføje Syncthing til deres whitelist.</string>
+    <string name="ignore_doze_permission_desc">Android vil måske stoppe synkroniseringen efter noget tid. For at forhindre dette, slå batterioptimering fra. Nogle enheder har yderligere task-killing applikationer preinstallierede. Du burde også tilføje Serva Sync til deres whitelist.</string>
     <string name="toast_ignore_doze_permission_required">Denne app virker kun pålideligt hvis den er fritaget fra \"doze\" strømbesparelses tilstand.</string>
     <string name="dialog_disable_battery_optimizations_not_supported">Din enhed understøtter ikke at slå batterioptimeringer fra</string>
     <!-- Slide "Location Permission" -->
     <string name="location_permission_title">Placeringstilladelse</string>
-    <string name="location_permission_desc">Syncthing kan blive konfigurede til at virke på valgte Wi-Fi netværk. Android kræver at appen skal have placeringstilladelse for at kunne læse aktive Wi-Fi netværksnavn. Hvis du vil bruge dette funktion så klik på knappen ovenover. Du må gerne springe dette trin over. Se vores privatlivspolitik for flere detaljer.</string>
+    <string name="location_permission_desc">Serva Sync kan blive konfigurede til at virke på valgte Wi-Fi netværk. Android kræver at appen skal have placeringstilladelse for at kunne læse aktive Wi-Fi netværksnavn. Hvis du vil bruge dette funktion så klik på knappen ovenover. Du må gerne springe dette trin over. Se vores privatlivspolitik for flere detaljer.</string>
     <!-- Slide "Key Generation" -->
     <string name="key_generation_title">Nøglegenerering</string>
     <string name="key_generation_success">Sikre nøgler til private dataudveksling er blevet genererede.</string>
@@ -94,10 +94,10 @@
     <string name="upload_title">Upload</string>
     <!-- StatusFragment -->
     <string name="status_fragment_title">Status</string>
-    <string name="syncthing_starting">Syncthing starter.</string>
-    <string name="syncthing_running">Syncthing kører.</string>
-    <string name="syncthing_not_running">Syncthing kører ikke.</string>
-    <string name="syncthing_has_crashed">Syncthing crashede</string>
+    <string name="syncthing_starting">Serva Sync starter.</string>
+    <string name="syncthing_running">Serva Sync kører.</string>
+    <string name="syncthing_not_running">Serva Sync kører ikke.</string>
+    <string name="syncthing_has_crashed">Serva Sync crashede</string>
     <!-- DrawerFragment -->
     <!-- Same as download_title with a colon and space appended -->
     <string name="download_title_colon">"Download: "</string>
@@ -110,7 +110,7 @@
     <!-- Title for uptime status -->
     <string name="uptime">Oppetid</string>
     <string name="restart">Genstart</string>
-    <string name="dialog_confirm_restart">Ønsker du at genstarte Syncthing?</string>
+    <string name="dialog_confirm_restart">Ønsker du at genstarte Serva Sync?</string>
     <!-- FolderActivity -->
     <!-- Setting title -->
     <string name="folder_id">Mappe ID</string>
@@ -136,16 +136,16 @@
     <!-- Menu item to confirm folder creation -->
     <string name="create">Opret</string>
     <!-- Dialog shown when attempting to remove a folder -->
-    <string name="remove_folder_confirm">Er du sikker på du vil fjerne denne mappe fra Syncthing?</string>
+    <string name="remove_folder_confirm">Er du sikker på du vil fjerne denne mappe fra Serva Sync?</string>
     <!-- Toast shown when trying to create a folder with an empty ID -->
     <string name="folder_id_required">Mappe ID må ikke være tomt</string>
     <!-- Toast shown when trying to create a folder with an empty path -->
     <string name="folder_path_required">Mappens sti må ikke være tom</string>
     <string name="dialog_discard_changes">Slet dine ændringer?</string>
     <!-- Summary shown if we only have readonly access to the folder path -->
-    <string name="folder_path_readonly">Din Android version tillader kun Syncthing at læse den valgte mappe.</string>
+    <string name="folder_path_readonly">Din Android version tillader kun Serva Sync at læse den valgte mappe.</string>
     <!-- Summary shown if we only have readwrite access to the folder path -->
-    <string name="folder_path_readwrite">Din Android version tillader Syncthing at læse og skrive til den valgte mappe.</string>
+    <string name="folder_path_readwrite">Din Android version tillader Serva Sync at læse og skrive til den valgte mappe.</string>
     <!-- Toast shown if the user selected an invalid location for a new syncthing folder -->
     <string name="toast_invalid_folder_selected">Beklager. Den valgte mappe kan ikke blive brugt. Prøv at vælge en mappe placerede i det interne og eksterne lager.</string>
     <string name="ignore_patterns">Ignorer-mønstre</string>
@@ -193,13 +193,13 @@
     <string name="settings_title">Indstillinger</string>
     <string name="category_run_conditions">Kør betingelser</string>
     <string name="category_behaviour">Adfærd</string>
-    <string name="category_syncthing_options">Syncthing Muligheder</string>
+    <string name="category_syncthing_options">Serva Sync Muligheder</string>
     <string name="category_backup">Importer og Eksporter</string>
     <string name="category_debug">Fejlfinding</string>
     <string name="category_experimental">Eksperimentalt</string>
     <!-- Preference screen - Run conditions -->
     <string name="run_conditions_title">Kør betingelser</string>
-    <string name="run_conditions_summary">Brug følgende muligheder til at beslutte hvornår Syncthing skal køre.</string>
+    <string name="run_conditions_summary">Brug følgende muligheder til at beslutte hvornår Serva Sync skal køre.</string>
     <string name="run_on_mobile_data_title">Kør på mobildata</string>
     <string name="run_on_mobile_data_summary">Kør når enhed er forbundet via mobildata netværk. Advarsel: Dette kan forbruge meget af din mobildata hvis du synkronisere store mængder af data.</string>
     <string name="run_on_wifi_title">Kør på Wi-Fi</string>
@@ -219,11 +219,11 @@
     <string name="power_source_ac_power">Vekselstrøm.</string>
     <string name="power_source_battery_power">Batteri.</string>
     <string name="respect_battery_saving_title">Respekter Android battery saving indstillinger</string>
-    <string name="respect_battery_saving_summary">Afbryd Syncthing hvis batteribesparelse er aktivt.</string>
+    <string name="respect_battery_saving_summary">Afbryd Serva Sync hvis batteribesparelse er aktivt.</string>
     <string name="respect_master_sync_title">Respekter Androids indstillinger for \'Automatisk datasynkronisering\'</string>
-    <string name="respect_master_sync_summary">Afbryd Syncthing når indstillingen \'Auto-sync data\' er slået fra.</string>
+    <string name="respect_master_sync_summary">Afbryd Serva Sync når indstillingen \'Auto-sync data\' er slået fra.</string>
     <string name="run_in_flight_mode_title">Kør uden netværksforbindelse</string>
-    <string name="run_in_flight_mode_summary">Aktivering af denne mulighed vil gøre at Syncthing køre selvom du er offline. Aktiver dette hvis din enhed har problemer med at finde manuelle Wi-Fi forbindelser i flystilstand.</string>
+    <string name="run_in_flight_mode_summary">Aktivering af denne mulighed vil gøre at Serva Sync køre selvom du er offline. Aktiver dette hvis din enhed har problemer med at finde manuelle Wi-Fi forbindelser i flystilstand.</string>
     <!-- Preferences - Behaviour -->
     <string name="behaviour_autostart_title">Autostart</string>
     <string name="behaviour_autostart_summary">Start app automatisk ved operativsystem start.</string>
@@ -286,30 +286,30 @@
     <string name="environment_variables">Miljøvariabler</string>
     <!-- Toast after entering invalid STTRACE params -->
     <string name="toast_invalid_environment_variables">Værdien er ugyldig som miljøvariablestreng</string>
-    <!-- Title for the preference to reset Syncthing indexes -->
+    <!-- Title for the preference to reset Serva Sync indexes -->
     <string name="st_reset_database_title">Nulstil database</string>
-    <!-- Syncthing was reset -->
-    <string name="st_reset_database_question">Denne aktion bør kun blive brugt baserede på en en anbefaling fra vores supportteam. \nEr du sikker på du vil rydde Syncthing\'s databaser?</string>
-    <!-- Syncthing was reset -->
-    <string name="st_reset_database_done">Syncthing\'s database successfuldt nulstillet</string>
-    <!-- Title for the preference to reset Syncthing indexes -->
+    <!-- Serva Sync was reset -->
+    <string name="st_reset_database_question">Denne aktion bør kun blive brugt baserede på en en anbefaling fra vores supportteam. \nEr du sikker på du vil rydde Serva Sync\'s databaser?</string>
+    <!-- Serva Sync was reset -->
+    <string name="st_reset_database_done">Serva Sync\'s database successfuldt nulstillet</string>
+    <!-- Title for the preference to reset Serva Sync indexes -->
     <string name="st_reset_deltas_title">Genstart Delta Indekser</string>
-    <!-- Syncthing was reset -->
-    <string name="st_reset_deltas_question">Denne aktion bør kun blive brugt baserede på en en anbefaling fra vores supportteam. \nEr du sikker på du vil rydde Syncthing delta indekser?</string>
-    <!-- Syncthing was reset -->
-    <string name="st_reset_deltas_done">Vellykket genstart af Syncthing\'s delta indekser.</string>
+    <!-- Serva Sync was reset -->
+    <string name="st_reset_deltas_question">Denne aktion bør kun blive brugt baserede på en en anbefaling fra vores supportteam. \nEr du sikker på du vil rydde Serva Sync delta indekser?</string>
+    <!-- Serva Sync was reset -->
+    <string name="st_reset_deltas_done">Vellykket genstart af Serva Sync\'s delta indekser.</string>
     <string name="category_about">Omkring</string>
     <!-- Settings item that opens the log activity -->
     <string name="open_log">Åben Log</string>
     <!-- Summary for the log activity -->
-    <string name="open_log_summary">Åben Syncthing\'s og Android\'s log vindue</string>
+    <string name="open_log_summary">Åben Serva Sync\'s og Android\'s log vindue</string>
     <!-- Settings item that opens issue tracker -->
     <string name="report_issue_title">Rapporter problem</string>
     <!-- Menu item to donate -->
     <!-- Title of the preference showing upstream version name -->
-    <string name="syncthing_version_title">Syncthing Version</string>
+    <string name="syncthing_version_title">Serva Sync Version</string>
     <!-- Title of the preference showing this app's version name -->
-    <string name="app_version_title">Syncthing-Fork Wrapper Version</string>
+    <string name="app_version_title">Serva Sync Wrapper Version</string>
     <!-- FolderPickerAcitivity -->
     <!-- Activity title -->
     <string name="folder_picker_title">Mappe Vælger</string>
@@ -321,17 +321,17 @@
     <string name="select_folder">Vælg Mappe</string>
     <string name="create_folder_failed">Det lykkedes ikke at oprette en ny mappe</string>
     <!-- LogActivity -->
-    <string name="syncthing_log_title">Syncthing Log</string>
+    <string name="syncthing_log_title">Serva Sync Log</string>
     <string name="android_log_title">Android Logbog</string>
     <!-- Title of the "log android" menu button -->
     <string name="view_android_log">Vis Android Log</string>
-    <!-- Title of the "log Syncthing" menu button -->
-    <string name="view_syncthing_log">Vis Syncthing Log</string>
+    <!-- Title of the "log Serva Sync" menu button -->
+    <string name="view_syncthing_log">Vis Serva Sync Log</string>
     <string name="retrieving_logs">Indhenter logs…</string>
     <!-- Title of the "share log" menu button -->
     <string name="share_title">Del</string>
     <!-- Title of the "share" activity -->
-    <string name="share_activity_title">Gem til Syncthing</string>
+    <string name="share_activity_title">Gem til Serva Sync</string>
     <!-- Title of the "save" button -->
     <string name="save_title">Gem</string>
     <!-- Title of the "cancel" button -->
@@ -364,31 +364,31 @@
     <string name="sub_folder">Undermappe</string>
     <string name="reason_not_charging">Telefonen oplader ikke.</string>
     <string name="reason_not_on_battery_power">Telefon kører ikke på batteri.</string>
-    <string name="reason_not_while_power_saving">Syncthing kører ikke da telefonen er sat til batteribesparelse.</string>
-    <string name="reason_not_while_auto_sync_data_disabled">Syncthing kører ikke da Android lige nu har \'Auto-sync data\' slået fra.</string>
+    <string name="reason_not_while_power_saving">Serva Sync kører ikke da telefonen er sat til batteribesparelse.</string>
+    <string name="reason_not_while_auto_sync_data_disabled">Serva Sync kører ikke da Android lige nu har \'Auto-sync data\' slået fra.</string>
     <!-- … Mobile data -->
-    <string name="reason_mobile_data_disallowed">Syncthing er ikke konfigurerede til ar køre på mobildataforbindelser.</string>
-    <string name="reason_on_mobile_data">Syncthing har fået tilladelse til at køre på mobildata.</string>
-    <string name="reason_not_on_mobile_data">Syncthing har fået tilladelse til at køre på mobildataforbindelser, men mobildata er ikke forbundet.</string>
-    <string name="reason_wifi_disallowed">Syncthing har ikke tilladelse til at køre på WiFi eller ethernet.</string>
-    <string name="reason_on_wifi">Syncthing har fået tilladelse til at køre på WiFi og WiFi er lige nu forbundet.</string>
-    <string name="reason_not_on_wifi">Syncthing har fået tilladelse til at køre på Wi-Fi, men Wi-Fi er ikke forbundet eller telefon er sat til flytilstand.</string>
-    <string name="reason_on_metered_nonmetered_wifi">Syncthing har tilladelse til at køre på målte og ikke-målte WiFi forbindelser</string>
-    <string name="reason_on_whitelisted_wifi">Syncthing har tilladelse til at køre på det nuværende WiFi netværk</string>
-    <string name="reason_not_on_whitelisted_wifi">Syncthing kører ikke da det nuværende Wi-Fi netværksnavn ikke er godkendt.</string>
-    <string name="reason_on_nonmetered_wifi">Syncthing har ikke tilladelse til at køre på ikke-målt WiFi forbindelser. Den aktive WiFi forbindelse er ikke-målt.</string>
-    <string name="reason_not_nonmetered_wifi">Syncthing kører ikke da du ikke har tilladt den at køre på målt Wi-Fi forbindelse.</string>
-    <string name="reason_location_unavailable">Du slog \'Run on selected WiFi networks\' til i indstillingerne. Android placeringsservice er lige nu slået fra. Ifølge Android restriktioner kan Syncthing ikke bestemme det nuværende WiFi netværksnavn for at vælge hvis den skulle køre. Løsning: Slå placering til, giv tilladelse til placering og genetabler WiFi.</string>
-    <string name="reason_on_flight_mode">Syncthing kører, som du tillod den, når flytilstand var slået til.</string>
+    <string name="reason_mobile_data_disallowed">Serva Sync er ikke konfigurerede til ar køre på mobildataforbindelser.</string>
+    <string name="reason_on_mobile_data">Serva Sync har fået tilladelse til at køre på mobildata.</string>
+    <string name="reason_not_on_mobile_data">Serva Sync har fået tilladelse til at køre på mobildataforbindelser, men mobildata er ikke forbundet.</string>
+    <string name="reason_wifi_disallowed">Serva Sync har ikke tilladelse til at køre på WiFi eller ethernet.</string>
+    <string name="reason_on_wifi">Serva Sync har fået tilladelse til at køre på WiFi og WiFi er lige nu forbundet.</string>
+    <string name="reason_not_on_wifi">Serva Sync har fået tilladelse til at køre på Wi-Fi, men Wi-Fi er ikke forbundet eller telefon er sat til flytilstand.</string>
+    <string name="reason_on_metered_nonmetered_wifi">Serva Sync har tilladelse til at køre på målte og ikke-målte WiFi forbindelser</string>
+    <string name="reason_on_whitelisted_wifi">Serva Sync har tilladelse til at køre på det nuværende WiFi netværk</string>
+    <string name="reason_not_on_whitelisted_wifi">Serva Sync kører ikke da det nuværende Wi-Fi netværksnavn ikke er godkendt.</string>
+    <string name="reason_on_nonmetered_wifi">Serva Sync har ikke tilladelse til at køre på ikke-målt WiFi forbindelser. Den aktive WiFi forbindelse er ikke-målt.</string>
+    <string name="reason_not_nonmetered_wifi">Serva Sync kører ikke da du ikke har tilladt den at køre på målt Wi-Fi forbindelse.</string>
+    <string name="reason_location_unavailable">Du slog \'Run on selected WiFi networks\' til i indstillingerne. Android placeringsservice er lige nu slået fra. Ifølge Android restriktioner kan Serva Sync ikke bestemme det nuværende WiFi netværksnavn for at vælge hvis den skulle køre. Løsning: Slå placering til, giv tilladelse til placering og genetabler WiFi.</string>
+    <string name="reason_on_flight_mode">Serva Sync kører, som du tillod den, når flytilstand var slået til.</string>
     <!-- Sync Conditions Dialog -->
     <string name="custom_wifi_ssid_whitelist_empty">Intet WiFi SSID\'s som er whitelisted. Specificer nogle i indstillinger.</string>
     <!-- SyncthingService -->
     <!-- Text for the exit button on the drawer -->
     <string name="exit">Afslut</string>
     <!-- Title of the notification shown while syncthing is running and enabled -->
-    <string name="syncthing_active">Syncthing kører</string>
-    <string name="syncthing_disabled">Syncthing sover</string>
-    <string name="syncthing_terminated">Syncthing blev afbrudt</string>
+    <string name="syncthing_active">Serva Sync kører</string>
+    <string name="syncthing_disabled">Serva Sync sover</string>
+    <string name="syncthing_terminated">Serva Sync blev afbrudt</string>
     <!-- Toast shown if syncthing failed to create or read the config -->
     <string name="executable_not_found">Core executable \"%s\" mangler. Tjek build og logcat output.</string>
     <string name="config_create_failed">Fejlede at lave en konfigurering. Tjek logcat output.</string>
@@ -397,9 +397,9 @@
     <string name="config_file_missing">En konfigureringsfil, afgørende for at kunne virke, mangler</string>
     <!-- ID of the default folder created on first start (camera folder). Must only contain 'a-z0-9_-'. Parameter is the device name-->
     <string name="default_folder_id">%1$s-fotos</string>
-    <string name="notification_crash_title">Syncthing crashede %1$s</string>
+    <string name="notification_crash_title">Serva Sync crashede %1$s</string>
     <string name="notification_crash_text">Klik for at se logbog(%1$s)</string>
-    <string name="notifications_persistent_channel">Syncthing aktiv</string>
+    <string name="notifications_persistent_channel">Serva Sync aktiv</string>
     <string name="notification_persistent_waiting_channel">Kontrollere kørebetingelser</string>
     <string name="notifications_other_channel">Andre notifikationer</string>
     <!-- RestApi -->
@@ -408,7 +408,7 @@
     <!-- Text for positive button in restart dialog -->
     <!-- Text for the dismiss button of the restart Activity -->
     <!-- Text of the notification shown when a restart is needed -->
-    <string name="restart_notification_text">Klik her for at genstarte Syncthing nu</string>
+    <string name="restart_notification_text">Klik her for at genstarte Serva Sync nu</string>
     <!-- Shown when a device ID is copied to the clipboard -->
     <string name="device_id_copied_to_clipboard">Enheds-ID kopieret til clipboard</string>
     <!-- Strings representing units for file sizes, from smallest to largest -->
@@ -466,9 +466,9 @@
     <string name="command">Kommando</string>
     <!-- File versioning dialog descriptions for file versioning types and file versioning configuration options. -->
     <string name="keep_versions_description">Antal af gamle versioner at beholde, pr fil.</string>
-    <string name="simple_file_versioning_description">Filer bliver flyttet til dato-markeret versioner i et .stversions directory når de erstattes er bliver slettet af Syncthing.</string>
-    <string name="trashcan_versioning_description">Filer bliver flyttet til .stversions directory når de erstattes er bliver slettet af Syncthing.</string>
-    <string name="staggered_versioning_description">Filer bliver flyttet til markeret versioner i et .stversions directory når de bliver erstattet eller slettet af Syncthing. Versioner bliver automatisk slettet hvis de er ældre end den maksimale alder eller overskrider det tilladte antal filer i et interval. \n \nFølgende intervaller bliver brugt: i løbet af den første time, beholdes en version hver 30 sekund, i løbet af den første dag en version bliver beholdt hver time, i løbet af de første 30 dage bliver en version beholdt hver dag indtil den maksimale alder overskrides gemmes en version hver uge.</string>
+    <string name="simple_file_versioning_description">Filer bliver flyttet til dato-markeret versioner i et .stversions directory når de erstattes er bliver slettet af Serva Sync.</string>
+    <string name="trashcan_versioning_description">Filer bliver flyttet til .stversions directory når de erstattes er bliver slettet af Serva Sync.</string>
+    <string name="staggered_versioning_description">Filer bliver flyttet til markeret versioner i et .stversions directory når de bliver erstattet eller slettet af Serva Sync. Versioner bliver automatisk slettet hvis de er ældre end den maksimale alder eller overskrider det tilladte antal filer i et interval. \n \nFølgende intervaller bliver brugt: i løbet af den første time, beholdes en version hver 30 sekund, i løbet af den første dag en version bliver beholdt hver time, i løbet af de første 30 dage bliver en version beholdt hver dag indtil den maksimale alder overskrides gemmes en version hver uge.</string>
     <string name="maximum_age_description">Den maksimale tid for at beholde en version(i dage, sæt til 0 for at beholde for altid).</string>
     <string name="versions_path_description">Sti hvor versioner skal gemmes (lad være tomt for at burge det normale .stversions directory i den delte mappe).</string>
     <string name="cleanout_after_description">Antallet af dage til at beholde filer i skraldespanden. Nul betyder for altid</string>

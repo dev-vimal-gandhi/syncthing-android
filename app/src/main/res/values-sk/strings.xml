@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <string name="app_name">Syncthing-Fork</string>
+    <string name="app_name">Serva Sync</string>
     <string name="app_description">Otvorená, dôveryhodná a decentralizovaná aplikácia pre synchronizáciu súborov.</string>
     <!-- FirstStartActivity -->
     <!-- Title for dialog displayed on first start -->
-    <string name="welcome_title">Víta Vás Syncthing pre Android</string>
+    <string name="welcome_title">Víta Vás Serva Sync pre Android</string>
     <string name="generic_error">Chyba</string>
     <!-- Title of the "add folder" menu action -->
     <string name="add_folder">Pridať Adresár</string>
@@ -21,7 +21,7 @@
     <!-- StateDialogActivity -->
     <!-- Text for FoldersFragment and DevicesFragment loading view -->
     <!-- Shown instead of web_gui_loading if the key does not exist and has to be created -->
-    <string name="web_gui_creating_key">Syncthing generuje RSA klúč a certifikát. Táto operácia môže chvíľu trvať.</string>
+    <string name="web_gui_creating_key">Serva Sync generuje RSA klúč a certifikát. Táto operácia môže chvíľu trvať.</string>
     <!-- FolderListFragment -->
     <string name="folders_fragment_title">Adresáre</string>
     <!-- Shown if no folders exist -->
@@ -104,7 +104,7 @@
     <string name="web_gui_loading">Čakám na GUI</string>
     <!-- SettingsFragment -->
     <string name="settings_title">Nastavenia</string>
-    <string name="category_syncthing_options">Nastavenia Syncthing</string>
+    <string name="category_syncthing_options">Nastavenia Serva Sync</string>
     <string name="device_name">Názov Zariadenia</string>
     <string name="listen_address">Adresa pre Sync Protokol</string>
     <string name="max_recv_kbps">Limit Rýchlosti Sťahovania (KiB/s)</string>
@@ -119,20 +119,20 @@
     <string name="import_config">Importovať Konfiguráciu</string>
     <!-- Toast shown after config was imported -->
     <string name="config_imported_successful">Konfigurácia bola importovaná</string>
-    <!-- Title for the preference to reset Syncthing indexes -->
+    <!-- Title for the preference to reset Serva Sync indexes -->
     <string name="st_reset_database_title">Resetovať Databázu</string>
-    <!-- Syncthing was reset -->
+    <!-- Serva Sync was reset -->
     <string name="st_reset_database_done">Reset databázy bol úspešný</string>
     <string name="category_about">O programe</string>
     <!-- Settings item that opens the log activity -->
     <string name="open_log">Zobraziť Záznam</string>
     <!-- Summary for the log activity -->
-    <string name="open_log_summary">Zobrazí okno so záznamom Syncthing a Androidu</string>
+    <string name="open_log_summary">Zobrazí okno so záznamom Serva Sync a Androidu</string>
     <!-- Settings item that opens issue tracker -->
     <string name="report_issue_title">Nahlásiť problém</string>
     <!-- Menu item to donate -->
     <!-- Title of the preference showing upstream version name -->
-    <string name="syncthing_version_title">Verzia Syncthing</string>
+    <string name="syncthing_version_title">Verzia Serva Sync</string>
     <!-- FolderPickerAcitivity -->
     <!-- Activity title -->
     <string name="folder_picker_title">Výver Adresára</string>
@@ -145,15 +145,15 @@
     <string name="create_folder_failed">Nepodarilo sa vytvoriť adresár</string>
     <!-- Title of the "log android" menu button -->
     <string name="view_android_log">Zobraziť záznam Androidu</string>
-    <!-- Title of the "log Syncthing" menu button -->
-    <string name="view_syncthing_log">Zobraziť záznam Syncthing</string>
+    <!-- Title of the "log Serva Sync" menu button -->
+    <string name="view_syncthing_log">Zobraziť záznam Serva Sync</string>
     <!-- Title of the "share log" menu button -->
     <string name="share_title">Zdielať</string>
     <!-- SyncthingService -->
     <!-- Text for the exit button on the drawer -->
     <string name="exit">Koniec</string>
     <!-- Title of the notification shown while syncthing is running and enabled -->
-    <string name="syncthing_active">Syncthing beží</string>
+    <string name="syncthing_active">Serva Sync beží</string>
     <!-- ID of the default folder created on first start (camera folder). Must only contain 'a-z0-9_-'. Parameter is the device name-->
     <string name="default_folder_id">%1$s-fotografie</string>
     <!-- RestApi -->
@@ -162,7 +162,7 @@
     <!-- Text for positive button in restart dialog -->
     <!-- Text for the dismiss button of the restart Activity -->
     <!-- Text of the notification shown when a restart is needed -->
-    <string name="restart_notification_text">Kliknite sem, ak chcete Syncthing reštartovať ihneď.</string>
+    <string name="restart_notification_text">Kliknite sem, ak chcete Serva Sync reštartovať ihneď.</string>
     <!-- Shown when a device ID is copied to the clipboard -->
     <string name="device_id_copied_to_clipboard">ID zariadenia bolo skopírované do schránky</string>
     <!-- Strings representing units for file sizes, from smallest to largest -->

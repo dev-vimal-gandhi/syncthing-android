@@ -1,16 +1,16 @@
-Detta är en förgrening av Syncthing-Android-omslaget för Syncthing som ger stora förbättringar som:
+Detta är en förgrening av Serva Sync-Android-omslaget för Serva Sync som ger stora förbättringar som:
 * Mapp, enhet och övergripande synkroniseringsförlopp kan enkelt avläsas från användargränssnittet.
-* "Syncthing Camera" - en valfri funktion (med valfri behörighet att använda kameran) där du kan ta bilder med din vän, partner, ... på två telefoner i en delad och privat Syncthing-mapp. Inget moln inblandat. - FUNKTION FÖR NUVARANDE I BETA-STADIUM -
+* "Serva Sync Camera" - en valfri funktion (med valfri behörighet att använda kameran) där du kan ta bilder med din vän, partner, ... på två telefoner i en delad och privat Serva Sync-mapp. Inget moln inblandat. - FUNKTION FÖR NUVARANDE I BETA-STADIUM -
 * "Synkronisera varje timme" för att spara ännu mer batteri
 * Individuella synkroniseringsvillkor kan tillämpas per enhet och per mapp
 * Senaste ändringar användargränssnittet, klicka för att öppna filer.
-* Ändringar av mapp- och enhetskonfiguration kan göras oavsett om Syncthing körs eller inte
+* Ändringar av mapp- och enhetskonfiguration kan göras oavsett om Serva Sync körs eller inte
 * Användargränssnittet förklarar varför synkronisering körs eller inte.
 * Problemet "Batteriätare" har åtgärdats.
-* Upptäck andra Syncthing-enheter på samma nätverk och lägg enkelt till dem.
+* Upptäck andra Serva Sync-enheter på samma nätverk och lägg enkelt till dem.
 * Stöder tvåvägssynkronisering på externt SD-kort sedan Android 11.
 
-Syncthing-Fork för Android är ett omslag för Syncthing som tillhandahåller ett Android-gränssnitt istället för Syncthings inbyggda webbgränssnitt. Syncthing ersätter egenutvecklade synkroniserings- och molntjänster med något öppet, pålitligt och decentraliserat. Din data är ensam din data och du förtjänar att välja var den lagras, om den delas med någon tredje part och hur den överförs över Internet.
+Serva Sync för Android är ett omslag för Serva Sync som tillhandahåller ett Android-gränssnitt istället för Syncthings inbyggda webbgränssnitt. Serva Sync ersätter egenutvecklade synkroniserings- och molntjänster med något öppet, pålitligt och decentraliserat. Din data är ensam din data och du förtjänar att välja var den lagras, om den delas med någon tredje part och hur den överförs över Internet.
 
 Mål med förgreningen:
 * Utveckla och prova förbättringar tillsammans med gemenskapen.
@@ -28,11 +28,11 @@ Webbplats: https://github.com/researchxxl/syncthing-android
 
 Källkod: https://github.com/researchxxl/syncthing-android
 
-Hur Syncthing skriver till externt SD-kort: https://github.com/researchxxl/syncthing-android/blob/master/wiki/SD-card-write-access.md
+Hur Serva Sync skriver till externt SD-kort: https://github.com/researchxxl/syncthing-android/blob/master/wiki/SD-card-write-access.md
 
 Wiki, FAQ och användbara artiklar: https://github.com/researchxxl/syncthing-android/tree/main/wiki#readme
 
 Problem: https://github.com/researchxxl/syncthing-android/issues
 
 Snälla hjälp med
-översättningen: https://hosted.weblate.org/projects/syncthing-fork/app/
+översättningen: https://hosted.weblate.org/projects/Serva Sync/app/

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <string name="app_name">Syncthing-Fork</string>
+    <string name="app_name">Serva Sync</string>
     <string name="app_description">Ein open, påliteleg og desentralisert app for filsynkronisering.</string>
     <!-- FirstStartActivity -->
     <!-- Title for dialog displayed on first start -->
@@ -51,7 +51,7 @@
     <!-- Title for announce server status -->
     <string name="announce_server">Søketener</string>
     <string name="restart">Omstart</string>
-    <string name="dialog_confirm_restart">Vil du starte om att Syncthing?</string>
+    <string name="dialog_confirm_restart">Vil du starte om att Serva Sync?</string>
     <!-- FolderActivity -->
     <!-- Setting title -->
     <string name="folder_id">Mappe-ID</string>
@@ -72,7 +72,7 @@
     <!-- Menu item to confirm folder creation -->
     <string name="create">Opprett</string>
     <!-- Dialog shown when attempting to remove a folder -->
-    <string name="remove_folder_confirm">Vil du verkeleg fjerne denne mappa frå Syncthing?</string>
+    <string name="remove_folder_confirm">Vil du verkeleg fjerne denne mappa frå Serva Sync?</string>
     <!-- Toast shown when trying to create a folder with an empty ID -->
     <string name="folder_id_required">Mappe-ID kan ikkje vere tom</string>
     <!-- Toast shown when trying to create a folder with an empty path -->
@@ -114,7 +114,7 @@
     <string name="web_gui_loading">Venter på grafisk grensesnitt</string>
     <!-- SettingsFragment -->
     <string name="settings_title">Innstillingar</string>
-    <string name="category_syncthing_options">Syncthing-innstillingar</string>
+    <string name="category_syncthing_options">Serva Sync-innstillingar</string>
     <string name="category_experimental">Eksperiment</string>
     <string name="sync_only_wifi_ssids_wifi_turn_on_wifi">Skru på WiFi for å velje nettverk.</string>
     <string name="device_name">Einingsnamn</string>
@@ -135,20 +135,20 @@
     <string name="import_config">Importer innstillingar</string>
     <!-- Toast shown after config was imported -->
     <string name="config_imported_successful">Innstillingar vart importerte</string>
-    <!-- Title for the preference to reset Syncthing indexes -->
+    <!-- Title for the preference to reset Serva Sync indexes -->
     <string name="st_reset_database_title">Nullstill database</string>
-    <!-- Syncthing was reset -->
+    <!-- Serva Sync was reset -->
     <string name="st_reset_database_done">Vellukka nullstilling av Syncthings database</string>
     <string name="category_about">Om</string>
     <!-- Settings item that opens the log activity -->
     <string name="open_log">Opne logg</string>
     <!-- Summary for the log activity -->
-    <string name="open_log_summary">Opne loggvindauget for Syncthing og Android</string>
+    <string name="open_log_summary">Opne loggvindauget for Serva Sync og Android</string>
     <!-- Settings item that opens issue tracker -->
     <string name="report_issue_title">Meld problem</string>
     <!-- Menu item to donate -->
     <!-- Title of the preference showing upstream version name -->
-    <string name="syncthing_version_title">Syncthing-versjon</string>
+    <string name="syncthing_version_title">Serva Sync-versjon</string>
     <!-- FolderPickerAcitivity -->
     <!-- Activity title -->
     <string name="folder_picker_title">Mappeveljar</string>
@@ -161,7 +161,7 @@
     <string name="create_folder_failed">Lukkast ikkje med å lage mappe</string>
     <!-- Title of the "log android" menu button -->
     <string name="view_android_log">Vis Android-logg</string>
-    <!-- Title of the "log Syncthing" menu button -->
+    <!-- Title of the "log Serva Sync" menu button -->
     <string name="view_syncthing_log">Vis Synchting-logg</string>
     <!-- Title of the "share log" menu button -->
     <string name="share_title">Del</string>
@@ -169,7 +169,7 @@
     <!-- Text for the exit button on the drawer -->
     <string name="exit">Avslutt</string>
     <!-- Title of the notification shown while syncthing is running and enabled -->
-    <string name="syncthing_active">Syncthing køyrer</string>
+    <string name="syncthing_active">Serva Sync køyrer</string>
     <!-- ID of the default folder created on first start (camera folder). Must only contain 'a-z0-9_-'. Parameter is the device name-->
     <string name="default_folder_id">%1$s-foto</string>
     <!-- RestApi -->
@@ -178,7 +178,7 @@
     <!-- Text for positive button in restart dialog -->
     <!-- Text for the dismiss button of the restart Activity -->
     <!-- Text of the notification shown when a restart is needed -->
-    <string name="restart_notification_text">Trykk her for å starte Syncthing om att no</string>
+    <string name="restart_notification_text">Trykk her for å starte Serva Sync om att no</string>
     <!-- Shown when a device ID is copied to the clipboard -->
     <string name="device_id_copied_to_clipboard">Einings-ID kopiert til utklippstavla</string>
     <!-- Strings representing units for file sizes, from smallest to largest -->

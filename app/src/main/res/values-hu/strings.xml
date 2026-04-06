@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <string name="app_name">Syncthing-Fork</string>
+    <string name="app_name">Serva Sync</string>
     <string name="app_description">Egy nyílt, megbízható és decentralizált fájl szinkronizáló alkalmazás.</string>
     <!-- FirstStartActivity -->
     <!-- Title for dialog displayed on first start -->
-    <string name="welcome_title">Üdvözöl az androidos Syncthing.</string>
+    <string name="welcome_title">Üdvözöl az androidos Serva Sync.</string>
     <!-- Welcome wizard -->
     <!-- Slide "Introduction" -->
     <string name="introduction">Bevezető</string>
-    <string name="welcome_text">A Syncthing egy nyílt forráskódú fájlszinkronizáló alkalmazás. Az adatok más eszközökkel való megosztásához hozzá kell adnia azok egyedi eszközazonosítóját az eszközlistához. Ezután kiválaszthatja, hogy melyik mappát melyik eszközzel kívánja megosztani. \n \nKérjük, hogy a GitHubon keresztül jelezzen minden felmerülő problémát.</string>
+    <string name="welcome_text">A Serva Sync egy nyílt forráskódú fájlszinkronizáló alkalmazás. Az adatok más eszközökkel való megosztásához hozzá kell adnia azok egyedi eszközazonosítóját az eszközlistához. Ezután kiválaszthatja, hogy melyik mappát melyik eszközzel kívánja megosztani. \n \nKérjük, hogy a GitHubon keresztül jelezzen minden felmerülő problémát.</string>
     <!-- Slide "Storage Permission" -->
     <string name="storage_permission_title">Tárolási engedély</string>
     <string name="storage_permission_desc">A fájlszinkronizáláshoz a Syncthingnek hozzá kell férnie a tárolóhoz.</string>
@@ -21,7 +21,7 @@
     <string name="dialog_disable_battery_optimizations_not_supported">Az eszközöd nem támogatja az akkumulátor optimalizálás letiltását</string>
     <!-- Slide "Location Permission" -->
     <string name="location_permission_title">Helyszín engedélyezése</string>
-    <string name="location_permission_desc">A Syncthing úgy konfigurálható, hogy kiválasztott Wi-Fi hálózatokon működjön. Az Android rendszerben az alkalmazásnak helymeghatározási jogosultsággal kell rendelkeznie az aktív Wi-Fi hálózat nevének olvasásához. Ha használni szeretné ezt a funkciót, nyomja meg a fenti gombot. Ezt a lépést kihagyhatja. További részletekért tekintse meg adatvédelmi szabályzatunkat.</string>
+    <string name="location_permission_desc">A Serva Sync úgy konfigurálható, hogy kiválasztott Wi-Fi hálózatokon működjön. Az Android rendszerben az alkalmazásnak helymeghatározási jogosultsággal kell rendelkeznie az aktív Wi-Fi hálózat nevének olvasásához. Ha használni szeretné ezt a funkciót, nyomja meg a fenti gombot. Ezt a lépést kihagyhatja. További részletekért tekintse meg adatvédelmi szabályzatunkat.</string>
     <string name="location_permission_desc_api_29">Tipp Android 10+ esetén: \"Mindig engedélyezd\"</string>
     <!-- Slide "Key Generation" -->
     <string name="key_generation_title">Kulcsgenerálás</string>
@@ -43,18 +43,18 @@
     <string name="refresh">Frissítés</string>
     <!-- PhotoShootActivity -->
     <string name="photo_shoot_launcher_title">Szinkronizálás. Kamera</string>
-    <string name="photo_shoot_activity_title">Syncthing-Fork kamera</string>
-    <string name="photo_shoot_intro_welcome_title">Üdvözöljük a Syncthing kameránál</string>
+    <string name="photo_shoot_activity_title">Serva Sync kamera</string>
+    <string name="photo_shoot_intro_welcome_title">Üdvözöljük a Serva Sync kameránál</string>
     <string name="photo_shoot_intro_permission_title">Szükséges engedélyek</string>
     <string name="photo_shoot_intro_no_camera">Sajnos ez a készülék nem rendelkezik kamerával.</string>
     <string name="photo_shoot_intro_missing_permissions">A folytatáshoz tárolási és kameraengedélyre van szükség.</string>
     <string name="grant_storage_permission">Tárolási engedély megadása</string>
     <string name="grant_camera_permission">Kamera engedélyezése</string>
-    <string name="photo_shoot_intro_permission_desc">A Syncthing kamera az Ön beleegyezését kéri a képek készítéséhez és a készülékén való tárolásához. Ez a funkció opcionális. Használatához adja meg az engedélyeket, és koppintson a \"Folytatás\" gombra. Beállítunk Önnek egy Syncthing kamera mappát, amelyet később megoszthat más Syncthing eszközökkel.</string>
-    <string name="photo_shoot_take_picture_success">Sikeresen elmentette a képet a Syncthing kamera mappába.</string>
+    <string name="photo_shoot_intro_permission_desc">A Serva Sync kamera az Ön beleegyezését kéri a képek készítéséhez és a készülékén való tárolásához. Ez a funkció opcionális. Használatához adja meg az engedélyeket, és koppintson a \"Folytatás\" gombra. Beállítunk Önnek egy Serva Sync kamera mappát, amelyet később megoszthat más Serva Sync eszközökkel.</string>
+    <string name="photo_shoot_take_picture_success">Sikeresen elmentette a képet a Serva Sync kamera mappába.</string>
     <string name="photo_shoot_take_picture_failure">Nem sikerült képet készíteni, vagy le lett állítva.</string>
-    <!-- Label of the folder created by the Syncthing Camera feature. -->
-    <string name="default_syncthing_camera_folder_label">Syncthing kamera</string>
+    <!-- Label of the folder created by the Serva Sync Camera feature. -->
+    <string name="default_syncthing_camera_folder_label">Serva Sync kamera</string>
     <!-- MainActivity -->
     <!-- Main bottom navigation view -->
     <string name="activity_main_bottom_navigation_rescan_all">Minden újraolvasása</string>
@@ -142,10 +142,10 @@
     <string name="button_follow_run_conditions">FUTTATÁSI FELTÉTELEK BETARTÁSA</string>
     <string name="button_force_start">ERŐSZAKOS START \nFUTÁSI FELTÉTELEK KIKAPCSOLÁSA</string>
     <string name="button_force_stop">ERŐSZAKOS STOP \nFUTÁSI FELTÉTELEK KIKAPCSOLÁSA</string>
-    <string name="syncthing_starting">A Syncthing elindul.</string>
+    <string name="syncthing_starting">A Serva Sync elindul.</string>
     <string name="syncthing_running">A szinkronizálás fut.</string>
-    <string name="syncthing_not_running">A Syncthing nem fut.</string>
-    <string name="syncthing_has_crashed">A Syncthing összeomlott.</string>
+    <string name="syncthing_not_running">A Serva Sync nem fut.</string>
+    <string name="syncthing_has_crashed">A Serva Sync összeomlott.</string>
     <!-- DrawerFragment -->
     <!-- Same as download_title with a colon and space appended -->
     <string name="download_title_colon">"Letöltve: "</string>
@@ -199,7 +199,7 @@
     <!-- Summary shown if we only have readonly access to the folder path -->
     <string name="folder_path_readonly">Az Ön Android-verziója csak olvasási hozzáférést biztosít a Syncthingnek a kiválasztott mappához.</string>
     <!-- Summary shown if we only have readwrite access to the folder path -->
-    <string name="folder_path_readwrite">Az Ön Android-verziója biztosítja a Syncthing számára az olvasási és írási hozzáférést a kiválasztott mappához.</string>
+    <string name="folder_path_readwrite">Az Ön Android-verziója biztosítja a Serva Sync számára az olvasási és írási hozzáférést a kiválasztott mappához.</string>
     <!-- Toast shown if the user selected an invalid location for a new syncthing folder -->
     <string name="toast_invalid_folder_selected">A kiválasztott mappa nem használható. Kérjük, válasszon belső vagy külső tárhelyen található mappát.</string>
     <string name="folder_type_switch_to_receive_encrypted_not_allowed">A meglévő mappák átállítása \"Titkosított fogadásra\" nem lehetséges.</string>
@@ -250,7 +250,7 @@
     <!-- Toast shown when trying to create a device with an empty name -->
     <string name="device_name_required">Az eszköz neve nem lehet üres</string>
     <!-- Toast shown when trying to create a device with invalid addresses -->
-    <string name="device_addresses_invalid">Az eszközcímek nem megfelelően vannak formázva. Kérjük, próbálja meg újra. További információért nézze meg a Syncthing dokumentációt.</string>
+    <string name="device_addresses_invalid">Az eszközcímek nem megfelelően vannak formázva. Kérjük, próbálja meg újra. További információért nézze meg a Serva Sync dokumentációt.</string>
     <!-- Content description for device ID qr code icon -->
     <string name="scan_qr_code_description">QR kód olvasása</string>
     <!-- Dialog message if no compatible barcode scanner app is installed -->
@@ -286,18 +286,18 @@
     <string name="preference_app_theme_follow_light">Világos</string>
     <string name="preference_app_theme_follow_dark">Sötét</string>
     <string name="category_behaviour">Viselkedés</string>
-    <string name="category_syncthing_options">Syncthing opciók</string>
-    <string name="category_syncthing_options_summary">Ez a menü csak akkor érhető el, ha a Syncthing fut.</string>
+    <string name="category_syncthing_options">Serva Sync opciók</string>
+    <string name="category_syncthing_options_summary">Ez a menü csak akkor érhető el, ha a Serva Sync fut.</string>
     <string name="category_backup">Import és export</string>
     <string name="category_debug">Hibaelhárítás</string>
     <string name="category_experimental">Kísérleti</string>
     <!-- Preference screen - Run conditions -->
     <string name="run_conditions_title">Futás feltételei</string>
-    <string name="run_conditions_summary">A következő beállításokkal határozhatja meg, hogy mikor fusson a Syncthing.</string>
+    <string name="run_conditions_summary">A következő beállításokkal határozhatja meg, hogy mikor fusson a Serva Sync.</string>
     <string name="run_on_mobile_data_title">Futtatás mobil adatforgalommal</string>
     <string name="run_on_mobile_data_summary">Akkor is futtatható, ha a készülék mobil adathálózaton keresztül csatlakozik. Figyelmeztetés: Ez nagy mennyiségű adat szinkronizálása esetén sok adatot emészthet fel a mobilszolgáltató adatcsomagjából.</string>
     <string name="run_on_roaming_title">Futtatás barangolás közben</string>
-    <string name="run_on_roaming_summary">Engedélyezi a Syncthing számára a mobiladatok használatát barangolás közben. (!) Kérjük, küldjön visszajelzést a GitHubra, ha ez megfelelően működik.</string>
+    <string name="run_on_roaming_summary">Engedélyezi a Serva Sync számára a mobiladatok használatát barangolás közben. (!) Kérjük, küldjön visszajelzést a GitHubra, ha ez megfelelően működik.</string>
     <string name="run_on_wifi_title">Futtatás Wi-Fi-vel</string>
     <string name="run_on_wifi_summary">Akkor futtatható, ha a készülék Wi-Fi vagy Ethernet hálózathoz van csatlakoztatva.</string>
     <string name="run_on_metered_wifi_title">Futtatás számlázott Wi-Fi-vel</string>
@@ -316,11 +316,11 @@
     <string name="power_source_ac_power">Hálózati tápellátás.</string>
     <string name="power_source_battery_power">Akkumulátoros üzem.</string>
     <string name="respect_battery_saving_title">Az Android akkumulátor-optimalizáció beállításainak tiszteletben tartása</string>
-    <string name="respect_battery_saving_summary">A Syncthing letiltása, ha az akkumulátorkímélő funkció aktív.</string>
+    <string name="respect_battery_saving_summary">A Serva Sync letiltása, ha az akkumulátorkímélő funkció aktív.</string>
     <string name="respect_master_sync_title">Az Android \'Automatikus adatszinkronizálás\' beállításának tiszteletben tartása</string>
-    <string name="respect_master_sync_summary">A Syncthing letiltása, ha az \'Automatikus adatszinkronizálás\' opció ki van kapcsolva.</string>
+    <string name="respect_master_sync_summary">A Serva Sync letiltása, ha az \'Automatikus adatszinkronizálás\' opció ki van kapcsolva.</string>
     <string name="run_in_flight_mode_title">Futtatás hálózati kapcsolat nélkül</string>
-    <string name="run_in_flight_mode_summary">Ha engedélyezi ezt az opciót, a Syncthing akkor is futni fog, amikor a készülék offline állapotban van. Engedélyezze, ha a készülékének problémái vannak a kézi Wi-Fi-kapcsolatok érzékelésével repülési üzemmódban.</string>
+    <string name="run_in_flight_mode_summary">Ha engedélyezi ezt az opciót, a Serva Sync akkor is futni fog, amikor a készülék offline állapotban van. Engedélyezze, ha a készülékének problémái vannak a kézi Wi-Fi-kapcsolatok érzékelésével repülési üzemmódban.</string>
     <string name="run_on_time_schedule_title">Futtatás időbeosztás szerint</string>
     <string name="run_on_time_schedule_summary">Ha engedélyezi ezt az opciót, akkor próbálkozás történik a konfigurált időtartamú szinkronizálásra, ha a futtatási feltételek teljesülnek, és az utolsó szinkronizálás több mint 1 órával ezelőtt történt. Ez sok akkumulátorhasználatot takaríthat meg, de megköveteli, hogy a szinkronizáló partnerek online legyenek. Megjegyzés: hiányos ideiglenes fájlok maradhatnak hátra a következő ütemezett szinkronizálásig.</string>
     <string name="sync_duration_minutes_title">A szinkronizációs ciklus időtartama</string>
@@ -329,7 +329,7 @@
     <string name="behaviour_autostart_title">Autostart</string>
     <string name="behaviour_autostart_summary">Az alkalmazás automatikus elindítása az operációs rendszer indításakor.</string>
     <string name="expert_mode_title">Szakértői mód</string>
-    <string name="expert_mode_summary">Ha engedélyezi ezt az opciót, akkor megjelennek a speciális konfigurációs lehetőségek. Először érdemes átnézni a Syncthing dokumentációt, hogy megbizonyosodjon arról, hogyan kell ezeket helyesen használni. A helytelen beállítások az akkumulátor lemerülését, a rendszer erőforrásainak elfogyását vagy hiányos szinkronizálást okozhatnak.</string>
+    <string name="expert_mode_summary">Ha engedélyezi ezt az opciót, akkor megjelennek a speciális konfigurációs lehetőségek. Először érdemes átnézni a Serva Sync dokumentációt, hogy megbizonyosodjon arról, hogyan kell ezeket helyesen használni. A helytelen beállítások az akkumulátor lemerülését, a rendszer erőforrásainak elfogyását vagy hiányos szinkronizálást okozhatnak.</string>
     <string name="preference_language_title">Nyelv</string>
     <string name="preference_language_summary">Alkalmazás nyelvének megváltoztatása</string>
     <string name="pref_language_default">Alapértelmezett nyelv</string>
@@ -406,18 +406,18 @@
     <string name="environment_variables">Környezeti változók</string>
     <!-- Toast after entering invalid STTRACE params -->
     <string name="toast_invalid_environment_variables">Az érték nem egy érvényes környezeti változó string</string>
-    <!-- Title for the preference to reset Syncthing indexes -->
+    <!-- Title for the preference to reset Serva Sync indexes -->
     <string name="st_reset_database_title">Adatbázis törlése</string>
-    <!-- Syncthing was reset -->
-    <string name="st_reset_database_question">Ezt a műveletet csak a support csapat ajánlása esetén szabad végrehajtani \nBiztos vagy benne, hogy törölni szeretnéd a Syncthing adatbázisát?</string>
-    <!-- Syncthing was reset -->
-    <string name="st_reset_database_done">A Syncthing adatbázisának törlése megtörtént</string>
-    <!-- Title for the preference to reset Syncthing indexes -->
+    <!-- Serva Sync was reset -->
+    <string name="st_reset_database_question">Ezt a műveletet csak a support csapat ajánlása esetén szabad végrehajtani \nBiztos vagy benne, hogy törölni szeretnéd a Serva Sync adatbázisát?</string>
+    <!-- Serva Sync was reset -->
+    <string name="st_reset_database_done">A Serva Sync adatbázisának törlése megtörtént</string>
+    <!-- Title for the preference to reset Serva Sync indexes -->
     <string name="st_reset_deltas_title">Különbségi indexek visszaállítása</string>
-    <!-- Syncthing was reset -->
-    <string name="st_reset_deltas_question">Ezt a műveletet csak a support csapat ajánlása esetén szabad végrehajtani \nBiztos vagy benne, hogy törölni szeretnéd a Syncthing különbségi indexeit?</string>
-    <!-- Syncthing was reset -->
-    <string name="st_reset_deltas_done">A Syncthing különbségi indexei sikeresen visszaállítva</string>
+    <!-- Serva Sync was reset -->
+    <string name="st_reset_deltas_question">Ezt a műveletet csak a support csapat ajánlása esetén szabad végrehajtani \nBiztos vagy benne, hogy törölni szeretnéd a Serva Sync különbségi indexeit?</string>
+    <!-- Serva Sync was reset -->
+    <string name="st_reset_deltas_done">A Serva Sync különbségi indexei sikeresen visszaállítva</string>
     <string name="category_about">Névjegy</string>
     <string name="verbose_log_title">Bővebb napló</string>
     <string name="verbose_log_summary">Az opció engedélyezése segít a hibakeresési naplók nagyon részletes szintű létrehozásában.</string>
@@ -426,22 +426,22 @@
     <!-- Settings item that opens the log activity -->
     <string name="open_log">Napló megnyitása</string>
     <!-- Summary for the log activity -->
-    <string name="open_log_summary">A Syncthing és az Android naplók megnyitása</string>
+    <string name="open_log_summary">A Serva Sync és az Android naplók megnyitása</string>
     <!-- Settings item that opens issue tracker -->
     <string name="report_issue_title">Hibabejelentés</string>
     <!-- Summary for the issue tracker settings item -->
-    <string name="open_issue_tracker_summary">Nyissa meg a Syncthing-Fork hibakövetőt a következő címen %1$s</string>
+    <string name="open_issue_tracker_summary">Nyissa meg a Serva Sync hibakövetőt a következő címen %1$s</string>
     <!-- Menu item to donate -->
     <!-- Title of the preference showing upstream version name -->
-    <string name="syncthing_version_title">Syncthing verzió</string>
+    <string name="syncthing_version_title">Serva Sync verzió</string>
     <!-- Title of the preference showing this app's version name -->
-    <string name="app_version_title">Syncthing-Fork Wrapper Version</string>
+    <string name="app_version_title">Serva Sync Wrapper Version</string>
     <!-- Title of the preference showing the REST API key -->
-    <string name="syncthing_api_key">Syncthing API kulcs (kattintson a másoláshoz)</string>
+    <string name="syncthing_api_key">Serva Sync API kulcs (kattintson a másoláshoz)</string>
     <!-- Shown when the API key is copied to the clipboard -->
-    <string name="api_key_copied_to_clipboard">Syncthing API kulcs a vágólapra másolva</string>
+    <string name="api_key_copied_to_clipboard">Serva Sync API kulcs a vágólapra másolva</string>
     <!-- Title of the preference showing database size -->
-    <string name="syncthing_database_size">Syncthing adatbázis mérete</string>
+    <string name="syncthing_database_size">Serva Sync adatbázis mérete</string>
     <!-- Title of the preference showing the OS open file limit -->
     <string name="os_open_file_limit">Android nyitott fájlok korlátozása</string>
     <!-- FolderPickerAcitivity -->
@@ -461,12 +461,12 @@
     <!-- Menu item to go up to parent folder -->
     <string name="folder_go_up">Menj feljebb</string>
     <!-- LogActivity -->
-    <string name="syncthing_log_title">Syncthing napló</string>
+    <string name="syncthing_log_title">Serva Sync napló</string>
     <string name="android_log_title">Android napló</string>
     <!-- Title of the "log android" menu button -->
     <string name="view_android_log">Android napló megtekintése</string>
-    <!-- Title of the "log Syncthing" menu button -->
-    <string name="view_syncthing_log">Syncthing napló megtekintése</string>
+    <!-- Title of the "log Serva Sync" menu button -->
+    <string name="view_syncthing_log">Serva Sync napló megtekintése</string>
     <string name="retrieving_logs">Naplók betöltése…</string>
     <!-- Title of the "share log" menu button -->
     <string name="share_title">Megosztás</string>
@@ -474,7 +474,7 @@
     <!-- Toast if user didn't complete the welcome wizard yet -->
     <string name="complete_welcome_wizard_first">Először is indítsa el az alkalmazást az alkalmazásfiókból, és a fájlok megosztása előtt fejezze be az üdvözlő varázslót.</string>
     <!-- Title of the "share" activity -->
-    <string name="share_activity_title">Mentés a Syncthing-be</string>
+    <string name="share_activity_title">Mentés a Serva Sync-be</string>
     <!-- Title of the "save" button -->
     <string name="save_title">Mentés</string>
     <!-- Title of the "cancel" button -->
@@ -506,8 +506,8 @@
     <!-- Sub Folder title -->
     <string name="sub_folder">Almappa</string>
     <!-- RunConditionMonitor -->
-    <string name="reason_force_start">A Syncthing azért fut, mert a futtatási feltételektől függetlenül kényszerítette az indításra.</string>
-    <string name="reason_force_stop">A Syncthing nem fut, mert a futási feltételektől függetlenül leállásra kényszerítette.</string>
+    <string name="reason_force_start">A Serva Sync azért fut, mert a futtatási feltételektől függetlenül kényszerítette az indításra.</string>
+    <string name="reason_force_stop">A Serva Sync nem fut, mert a futási feltételektől függetlenül leállásra kényszerítette.</string>
     <!-- Explanations why syncthing is running or not running -->
     <string name="reason_not_within_time_frame">Bekapcsolta a \"Futtatás időbeosztás szerint\" opciót, és az utolsó szinkronizálás legfeljebb egy órája történt.</string>
     <string name="reason_not_within_time_frame_2">Bekapcsolta a \'Futtatás időbeosztás szerint\' opciót, és az utolsó szinkronizálás ennyivel %s korábban volt.</string>
@@ -518,26 +518,26 @@
     </plurals>
     <string name="reason_not_charging">A telefon nem töltődik.</string>
     <string name="reason_not_on_battery_power">A telefon nem akkumulátorról működik.</string>
-    <string name="reason_not_while_power_saving">A Syncthing nem fut, mivel a telefon jelenleg energiatakarékos üzemmódban van.</string>
+    <string name="reason_not_while_power_saving">A Serva Sync nem fut, mivel a telefon jelenleg energiatakarékos üzemmódban van.</string>
     <string name="reason_not_while_auto_sync_data_disabled">A szinkronizálás nem fut, mivel az Androidban jelenleg az \'Automatikus adatszinkronizálás\' le van tiltva.</string>
     <!-- … Mobile data -->
-    <string name="reason_mobile_data_disallowed">A Syncthing nincs úgy konfigurálva, hogy mobil adatkapcsolaton fusson.</string>
+    <string name="reason_mobile_data_disallowed">A Serva Sync nincs úgy konfigurálva, hogy mobil adatkapcsolaton fusson.</string>
     <string name="reason_on_mobile_data">A szinkronizálás mobil adatkapcsolaton is futhat.</string>
     <string name="reason_not_on_mobile_data">A szinkronizálás mobil adatkapcsolaton is futhat, de a készüléknek nincs ilyen kapcsolata.</string>
     <!-- … Roaming -->
-    <string name="reason_on_roaming_nonroaming_mobile_data">A Syncthing roaming és nem roaming mobil adatkapcsolatokon is futtatható.</string>
-    <string name="reason_on_nonroaming_mobile_data">A Syncthing nem roaming mobil adatkapcsolatokon is futtatható. Az aktív kapcsolat nem barangolásos.</string>
+    <string name="reason_on_roaming_nonroaming_mobile_data">A Serva Sync roaming és nem roaming mobil adatkapcsolatokon is futtatható.</string>
+    <string name="reason_on_nonroaming_mobile_data">A Serva Sync nem roaming mobil adatkapcsolatokon is futtatható. Az aktív kapcsolat nem barangolásos.</string>
     <string name="reason_not_nonroaming_mobile_data">A szinkronizálás nem fut, mivel letiltotta, hogy roaming mobil adatkapcsolatokon fusson.</string>
     <string name="reason_wifi_disallowed">A szinkronizálás nem futhat WiFi-n vagy ethernet-en.</string>
     <string name="reason_on_wifi">A szinkronizálás futtatható WiFi-n, és a WiFi jelenleg csatlakoztatva van.</string>
     <string name="reason_not_on_wifi">A szinkronizálás futtatható WiFi-n, de a WiFi nincs csatlakoztatva, vagy a telefon repülési üzemmódban van.</string>
-    <string name="reason_on_metered_nonmetered_wifi">A Syncthing engedélyezve van díjköteles és nem díjköteles WiFi-kapcsolatokon is.</string>
-    <string name="reason_on_whitelisted_wifi">A Syncthing futhat az aktuális WiFi hálózaton.</string>
+    <string name="reason_on_metered_nonmetered_wifi">A Serva Sync engedélyezve van díjköteles és nem díjköteles WiFi-kapcsolatokon is.</string>
+    <string name="reason_on_whitelisted_wifi">A Serva Sync futhat az aktuális WiFi hálózaton.</string>
     <string name="reason_not_on_whitelisted_wifi">A szinkronizálás nem fut, mivel az aktuális WiFi hálózat neve nincs fehér listán.</string>
-    <string name="reason_on_nonmetered_wifi">A Syncthing futtatható nem fizetős WiFi-kapcsolatokon. Az aktív WiFi-kapcsolat nem díjköteles.</string>
+    <string name="reason_on_nonmetered_wifi">A Serva Sync futtatható nem fizetős WiFi-kapcsolatokon. Az aktív WiFi-kapcsolat nem díjköteles.</string>
     <string name="reason_not_nonmetered_wifi">A szinkronizálás nem fut, mivel letiltotta, hogy számlázott WiFi-kapcsolatokon fusson.</string>
-    <string name="reason_location_unavailable">A beállításokban engedélyezte a \"Futtatás a kiválasztott WiFi hálózatokon\" opciót. Az Android helymeghatározó szolgáltatásai jelenleg ki vannak kapcsolva. Az Android korlátozásai szerint a Syncthing nem tudja meghatározni az aktuális WiFi hálózat nevét annak eldöntéséhez, hogy fusson-e. Megoldás: Kapcsolja be a helymeghatározást, adja meg a helymeghatározási engedélyt, és csatlakoztassa újra a WiFi-t.</string>
-    <string name="reason_on_flight_mode">A Syncthing fut, mivel engedélyezte, hogy fusson, amikor a repülési üzemmód aktív.</string>
+    <string name="reason_location_unavailable">A beállításokban engedélyezte a \"Futtatás a kiválasztott WiFi hálózatokon\" opciót. Az Android helymeghatározó szolgáltatásai jelenleg ki vannak kapcsolva. Az Android korlátozásai szerint a Serva Sync nem tudja meghatározni az aktuális WiFi hálózat nevét annak eldöntéséhez, hogy fusson-e. Megoldás: Kapcsolja be a helymeghatározást, adja meg a helymeghatározási engedélyt, és csatlakoztassa újra a WiFi-t.</string>
+    <string name="reason_on_flight_mode">A Serva Sync fut, mivel engedélyezte, hogy fusson, amikor a repülési üzemmód aktív.</string>
     <string name="reason_run_condition_monitor_not_instantiated">A RunConditionMonitor nincs létrehozva. Kérjük, indítsa újra az alkalmazást, és küldjön hibajelentést, ha a hiba nem szűnik meg az újraindítás után.</string>
     <!-- Sync Conditions Dialog -->
     <string name="custom_wifi_ssid_whitelist_empty">Nincsenek fehérlistás WiFi SSID-k. Kérjük, adjon meg néhányat a beállításokban.</string>
@@ -545,7 +545,7 @@
     <!-- Text for the exit button on the drawer -->
     <string name="exit">Kilépés</string>
     <!-- Title of the notification shown while syncthing is running and enabled -->
-    <string name="syncthing_active">A Syncthing fut</string>
+    <string name="syncthing_active">A Serva Sync fut</string>
     <string name="syncthing_active_details">A szinkronizálás fut:%1$s</string>
     <string name="no_remote_devices_connected">Nincs távoli eszköz csatlakoztatva</string>
     <plurals name="device_online_up_to_date">
@@ -556,8 +556,8 @@
         <item quantity="one">Szinkronizálás: %1$d%%teljes, %2$d eszköz online</item>
         <item quantity="other">Szinkronizálás:%1$d%% teljes, %2$d eszköz online</item>
     </plurals>
-    <string name="syncthing_disabled">A Syncthing alvó állapotban van</string>
-    <string name="syncthing_terminated">A Syncthing leállt</string>
+    <string name="syncthing_disabled">A Serva Sync alvó állapotban van</string>
+    <string name="syncthing_terminated">A Serva Sync leállt</string>
     <!-- Toast shown if syncthing failed to create or read the config -->
     <string name="executable_not_found">Hiányzik a(z) \"%s\" futtatható állomány. Ellenőrizze a build és a logcat naplókat.</string>
     <string name="config_create_failed">Nem sikerült létrehozni a konfigurációs fájlt</string>
@@ -570,9 +570,9 @@
     <string name="default_android_camera_folder_label">Android kamera</string>
     <!-- ID of the default folder created on first start (camera folder). Must only contain 'a-z0-9_-'. Parameter is the device name-->
     <string name="default_folder_id">%1$s-kepek</string>
-    <string name="notification_crash_title">A Syncthing összeomlott %1$s</string>
+    <string name="notification_crash_title">A Serva Sync összeomlott %1$s</string>
     <string name="notification_crash_text">Kattintson a naplókhoz (%1$s)</string>
-    <string name="notifications_persistent_channel">Syncthing aktív</string>
+    <string name="notifications_persistent_channel">Serva Sync aktív</string>
     <string name="notification_persistent_waiting_channel">Futási feltételek monitorozása</string>
     <string name="notifications_other_channel">További értesítések</string>
     <!-- EventProcessor -->
@@ -583,7 +583,7 @@
     <!-- Text for positive button in restart dialog -->
     <!-- Text for the dismiss button of the restart Activity -->
     <!-- Text of the notification shown when a restart is needed -->
-    <string name="restart_notification_text">Koppints a Syncthing újraindításához</string>
+    <string name="restart_notification_text">Koppints a Serva Sync újraindításához</string>
     <!-- Shown when a device ID is copied to the clipboard -->
     <string name="device_id_copied_to_clipboard">Az eszközazonosító a vágólapra másolva</string>
     <!-- Strings representing units for file sizes, from smallest to largest -->

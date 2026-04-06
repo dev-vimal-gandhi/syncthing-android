@@ -7,15 +7,15 @@ on:
   workflow_call:
     inputs:
       applicationId:
-        description: 'Application ID'
+        description: "Application ID"
         required: true
         type: string
       buildType:
-        description: 'Gradle build type'
+        description: "Gradle build type"
         required: true
         type: string
       environmentName:
-        description: 'Environment name'
+        description: "Environment name"
         required: true
         type: string
 
@@ -73,7 +73,7 @@ jobs:
               --ks "${{ runner.temp }}/.android/signing-keystore.jks" \
               --ks-pass pass:'${{ secrets.SIGNING_PASSWORD }}' \
               --key-pass pass:'${{ secrets.SIGNING_PASSWORD }}' \
-              --ks-key-alias Syncthing-Fork \
+              --ks-key-alias Serva Sync \
               --out "${SIGNED_APK}" "${UNSIGNED_APK}"
           done
           rm -f "${{ runner.temp }}/.android/signing-keystore.jks"

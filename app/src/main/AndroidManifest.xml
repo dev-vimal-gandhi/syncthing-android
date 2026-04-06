@@ -26,7 +26,7 @@
     <!-- FOREGROUND_SERVICE is required since Android 9 SDK 28 -->
     <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
     <uses-permission android:name="android.permission.FOREGROUND_SERVICE_SPECIAL_USE" />
-    <!-- CAMERA is required for the "Syncthing Camera" feature and QR scanning -->
+    <!-- CAMERA is required for the "Serva Sync Camera" feature and QR scanning -->
     <uses-permission android:name="android.permission.CAMERA" />
     <!-- MANAGE_EXTERNAL_STORAGE is required on Android 11 "R" -->
     <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" />
@@ -52,11 +52,11 @@
         android:icon="@mipmap/ic_launcher"
         android:banner="@drawable/banner"
         android:label="@string/app_name"
-        android:theme="@style/Theme.Syncthing"
+        android:theme="@style/Theme.ServaSync"
         android:description="@string/app_description"
         android:supportsRtl="true"
         android:installLocation="internalOnly"
-        android:name=".SyncthingApp"
+        android:name="com.servalabs.sync.SyncthingApp"
         android:hardwareAccelerated="true"
         android:requestLegacyExternalStorage="true"
         android:preserveLegacyExternalStorage="true"
@@ -64,7 +64,7 @@
         android:networkSecurityConfig="@xml/network_security_config"
         android:localeConfig="@xml/locales_config">
         <activity
-                android:name=".activities.FirstStartActivity"
+                android:name="com.servalabs.sync.activities.FirstStartActivity"
                 android:exported="true"
                 android:launchMode="singleInstance">
             <intent-filter>
@@ -78,14 +78,14 @@
             </intent-filter>
         </activity>
         <activity
-                android:name=".activities.PhotoShootActivity"
+                android:name="com.servalabs.sync.activities.PhotoShootActivity"
                 android:icon="@mipmap/ic_launcher_photoshoot"
                 android:label="@string/photo_shoot_launcher_title"
                 android:exported="true"
                 android:launchMode="singleInstance">
         </activity>
         <activity
-            android:name=".activities.MainActivity"
+            android:name="com.servalabs.sync.activities.MainActivity"
             android:exported="false"
             android:launchMode="singleTask">
             <intent-filter>
@@ -96,30 +96,30 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".activities.RecentChangesActivity"
+            android:name="com.servalabs.sync.activities.RecentChangesActivity"
             android:label="@string/recent_changes_title"
-            android:parentActivityName=".activities.MainActivity"
+            android:parentActivityName="com.servalabs.sync.activities.MainActivity"
             android:configChanges="keyboardHidden|orientation|screenSize">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".activities.MainActivity" />
+                android:value="com.servalabs.sync.activities.MainActivity" />
         </activity>
         <activity
-            android:name=".activities.WebGuiActivity"
+            android:name="com.servalabs.sync.activities.WebGuiActivity"
             android:label="@string/web_gui_title"
-            android:parentActivityName=".activities.MainActivity"
+            android:parentActivityName="com.servalabs.sync.activities.MainActivity"
             android:configChanges="keyboardHidden|orientation|screenSize">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".activities.MainActivity" />
+                android:value="com.servalabs.sync.activities.MainActivity" />
         </activity>
         <activity
-            android:name=".activities.WebViewActivity"
+            android:name="com.servalabs.sync.activities.WebViewActivity"
             android:label="@string/report_issue_title"
             android:configChanges="keyboardHidden|orientation|screenSize">
         </activity>
         <activity
-            android:name=".activities.ShareActivity"
+            android:name="com.servalabs.sync.activities.ShareActivity"
             android:label="@string/share_activity_title"
             android:exported="true"
             android:excludeFromRecents="true"
@@ -137,64 +137,64 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".activities.LogActivity"
+            android:name="com.servalabs.sync.activities.LogActivity"
             android:exported="true"
-            android:parentActivityName=".settings.SettingsActivity">
+            android:parentActivityName="com.servalabs.sync.settings.SettingsActivity">
             <intent-filter>
-                <action android:name=".activities.LogActivity" />
+                <action android:name="com.servalabs.sync.activities.LogActivity" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".settings.SettingsActivity" />
+                android:value="com.servalabs.sync.settings.SettingsActivity" />
         </activity>
         <activity
-            android:name=".activities.FolderPickerActivity"
+            android:name="com.servalabs.sync.activities.FolderPickerActivity"
             android:label="@string/folder_picker_title">
             <meta-data
                 android:name="android.support.UI_OPTIONS"
                 android:value="splitActionBarWhenNarrow" />
         </activity>
         <activity
-            android:name=".activities.SyncConditionsActivity"
+            android:name="com.servalabs.sync.activities.SyncConditionsActivity"
             android:label="@string/custom_sync_conditions_dialog">
             <meta-data
                 android:name="android.support.UI_OPTIONS"
                 android:value="splitActionBarWhenNarrow" />
         </activity>
-        <activity android:name=".activities.DeviceActivity"
-            android:parentActivityName=".activities.MainActivity">
+        <activity android:name="com.servalabs.sync.activities.DeviceActivity"
+            android:parentActivityName="com.servalabs.sync.activities.MainActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".activities.MainActivity" />
+                android:value="com.servalabs.sync.activities.MainActivity" />
         </activity>
-        <activity android:name=".activities.FolderActivity"
-            android:parentActivityName=".activities.MainActivity"
+        <activity android:name="com.servalabs.sync.activities.FolderActivity"
+            android:parentActivityName="com.servalabs.sync.activities.MainActivity"
             android:windowSoftInputMode="stateHidden">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".activities.MainActivity" />
+                android:value="com.servalabs.sync.activities.MainActivity" />
         </activity>
-        <activity android:name=".settings.SettingsActivity"
+        <activity android:name="com.servalabs.sync.settings.SettingsActivity"
             android:label="@string/settings_title"
             android:configChanges="orientation|screenSize"
-            android:parentActivityName=".activities.MainActivity">
+            android:parentActivityName="com.servalabs.sync.activities.MainActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".activities.MainActivity" />
+                android:value="com.servalabs.sync.activities.MainActivity" />
         </activity>
         <service
-            android:name=".service.SyncthingService"
+            android:name="com.servalabs.sync.service.SyncthingService"
             android:foregroundServiceType="specialUse">
-                <property android:name="android.app.PROPERTY_SPECIAL_USE_FGS_SUBTYPE" android:value="Syncthing is a continuous file sync app. If the user explicitly enables it running permanently in the background, it needs to monitor file changes at every time and receive or send changes made on the device or connected devices."/>
+                <property android:name="android.app.PROPERTY_SPECIAL_USE_FGS_SUBTYPE" android:value="Serva Sync is a continuous file sync app. If the user explicitly enables it running permanently in the background, it needs to monitor file changes at every time and receive or send changes made on the device or connected devices."/>
         </service>
         <service
-            android:name=".service.SyncTriggerJobService"
+            android:name="com.servalabs.sync.service.SyncTriggerJobService"
             android:label="SyncTriggerJobService"
             android:permission="android.permission.BIND_JOB_SERVICE" >
        </service>
         <receiver
-            android:name=".receiver.BootReceiver"
+            android:name="com.servalabs.sync.receiver.BootReceiver"
             android:exported="false">
             <intent-filter>
                 <action android:name="android.intent.action.BOOT_COMPLETED" />
@@ -202,7 +202,7 @@
             </intent-filter>
         </receiver>
         <receiver
-            android:name=".receiver.AppConfigReceiver"
+            android:name="com.servalabs.sync.receiver.AppConfigReceiver"
             android:exported="true"
             tools:ignore="ExportedReceiver">
             <intent-filter>
@@ -211,36 +211,36 @@
                 <action android:name="${applicationId}.action.STOP" />
             </intent-filter>
         </receiver>
-        <activity android:name=".activities.FolderTypeDialogActivity"
+        <activity android:name="com.servalabs.sync.activities.FolderTypeDialogActivity"
             android:label="@string/folder_type"
-            android:theme="@style/Theme.Syncthing.Dialog"
-            android:parentActivityName=".activities.FolderActivity">
+            android:theme="@style/Theme.ServaSync.Dialog"
+            android:parentActivityName="com.servalabs.sync.activities.FolderActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.nutomic.syncthingandroid.activities.FolderActivity" />
+                android:value="com.servalabs.sync.activities.FolderActivity" />
         </activity>
-        <activity android:name=".activities.PullOrderDialogActivity"
+        <activity android:name="com.servalabs.sync.activities.PullOrderDialogActivity"
             android:label="@string/pull_order"
-            android:theme="@style/Theme.Syncthing.Dialog"
-            android:parentActivityName=".activities.FolderActivity">
+            android:theme="@style/Theme.ServaSync.Dialog"
+            android:parentActivityName="com.servalabs.sync.activities.FolderActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.nutomic.syncthingandroid.activities.FolderActivity" />
+                android:value="com.servalabs.sync.activities.FolderActivity" />
         </activity>
-        <activity android:name=".activities.VersioningDialogActivity"
+        <activity android:name="com.servalabs.sync.activities.VersioningDialogActivity"
             android:label="@string/file_versioning"
-            android:theme="@style/Theme.Syncthing.Dialog"
-            android:parentActivityName=".activities.FolderActivity">
+            android:theme="@style/Theme.ServaSync.Dialog"
+            android:parentActivityName="com.servalabs.sync.activities.FolderActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.nutomic.syncthingandroid.activities.FolderActivity" />
+                android:value="com.servalabs.sync.activities.FolderActivity" />
         </activity>
-        <activity android:name=".activities.QRScannerActivity"
+        <activity android:name="com.servalabs.sync.activities.QRScannerActivity"
             android:label="QR Code Scanner"
-            android:parentActivityName=".activities.DeviceActivity">
+            android:parentActivityName="com.servalabs.sync.activities.DeviceActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.nutomic.syncthingandroid.activities.DeviceActivity" />
+                android:value="com.servalabs.sync.activities.DeviceActivity" />
         </activity>
         <property
             android:name="android.content.MEDIA_CAPABILITIES"
@@ -256,7 +256,7 @@
              </meta-data>
          </provider>
         <service
-            android:name=".service.QuickSettingsTileForce"
+            android:name="com.servalabs.sync.service.QuickSettingsTileForce"
             android:label="@string/qs_force_label"
             android:icon="@drawable/ic_qs_force"
             android:exported="true"
@@ -267,7 +267,7 @@
             </intent-filter>
         </service>
         <service
-            android:name=".service.QuickSettingsTileSchedule"
+            android:name="com.servalabs.sync.service.QuickSettingsTileSchedule"
             android:label="@string/qs_schedule_label"
             android:icon="@drawable/ic_qs_schedule"
             android:exported="true"
@@ -278,7 +278,7 @@
             </intent-filter>
         </service>
         <service
-            android:name=".service.QuickSettingsTileCamera"
+            android:name="com.servalabs.sync.service.QuickSettingsTileCamera"
             android:label="@string/photo_shoot_activity_title"
             android:icon="@drawable/ic_qs_camera"
             android:exported="true"

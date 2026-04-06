@@ -124,7 +124,7 @@
 
             <TextView
                 android:id="@+id/sub_directory_Textview"
-                style="@style/Widget.Syncthing.TextView.Label.Details"
+                style="@style/Widget.ServaSync.TextView.Label.Details"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="8dp"

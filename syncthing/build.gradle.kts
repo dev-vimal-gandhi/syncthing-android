@@ -70,7 +70,7 @@ abstract class BuildNativeTask @Inject constructor(
 
 tasks.register<BuildNativeTask>("buildNative") {
     group = "build"
-    description = "Builds native Syncthing binaries"
+    description = "Builds native Serva Sync binaries"
 
     inputDir.set(layout.projectDirectory.dir("src"))
     workingDir.set(layout.projectDirectory)

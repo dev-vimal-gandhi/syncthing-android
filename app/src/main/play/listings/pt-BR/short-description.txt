@@ -1,1 +1,1 @@
-Pacote para o Syncthing - Sincronização aberta e descentralizada de arquivos
+Pacote para o Serva Sync - Sincronização aberta e descentralizada de arquivos
