@@ -1,1 +1,1 @@
-Wrapper cho Syncthing - Đồng bộ hoá tệp phi tập trung và mở
+Wrapper cho Serva Sync - Đồng bộ hoá tệp phi tập trung và mở

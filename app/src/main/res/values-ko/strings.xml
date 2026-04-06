@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <string name="app_name">Syncthing-Fork</string>
+    <string name="app_name">Serva Sync</string>
     <string name="app_description">개방적이고 신뢰할 수 있는 분산형 파일 동기화 응용프로그램.</string>
     <!-- FirstStartActivity -->
     <!-- Title for dialog displayed on first start -->
@@ -127,7 +127,7 @@
     <string name="settings_title">설정</string>
     <string name="category_run_conditions">작동 상태</string>
     <string name="category_behaviour">동작</string>
-    <string name="category_syncthing_options">Syncthing 옵션</string>
+    <string name="category_syncthing_options">Serva Sync 옵션</string>
     <string name="category_experimental">실험적인 기능</string>
     <!-- Preference screen - Run conditions -->
     <string name="run_conditions_title">작동 상태</string>
@@ -166,20 +166,20 @@
     <string name="environment_variables">환경 변수</string>
     <!-- Toast after entering invalid STTRACE params -->
     <string name="toast_invalid_environment_variables">값이 유효한 환경 변수 문자열이 아닙니다</string>
-    <!-- Title for the preference to reset Syncthing indexes -->
+    <!-- Title for the preference to reset Serva Sync indexes -->
     <string name="st_reset_database_title">데이터베이스 초기화</string>
-    <!-- Syncthing was reset -->
+    <!-- Serva Sync was reset -->
     <string name="st_reset_database_done">Syncthing의 데이터베이스가 성공적으로 리셋되었습니다</string>
     <string name="category_about">정보</string>
     <!-- Settings item that opens the log activity -->
     <string name="open_log">로그 열기</string>
     <!-- Summary for the log activity -->
-    <string name="open_log_summary">Syncthing 및 Android 로그 윈도우 열기</string>
+    <string name="open_log_summary">Serva Sync 및 Android 로그 윈도우 열기</string>
     <!-- Settings item that opens issue tracker -->
     <string name="report_issue_title">문제 보고</string>
     <!-- Menu item to donate -->
     <!-- Title of the preference showing upstream version name -->
-    <string name="syncthing_version_title">Syncthing 버전</string>
+    <string name="syncthing_version_title">Serva Sync 버전</string>
     <!-- FolderPickerAcitivity -->
     <!-- Activity title -->
     <string name="folder_picker_title">폴더 선택기</string>
@@ -191,12 +191,12 @@
     <string name="select_folder">폴더 선택</string>
     <string name="create_folder_failed">폴더를 생성할 수 없었습니다</string>
     <!-- LogActivity -->
-    <string name="syncthing_log_title">Syncthing 로그</string>
+    <string name="syncthing_log_title">Serva Sync 로그</string>
     <string name="android_log_title">Android 로그</string>
     <!-- Title of the "log android" menu button -->
     <string name="view_android_log">Android 로그 보기</string>
-    <!-- Title of the "log Syncthing" menu button -->
-    <string name="view_syncthing_log">Syncthing 로그 보기</string>
+    <!-- Title of the "log Serva Sync" menu button -->
+    <string name="view_syncthing_log">Serva Sync 로그 보기</string>
     <string name="retrieving_logs">로그를 받아오는중…</string>
     <!-- Title of the "share log" menu button -->
     <string name="share_title">공유</string>
@@ -307,16 +307,16 @@
     <string name="photo_shoot_launcher_title">카메라 동기화</string>
     <string name="toast_notification_permission_required">Syncthing이 활성화되고 연결된 상태를 유지하려면 알림 권한이 필요합니다.</string>
     <string name="refresh">새로고침</string>
-    <string name="photo_shoot_activity_title">Syncthing-Fork 카메라</string>
-    <string name="photo_shoot_intro_welcome_title">Syncthing 카메라에 오신것을 환영합니다</string>
+    <string name="photo_shoot_activity_title">Serva Sync 카메라</string>
+    <string name="photo_shoot_intro_welcome_title">Serva Sync 카메라에 오신것을 환영합니다</string>
     <string name="photo_shoot_intro_permission_title">요구되는 권한</string>
     <string name="photo_shoot_intro_no_camera">죄송합니다, 이 기기에는 카메라가 없습니다.</string>
     <string name="photo_shoot_intro_missing_permissions">계속하려면 저장소 및 카메라 권한이 필요합니다.</string>
     <string name="grant_storage_permission">저장소 권한 부여</string>
     <string name="grant_camera_permission">카메라 권한 부여</string>
-    <string name="photo_shoot_take_picture_success">사진이 Syncthing 카메라 폴더에 성공적으로 저장되었습니다.</string>
+    <string name="photo_shoot_take_picture_success">사진이 Serva Sync 카메라 폴더에 성공적으로 저장되었습니다.</string>
     <string name="photo_shoot_take_picture_failure">사진 촬영에 실패했거나 사용자가 사진 촬영을 취소했습니다.</string>
-    <string name="default_syncthing_camera_folder_label">Syncthing 카메라</string>
+    <string name="default_syncthing_camera_folder_label">Serva Sync 카메라</string>
     <string name="close_main_menu">메인 메뉴 닫기</string>
     <string name="exception_known_bug_notice">아직 해결되지 않은 알려진 버그가 발생했습니다. 자세한 내용은 %1$s/%2$s를 참조해주세요. 이전에 발생한 상황에 대해 정확한 설명을 남겨주세요.</string>
     <string name="dialog_exit_while_running_as_service_title">응용 프로그램을 종료하려면 확인하세요</string>
@@ -347,7 +347,7 @@
     <string name="ignore_doze_permission_desc">Android에서는 일정 시간이 지나면 동기화가 중지될 수 있습니다. 이를 방지하려면 배터리 최적화 옵션을 끄시기 바랍니다. 일부 기기에는 사전 설치된 추가적인 작업 종료 응용 프로그램이 있습니다. Syncthing을 정상적으로 작동하게 하기 위해서는 해당 응용프로그램의 화이트리스트에 Syncthing을 추가해야 합니다.</string>
     <string name="location_permission_desc">Syncthing은 선택한 Wi-Fi 네트워크에서 작동하도록 구성할 수 있습니다. Android에서는 활성화된 Wi-Fi 네트워크 이름을 읽기 위해 응용 프로그램에 위치 권한이 필요합니다. 이 기능을 사용하려면 위의 버튼을 누르십시오. 이 단계를 건너뛸 수 있습니다. 자세한 내용은 개인정보 처리방침을 참고하세요.</string>
     <string name="dialog_confirm_skip_ignore_doze_permission">주의: SyncthingNative가 중단되어 오동작이 발생하면 하면 책임은 사용자에게 있습니다. 기기가 권한 부여를 지원하지 않는 경우에만 건너뛰십시오. 정말 건너뛰겠습니까?</string>
-    <string name="photo_shoot_intro_permission_desc">Syncthing 카메라가 사진을 촬영하고 이를 기기에 저장하려면 사용자의 동의가 필요합니다. 이 기능은 선택 사항입니다. 사용하려면 권한을 부여하고 \'계속\'을 누르십시오. 나중에 다른 Syncthing 기기와 공유할 수 있는 Syncthing 카메라 폴더를 설정해드립니다.</string>
+    <string name="photo_shoot_intro_permission_desc">Serva Sync 카메라가 사진을 촬영하고 이를 기기에 저장하려면 사용자의 동의가 필요합니다. 이 기능은 선택 사항입니다. 사용하려면 권한을 부여하고 \'계속\'을 누르십시오. 나중에 다른 Serva Sync 기기와 공유할 수 있는 Serva Sync 카메라 폴더를 설정해드립니다.</string>
     <string name="revert_local_changes_question">이 작업은 이 기기의 해당 폴더 내에서 이루어진 모든 변경 사항을 취소합니다. 진행하시겠습니까?</string>
     <string name="open_file_manager">파일 관리자 실행</string>
     <string name="open_file_with">다음 프로그램으로 파일 열기</string>
@@ -386,7 +386,7 @@
     <string name="untrusted_device">신뢰할 수 없는 기기</string>
     <string name="device_id_invalid">기기 ID 형식이 올바르지 않습니다. 올바른 ID를 재입력하세요.</string>
     <string name="device_name_required">기기 이름은 비워둘 수 없습니다</string>
-    <string name="device_addresses_invalid">기기 주소 형식이 올바르지 않습니다. 다시 시도해 주세요. 자세한 내용은 Syncthing 문서를 참조하세요.</string>
+    <string name="device_addresses_invalid">기기 주소 형식이 올바르지 않습니다. 다시 시도해 주세요. 자세한 내용은 Serva Sync 문서를 참조하세요.</string>
     <string name="web_page_loading">웹페이지 로딩중: \n%1$s …</string>
     <string name="open_in_browser">브라우저에서 열기</string>
     <string name="category_user_interface">사용자 인터페이스</string>
@@ -403,7 +403,7 @@
     <string name="run_on_wifi_title">와이파이에서 실행</string>
     <string name="run_on_wifi_summary">기기가 Wi-Fi 또는 이더넷 네트워크에 연결되었을 때 실행합니다.</string>
     <string name="run_on_metered_wifi_title">미터 와이파이에서 실행</string>
-    <string name="local_discovery_disabled">\'설정\' &gt; \'Syncthing 옵션\' &gt; \'로컬 검색\'에서 로컬 검색을 비활성화했습니다. 로컬 네트워크에서 기기를 검색하려면 이를 활성화하십시오.</string>
+    <string name="local_discovery_disabled">\'설정\' &gt; \'Serva Sync 옵션\' &gt; \'로컬 검색\'에서 로컬 검색을 비활성화했습니다. 로컬 네트워크에서 기기를 검색하려면 이를 활성화하십시오.</string>
     <string name="untrusted_device_explanation">이 기기와 공유된 모든 폴더는 비밀번호로 보호되어야 하며, 제공된 비밀번호 없이는 모든 전송된 데이터를 읽을 수 없습니다.</string>
     <string name="folder_fileWatcherDescription">운영 체제에 파일 변경 사항을 알리도록 요청합니다. 이 기능이 비활성화되면 매시간 주기적인 스캔을 수행합니다.</string>
     <string name="folder_ignore_delete_caption">삭제 요청 무시</string>
@@ -461,7 +461,7 @@
     <string name="sync_only_wifi_ssids_location_permission_rejected_dialog_title">권한 필요</string>
     <string name="sync_only_wifi_ssids_location_permission_rejected_dialog_content">Android 8.1부터는 Wi-Fi 이름을 읽으려면 위치 접근 권한이 필요합니다. 이 권한을 부여해야만 이 기능을 사용할 수 있습니다.</string>
     <string name="power_source_title">기기가 다음으로 구동될 때 실행</string>
-    <string name="respect_battery_saving_summary">배터리 절약 모드가 활성화된 경우 Syncthing 비활성화.</string>
+    <string name="respect_battery_saving_summary">배터리 절약 모드가 활성화된 경우 Serva Sync 비활성화.</string>
     <string name="respect_master_sync_title">Android \'데이터 자동 동기화\' 설정 따르기</string>
     <string name="st_reset_database_question">이 작업은 당사 지원 팀의 권장에 따라 수행해야 합니다. \nSyncthing의 데이터베이스를 정말로 초기화하시겠습니까?</string>
     <string name="dialog_exit_while_running_as_service_message">참고하세요: 사용자가 이 응용 프로그램을 부팅 시 자동으로 시작하도록 설정했습니다. 따라서 이 응용 프로그램은 실행 조건을 모니터링하고 조건이 맞으면 언제든지 백그라운드에서 동기화를 수행합니다. 심각한 문제가 발생한 경우에만 수동으로 종료해야 합니다. 그렇지 않으면 설정에서 \'부팅 시 자동 시작\'을 비활성화하세요. 기기를 재부팅하기 전까지 종료하시겠습니까?</string>
@@ -479,11 +479,11 @@
     <string name="sync_duration_minutes_summary">%1$s 분</string>
     <string name="behaviour_autostart_title">자동 시작</string>
     <string name="expert_mode_title">전문가 모드</string>
-    <string name="open_issue_tracker_summary">%1$s에서 Syncthing-Fork 이슈 트래커를 엽니다</string>
-    <string name="app_version_title">Syncthing-Fork 래퍼 버전</string>
-    <string name="syncthing_api_key">Syncthing API 키 (클릭하여 복사)</string>
-    <string name="api_key_copied_to_clipboard">Syncthing API 키가 클립보드에 복사되었습니다</string>
-    <string name="syncthing_database_size">Syncthing 데이터베이스 크기</string>
+    <string name="open_issue_tracker_summary">%1$s에서 Serva Sync 이슈 트래커를 엽니다</string>
+    <string name="app_version_title">Serva Sync 래퍼 버전</string>
+    <string name="syncthing_api_key">Serva Sync API 키 (클릭하여 복사)</string>
+    <string name="api_key_copied_to_clipboard">Serva Sync API 키가 클립보드에 복사되었습니다</string>
+    <string name="syncthing_database_size">Serva Sync 데이터베이스 크기</string>
     <string name="os_open_file_limit">Android 파일 열기 제한</string>
     <string name="folder_go_up">위로 이동</string>
     <string name="run_on_time_schedule_summary">이 옵션을 활성화하면 실행 조건이 충족되고 마지막 동기화가 1시간 이상 전일 경우 설정된 기간 동안 동기화를 시도합니다. 이는 많은 배터리를 절약할 수 있지만 동기화 파트너가 온라인 상태여야 합니다. 참고: 다음 예약된 동기화가 이루어질 때까지 불완전한 임시 파일이 남을 수 있습니다.</string>
@@ -492,7 +492,7 @@
     <string name="run_on_whitelisted_wifi_title">지정된 Wi-Fi 네트워크에서 실행</string>
     <string name="sync_duration_minutes_title">동기화 주기</string>
     <string name="behaviour_autostart_summary">운영 체제 시작 시 응용 프로그램을 자동으로 시작합니다.</string>
-    <string name="expert_mode_summary">이 옵션을 활성화하면 고급 설정 옵션이 표시됩니다. 올바르게 사용하는 방법을 알기 위해 먼저 Syncthing 문서를 확인하세요. 설정을 잘못하면 배터리 소모, 시스템 자원 고갈 또는 불완전한 동기화가 발생할 수 있습니다.</string>
+    <string name="expert_mode_summary">이 옵션을 활성화하면 고급 설정 옵션이 표시됩니다. 올바르게 사용하는 방법을 알기 위해 먼저 Serva Sync 문서를 확인하세요. 설정을 잘못하면 배터리 소모, 시스템 자원 고갈 또는 불완전한 동기화가 발생할 수 있습니다.</string>
     <string name="reason_not_within_time_frame_2">사용자가 \'시간 일정에 따라 실행\'을 활성화했으며 마지막 동기화는 %s 전에 이루어졌습니다.</string>
     <string name="verbose_log_title">상세 기록</string>
     <string name="reason_not_within_time_frame">사용자가 \'시간 일정에 따라 실행\'을 활성화했으며 마지막 동기화가 1시간 이내에 이루어졌습니다.</string>
@@ -572,7 +572,7 @@
     <string name="config_read_failed">설정을 읽는 데 실패했습니다. 동기화 폴더의 데이터를 백업한 후, Android 설정에서 이 응용프로그램의 데이터를 삭제하고 다시 실행하세요.</string>
     <string name="webui_tcp_port_unavailable">WebUI TCP 포트 %s가 이미 사용 중입니다. 두 번째 인스턴스인가요?</string>
     <string name="notification_crash_text">로그를 보려면 클릭하세요 (%1$s)</string>
-    <string name="notifications_persistent_channel">Syncthing 작동 중</string>
+    <string name="notifications_persistent_channel">Serva Sync 작동 중</string>
     <string name="state_failed_items">실패한 항목 (%1$d)</string>
     <string name="state_up_to_date">최신 상태</string>
     <string name="state_local_additions">로컬 추가항목</string>
@@ -612,14 +612,14 @@
     <string name="allow_overwrite_files_title">기존 파일에 대한 덮어쓰기 허용</string>
     <string name="start_into_web_gui_title">web GUI 로 시작하기</string>
     <string name="start_into_web_gui_summary">응용 프로그램을 시작할 때, 메인 화면 대신 web GUI 를 엽니다</string>
-    <string name="clear_stversions_summary">Syncthing 에서 파일이 교체되거나 삭제될 때, 파일을 .stversions 디렉토리로 이동합니다. 실수로 삭제된 파일을 이곳에서 찾아 복수할 수 있지만, 오래된 버전의 파일들이 기기의 저장공간을 차지하게 됩니다.</string>
+    <string name="clear_stversions_summary">Serva Sync 에서 파일이 교체되거나 삭제될 때, 파일을 .stversions 디렉토리로 이동합니다. 실수로 삭제된 파일을 이곳에서 찾아 복수할 수 있지만, 오래된 버전의 파일들이 기기의 저장공간을 차지하게 됩니다.</string>
     <string name="backup_password_summary">ℹ️ 권고사항:\n가져오기 및 내보내기 시 암호화와 복호화에 사용될 강력한 비밀번호를 입력하십시오. 복구를 위해 안전한 장소에 암호를 보관하세요. 이 암호는 가져오기 시 다시 사용됩니다.\n\n⚠️ 비 권고사항:\n비밀빈호를 사용하지 않을 시, 다른 어플리케이션이 Syncthing의 설정을 읽고 조작 할 수 있습니다. 설정 정보의 노출은 악의적인 공격자가 내보내기 된 설정 파일을 훔쳐 미승인된 연결과 함께 파일에 접근할 수 있습니다.</string>
     <string name="backup_password_set">✅ 비밀번호 설정: %1$s</string>
     <string name="backup_password_set_masked">✅ 비밀번호 설정됨 - 터치해서 수정하기</string>
     <string name="backup_password_not_set">⚠ 비밀번호 미설정.</string>
-    <string name="syncthing_forum_title">Syncthing 포럼</string>
+    <string name="syncthing_forum_title">Serva Sync 포럼</string>
     <string name="privacy_title">개인정보 보호정책</string>
-    <string name="privacy_summary">Syncthing-android 의 개인정보 보호정책 열기. 이곳에는 위치 정보 등 개인 데이터(있는 경우)에 대한 사용 여부 등에 대한 내용을 포함하고 있습니다.</string>
+    <string name="privacy_summary">Serva Sync-android 의 개인정보 보호정책 열기. 이곳에는 위치 정보 등 개인 데이터(있는 경우)에 대한 사용 여부 등에 대한 내용을 포함하고 있습니다.</string>
     <string name="open_source_licenses_title">오픈 소스 라이센스</string>
     <string name="open_source_licenses_summary">사용중인 오픈 소스 라이센스 보기</string>
     <string name="config_export_successful_no_path">설정 내보내기 완료. 이후 가져오기를 위해 비밀번호를 반드시 기억하십시오.</string>

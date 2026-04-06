@@ -1,9 +1,9 @@
-name: Update Syncthing submodule
+name: Update Serva Sync submodule
 
 on:
   schedule:
     # Run every Wednesday at 19:00 UTC
-    - cron: '0 19 * * 3'
+    - cron: "0 19 * * 3"
   workflow_dispatch:
 
 permissions:
@@ -12,7 +12,7 @@ permissions:
 
 jobs:
   update-syncthing-submodule:
-    name: Update Syncthing submodule
+    name: Update Serva Sync submodule
     runs-on: ubuntu-latest
     if: github.repository_owner == 'researchxxl'
     steps:
@@ -71,10 +71,10 @@ jobs:
         uses: peter-evans/create-pull-request@98357b18bf14b5342f975ff684046ec3b2a07725 # v8.0.0
         with:
           branch: "bump-syncthing-${{ steps.latest.outputs.tag }}"
-          commit-message: "Bump Syncthing submodule to ${{ steps.latest.outputs.tag }}"
-          title: "Bump Syncthing submodule to ${{ steps.latest.outputs.tag }}"
+          commit-message: "Bump Serva Sync submodule to ${{ steps.latest.outputs.tag }}"
+          title: "Bump Serva Sync submodule to ${{ steps.latest.outputs.tag }}"
           body: |
-            Bump Syncthing submodule to ${{ steps.latest.outputs.tag }}
+            Bump Serva Sync submodule to ${{ steps.latest.outputs.tag }}
           labels: dependencies
           author: github-actions[bot] <github-actions[bot]@users.noreply.github.com>
           base: main

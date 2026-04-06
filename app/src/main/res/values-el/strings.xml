@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <string name="app_name">Syncthing-Fork</string>
+    <string name="app_name">Serva Sync</string>
     <string name="app_description">Μια ανοιχτή, αξιόπιστη και αποκεντρωμένη εφαρμογή συγχρονισμού αρχείων.</string>
     <!-- FirstStartActivity -->
     <!-- Title for dialog displayed on first start -->
-    <string name="welcome_title">Καλώς ορίσατε στο Syncthing για Android</string>
+    <string name="welcome_title">Καλώς ορίσατε στο Serva Sync για Android</string>
     <!-- Slide "Ignore battery optimizations" -->
     <string name="ignore_doze_permission_title">Βελτιστοποίηση μπαταρίας</string>
     <string name="dialog_disable_battery_optimizations_not_supported">Η συσκευή σας δεν επιτρέπει την απενεργοποίηση των βελτιστοποιήσεων μπαταρίας</string>
@@ -61,7 +61,7 @@
     <!-- Title for announce server status -->
     <string name="announce_server">Διακομιστής ανακοίνωσης</string>
     <string name="restart">Επανεκκίνηση</string>
-    <string name="dialog_confirm_restart">Επιθυμείτε να επανεκκινήσετε το Syncthing;</string>
+    <string name="dialog_confirm_restart">Επιθυμείτε να επανεκκινήσετε το Serva Sync;</string>
     <!-- FolderActivity -->
     <!-- Setting title -->
     <string name="folder_id">ID φακέλου</string>
@@ -82,7 +82,7 @@
     <!-- Menu item to confirm folder creation -->
     <string name="create">Δημιουργία</string>
     <!-- Dialog shown when attempting to remove a folder -->
-    <string name="remove_folder_confirm">Σίγουρα επιθυμείτε να αφαιρέσετε αυτόν τον φάκελο από το Syncthing;</string>
+    <string name="remove_folder_confirm">Σίγουρα επιθυμείτε να αφαιρέσετε αυτόν τον φάκελο από το Serva Sync;</string>
     <!-- Toast shown when trying to create a folder with an empty ID -->
     <string name="folder_id_required">Το ID του φακέλου δεν μπορεί να είναι κενό</string>
     <!-- Toast shown when trying to create a folder with an empty path -->
@@ -128,7 +128,7 @@
     <string name="settings_title">Ρυθμίσεις</string>
     <string name="category_run_conditions">Συνθήκες εκτέλεσης</string>
     <string name="category_behaviour">Συμπεριφορά</string>
-    <string name="category_syncthing_options">Επιλογές Syncthing</string>
+    <string name="category_syncthing_options">Επιλογές Serva Sync</string>
     <string name="category_experimental">Πειραματικά</string>
     <!-- Preference screen - Run conditions -->
     <string name="run_conditions_title">Συνθήκες εκτέλεσης</string>
@@ -167,20 +167,20 @@
     <string name="environment_variables">Μεταβλητές περιβάλλοντος</string>
     <!-- Toast after entering invalid STTRACE params -->
     <string name="toast_invalid_environment_variables">Η τιμή δεν είναι έγκυρη συμβολοσειρά μεταβλητής περιβάλλοντος</string>
-    <!-- Title for the preference to reset Syncthing indexes -->
+    <!-- Title for the preference to reset Serva Sync indexes -->
     <string name="st_reset_database_title">Επαναφορά βάσης δεδομένων</string>
-    <!-- Syncthing was reset -->
-    <string name="st_reset_database_done">Η επαναφορά της βάσης δεδομένων του Syncthing ήταν επιτυχής</string>
-    <string name="category_about">Σχετικά με το Syncthing</string>
+    <!-- Serva Sync was reset -->
+    <string name="st_reset_database_done">Η επαναφορά της βάσης δεδομένων του Serva Sync ήταν επιτυχής</string>
+    <string name="category_about">Σχετικά με το Serva Sync</string>
     <!-- Settings item that opens the log activity -->
     <string name="open_log">Άνοιγμα καταγραφής συμβάντων</string>
     <!-- Summary for the log activity -->
-    <string name="open_log_summary">Άνοιγμα του παραθύρου καταγραφής συμβάντων του Syncthing και Android</string>
+    <string name="open_log_summary">Άνοιγμα του παραθύρου καταγραφής συμβάντων του Serva Sync και Android</string>
     <!-- Settings item that opens issue tracker -->
     <string name="report_issue_title">Αναφορά προβλήματος</string>
     <!-- Menu item to donate -->
     <!-- Title of the preference showing upstream version name -->
-    <string name="syncthing_version_title">Έκδοση Syncthing</string>
+    <string name="syncthing_version_title">Έκδοση Serva Sync</string>
     <!-- FolderPickerAcitivity -->
     <!-- Activity title -->
     <string name="folder_picker_title">Επιλογέας φακέλων</string>
@@ -192,17 +192,17 @@
     <string name="select_folder">Επιλογή φακέλου</string>
     <string name="create_folder_failed">Η δημιουργία φακέλου απέτυχε</string>
     <!-- LogActivity -->
-    <string name="syncthing_log_title">Καταγραφή συμβάντων Syncthing</string>
+    <string name="syncthing_log_title">Καταγραφή συμβάντων Serva Sync</string>
     <string name="android_log_title">Καταγραφή συμβάντων Android</string>
     <!-- Title of the "log android" menu button -->
     <string name="view_android_log">Εμφάνιση καταγραφής Android</string>
-    <!-- Title of the "log Syncthing" menu button -->
-    <string name="view_syncthing_log">Εμφάνιση καταγραφής Syncthing</string>
+    <!-- Title of the "log Serva Sync" menu button -->
+    <string name="view_syncthing_log">Εμφάνιση καταγραφής Serva Sync</string>
     <string name="retrieving_logs">Ανάκτηση καταγραφών…</string>
     <!-- Title of the "share log" menu button -->
     <string name="share_title">Κοινή χρήση</string>
     <!-- Title of the "share" activity -->
-    <string name="share_activity_title">Αποθήκευση στο Syncthing</string>
+    <string name="share_activity_title">Αποθήκευση στο Serva Sync</string>
     <!-- Title of the "save" button -->
     <string name="save_title">Αποθήκευση</string>
     <!-- Title of the "cancel" button -->
@@ -237,11 +237,11 @@
     <!-- Text for the exit button on the drawer -->
     <string name="exit">Έξοδος</string>
     <!-- Title of the notification shown while syncthing is running and enabled -->
-    <string name="syncthing_active">Το Syncthing εκτελείται</string>
+    <string name="syncthing_active">Το Serva Sync εκτελείται</string>
     <string name="config_create_failed">Αδυναμία δημιουργίας αρχείου ρυθμίσεων</string>
     <!-- ID of the default folder created on first start (camera folder). Must only contain 'a-z0-9_-'. Parameter is the device name-->
     <string name="default_folder_id">%1$s-photos</string>
-    <string name="notification_crash_title">Το Syncthing κατέρρευσε %1$s</string>
+    <string name="notification_crash_title">Το Serva Sync κατέρρευσε %1$s</string>
     <string name="notifications_other_channel">Άλλες ειδοποιήσεις</string>
     <!-- RestApi -->
     <!-- Title of the notification shown when a restart is needed -->
@@ -249,7 +249,7 @@
     <!-- Text for positive button in restart dialog -->
     <!-- Text for the dismiss button of the restart Activity -->
     <!-- Text of the notification shown when a restart is needed -->
-    <string name="restart_notification_text">Πατήστε εδώ για να επανεκκινήσετε τώρα το Syncthing</string>
+    <string name="restart_notification_text">Πατήστε εδώ για να επανεκκινήσετε τώρα το Serva Sync</string>
     <!-- Shown when a device ID is copied to the clipboard -->
     <string name="device_id_copied_to_clipboard">Το ID της συσκευής έχει αντιγραφεί στο πρόχειρο</string>
     <!-- Strings representing units for file sizes, from smallest to largest -->
@@ -281,9 +281,9 @@
     <string name="command">Εντολή</string>
     <!-- File versioning dialog descriptions for file versioning types and file versioning configuration options. -->
     <string name="keep_versions_description">Πλήθος εκδόσεων ανά αρχείο προς τήρηση.</string>
-    <string name="simple_file_versioning_description">Τα αρχεία αποθηκεύονται ως χρονοσημασμένες εκδόσεις στον κατάλογο .stversions όταν αντικαθίστανται ή διαγράφονται από το Syncthing.</string>
-    <string name="trashcan_versioning_description">Τα αρχεία μετακινούνται στον κατάλογο .stversions όταν αντικαθίστανται ή διαγράφονται από το Syncthing.</string>
-    <string name="staggered_versioning_description">Τα αρχεία αποθηκεύονται ως χρονοσημασμένες εκδόσεις στον κατάλογο .stversions όταν αντικαθίστανται ή διαγράφονται από το Syncthing. Οι εκδόσεις διαγράφονται αυτόματα αν ξεπεράσουν τη μέγιστη ηλικία ή το καθορισμένο πλήθος αρχείων ανά χρονικό διάστημα. \n \nΧρησιμοποιούνται τα εξής χρονικά διαστήματα: την πρώτη ώρα τηρείται μια έκδοση ανά 30 δευτερόλεπτα, την πρώτη μέρα μια ανά ώρα, τις πρώτες 30 ημέρες μια ανά ημέρα και μετά μια έκδοση ανά εβδομάδα μέχρι τη μέγιστη ηλικία.</string>
+    <string name="simple_file_versioning_description">Τα αρχεία αποθηκεύονται ως χρονοσημασμένες εκδόσεις στον κατάλογο .stversions όταν αντικαθίστανται ή διαγράφονται από το Serva Sync.</string>
+    <string name="trashcan_versioning_description">Τα αρχεία μετακινούνται στον κατάλογο .stversions όταν αντικαθίστανται ή διαγράφονται από το Serva Sync.</string>
+    <string name="staggered_versioning_description">Τα αρχεία αποθηκεύονται ως χρονοσημασμένες εκδόσεις στον κατάλογο .stversions όταν αντικαθίστανται ή διαγράφονται από το Serva Sync. Οι εκδόσεις διαγράφονται αυτόματα αν ξεπεράσουν τη μέγιστη ηλικία ή το καθορισμένο πλήθος αρχείων ανά χρονικό διάστημα. \n \nΧρησιμοποιούνται τα εξής χρονικά διαστήματα: την πρώτη ώρα τηρείται μια έκδοση ανά 30 δευτερόλεπτα, την πρώτη μέρα μια ανά ώρα, τις πρώτες 30 ημέρες μια ανά ημέρα και μετά μια έκδοση ανά εβδομάδα μέχρι τη μέγιστη ηλικία.</string>
     <string name="maximum_age_description">Το μέγιστο χρονικό διάστημα, σε ημέρες, για το οποίο θα διατηρείται μια έκδοση (με το 0 θα διατηρείται για πάντα).</string>
     <string name="versions_path_description">Διαδρομή στην οποία θα τηρούνται οι εκδόσεις (αφήστε το κενό για χρήση του προεπιλεγμένου καταλόγου .stversions στον κοινόχρηστο φάκελο).</string>
     <string name="cleanout_after_description">Αριθμός ημερών για τις οποίες θα διατηρούνται τα αρχεία στον κάδο ανακύκλωσης. Με το μηδέν θα διατηρούνται για πάντα.</string>

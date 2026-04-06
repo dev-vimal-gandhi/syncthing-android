@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <string name="app_name">Syncthing-Fork</string>
+    <string name="app_name">Serva Sync</string>
     <string name="app_description">En åpen, pålitelig og desentralisert filsynkroniseringsapplikasjon.</string>
     <!-- FirstStartActivity -->
     <!-- Title for dialog displayed on first start -->
-    <string name="welcome_title">Velkommen til Syncthing for Android</string>
+    <string name="welcome_title">Velkommen til Serva Sync for Android</string>
     <string name="generic_error">Feil</string>
     <!-- Title of the "add folder" menu action -->
     <string name="add_folder">Legg til Mappe</string>
@@ -51,7 +51,7 @@
     <!-- Title for announce server status -->
     <string name="announce_server">Søketjener</string>
     <string name="restart">Omstart</string>
-    <string name="dialog_confirm_restart">Vil du starte Syncthing på nytt?</string>
+    <string name="dialog_confirm_restart">Vil du starte Serva Sync på nytt?</string>
     <!-- FolderActivity -->
     <!-- Setting title -->
     <string name="folder_id">Mappe-ID</string>
@@ -72,7 +72,7 @@
     <!-- Menu item to confirm folder creation -->
     <string name="create">Opprett</string>
     <!-- Dialog shown when attempting to remove a folder -->
-    <string name="remove_folder_confirm">Vil du virkelig fjerne denne mappen fra Syncthing?</string>
+    <string name="remove_folder_confirm">Vil du virkelig fjerne denne mappen fra Serva Sync?</string>
     <!-- Toast shown when trying to create a folder with an empty ID -->
     <string name="folder_id_required">Mappe-ID kan ikke være tom</string>
     <!-- Toast shown when trying to create a folder with an empty path -->
@@ -114,7 +114,7 @@
     <string name="web_gui_loading">Venter på GUI</string>
     <!-- SettingsFragment -->
     <string name="settings_title">Innstillinger</string>
-    <string name="category_syncthing_options">Valg for Syncthing</string>
+    <string name="category_syncthing_options">Valg for Serva Sync</string>
     <string name="category_experimental">Eksperimentelt</string>
     <string name="sync_only_wifi_ssids_wifi_turn_on_wifi">Vennligst slå på wifi for å velge nettverk.</string>
     <string name="device_name">Enhetsnavn</string>
@@ -135,20 +135,20 @@
     <string name="import_config">Importer instillinger</string>
     <!-- Toast shown after config was imported -->
     <string name="config_imported_successful">Instillingene ble importert</string>
-    <!-- Title for the preference to reset Syncthing indexes -->
+    <!-- Title for the preference to reset Serva Sync indexes -->
     <string name="st_reset_database_title">Nullstill database</string>
-    <!-- Syncthing was reset -->
+    <!-- Serva Sync was reset -->
     <string name="st_reset_database_done">Nullstilling av Syncthings database var vellykket</string>
     <string name="category_about">Om</string>
     <!-- Settings item that opens the log activity -->
     <string name="open_log">Åpne logg</string>
     <!-- Summary for the log activity -->
-    <string name="open_log_summary">Åpne loggvinduet for Syncthing og Android</string>
+    <string name="open_log_summary">Åpne loggvinduet for Serva Sync og Android</string>
     <!-- Settings item that opens issue tracker -->
     <string name="report_issue_title">Rapporter Problem</string>
     <!-- Menu item to donate -->
     <!-- Title of the preference showing upstream version name -->
-    <string name="syncthing_version_title">Syncthing-versjon</string>
+    <string name="syncthing_version_title">Serva Sync-versjon</string>
     <!-- FolderPickerAcitivity -->
     <!-- Activity title -->
     <string name="folder_picker_title">Mappe-velger</string>
@@ -161,15 +161,15 @@
     <string name="create_folder_failed">Feil ved opprettelse av mappe</string>
     <!-- Title of the "log android" menu button -->
     <string name="view_android_log">Vis Android-logg</string>
-    <!-- Title of the "log Syncthing" menu button -->
-    <string name="view_syncthing_log">Vis Syncthing-logg</string>
+    <!-- Title of the "log Serva Sync" menu button -->
+    <string name="view_syncthing_log">Vis Serva Sync-logg</string>
     <!-- Title of the "share log" menu button -->
     <string name="share_title">Del</string>
     <!-- SyncthingService -->
     <!-- Text for the exit button on the drawer -->
     <string name="exit">Avslutt</string>
     <!-- Title of the notification shown while syncthing is running and enabled -->
-    <string name="syncthing_active">Syncthing kjører</string>
+    <string name="syncthing_active">Serva Sync kjører</string>
     <!-- ID of the default folder created on first start (camera folder). Must only contain 'a-z0-9_-'. Parameter is the device name-->
     <string name="default_folder_id">%1$s-foto</string>
     <!-- RestApi -->
@@ -178,7 +178,7 @@
     <!-- Text for positive button in restart dialog -->
     <!-- Text for the dismiss button of the restart Activity -->
     <!-- Text of the notification shown when a restart is needed -->
-    <string name="restart_notification_text">Trykk her for å omstarte Syncthing nå</string>
+    <string name="restart_notification_text">Trykk her for å omstarte Serva Sync nå</string>
     <!-- Shown when a device ID is copied to the clipboard -->
     <string name="device_id_copied_to_clipboard">Enhets-ID kopiert til utklippstavle</string>
     <!-- Strings representing units for file sizes, from smallest to largest -->
@@ -204,8 +204,8 @@
     <string name="notification_permission_title">Varslingstillatelse</string>
     <string name="generic_help">Hjelp</string>
     <string name="photo_shoot_intro_no_camera">Beklager, denne enheten har ikke kamera.</string>
-    <string name="photo_shoot_activity_title">Syncthing-Fork kamera</string>
-    <string name="photo_shoot_intro_welcome_title">Velkommen til Syncthing kamera</string>
+    <string name="photo_shoot_activity_title">Serva Sync kamera</string>
+    <string name="photo_shoot_intro_welcome_title">Velkommen til Serva Sync kamera</string>
     <string name="photo_shoot_intro_permission_title">Nødvendige tilganger</string>
     <string name="photo_shoot_intro_missing_permissions">Vi krever tilgang til lagring og kamera for å fortsette.</string>
     <string name="grant_storage_permission">Gi tilgang til lagring</string>
@@ -227,10 +227,10 @@
     <string name="device_disconnected_not_synced">Frakoblet (%1$s venter)</string>
     <string name="device_last_seen">Sist sett: %1$s</string>
     <string name="device_last_seen_never">Aldri</string>
-    <string name="syncthing_starting">Syncthing har startet.</string>
-    <string name="syncthing_running">Syncthing kjører.</string>
-    <string name="syncthing_not_running">Syncthing kjører ikke.</string>
-    <string name="syncthing_has_crashed">Syncthing har krasjet.</string>
+    <string name="syncthing_starting">Serva Sync har startet.</string>
+    <string name="syncthing_running">Serva Sync kjører.</string>
+    <string name="syncthing_not_running">Serva Sync kjører ikke.</string>
+    <string name="syncthing_has_crashed">Serva Sync har krasjet.</string>
     <string name="pause_device">Sett enhet på pause</string>
     <string name="category_run_conditions">Kjør betingelser</string>
     <string name="devices_list_empty">Ingen enheter er konfigurert. Trykk for å legge til en ny enhet.</string>
@@ -251,13 +251,13 @@
     <string name="status_fragment_title">Status</string>
     <string name="folder_fileWatcherDescription">Ber operativsystemet varsle om endringer i filer. Hvis deaktiveres, går det tilbake til periodiske, timesvis skanninger.</string>
     <string name="folder_pause">Sett mappe på pause</string>
-    <string name="folder_path_readonly">Din Android-versjon gir kun Syncthing lesetilgang til den valgte mappen.</string>
-    <string name="folder_path_readwrite">Din Android-versjon gir Syncthing lese- og skrivetilgang til den valgte mappen.</string>
+    <string name="folder_path_readonly">Din Android-versjon gir kun Serva Sync lesetilgang til den valgte mappen.</string>
+    <string name="folder_path_readwrite">Din Android-versjon gir Serva Sync lese- og skrivetilgang til den valgte mappen.</string>
     <string name="ignore_patterns">Ignorer mønstre</string>
     <string name="share_device_id_chooser">Del enhets ID med</string>
     <string name="introduction">Introduksjon</string>
     <string name="storage_permission_title">Lagringstillatelse</string>
-    <string name="storage_permission_desc">Syncthing må få tilgang til lagringsplassen din for å gjøre filsynkronisering.</string>
+    <string name="storage_permission_desc">Serva Sync må få tilgang til lagringsplassen din for å gjøre filsynkronisering.</string>
     <string name="dialog_all_files_access_not_supported">Din enhet støtter ikke tilgang til alle filer</string>
     <string name="ignore_doze_permission_title">Batterioptimaliseringer</string>
     <string name="back">Tilbake</string>
@@ -272,9 +272,9 @@
     <string name="dialog_discard_changes">Angre dine endringer?</string>
     <string name="category_behaviour">Oppførsel</string>
     <string name="browse">Bla gjennom</string>
-    <string name="photo_shoot_take_picture_success">Vellykket lagring av bilde i Syncthing kamera mappen.</string>
+    <string name="photo_shoot_take_picture_success">Vellykket lagring av bilde i Serva Sync kamera mappen.</string>
     <string name="photo_shoot_take_picture_failure">Kunne ikke ta et bilde, eller du har avbrutt.</string>
-    <string name="default_syncthing_camera_folder_label">Syncthing kamera</string>
+    <string name="default_syncthing_camera_folder_label">Serva Sync kamera</string>
     <string name="photo_shoot_launcher_title">Synk. kamera</string>
     <string name="page_x_of_y">Side %1$s av %2$s</string>
     <string name="override_changes_question">Dette vil angre alle endringer som er gjort på de andre enhetene som deler denne mappen. Fortsette?</string>
@@ -285,7 +285,7 @@
     <string name="preference_language_summary">Endre app språk</string>
     <string name="pref_language_default">Standard språk</string>
     <string name="use_proxy">Koble på via en proxy</string>
-    <string name="share_activity_title">Lagre til Syncthing</string>
+    <string name="share_activity_title">Lagre til Serva Sync</string>
     <string name="save_title">Lagre</string>
     <string name="notification_persistent_waiting_channel">Monitorer kjøre betingelser</string>
     <string name="notifications_other_channel">Andre varsler</string>
@@ -308,7 +308,7 @@
     <string name="nothing_share">Ingenting å dele</string>
     <string name="copy_exception">Det oppstod en feil under deling, sjekk applikasjons loggene</string>
     <string name="copy_progress">Deler filer…</string>
-    <string name="notifications_persistent_channel">Syncthing aktiv</string>
+    <string name="notifications_persistent_channel">Serva Sync aktiv</string>
     <string name="folder_type">Mappe type</string>
     <string name="folder_type_sendreceive">Send &amp; motta</string>
     <string name="folder_type_sendonly">Kun send</string>
@@ -323,10 +323,10 @@
     <string name="sttrace_title">STTRACE alternativer</string>
     <string name="environment_variables">Miljøvariabler</string>
     <string name="toast_invalid_environment_variables">Verdi er ikke en gyldig miljøvariabel streng</string>
-    <string name="syncthing_log_title">Syncthing logg</string>
+    <string name="syncthing_log_title">Serva Sync logg</string>
     <string name="android_log_title">Android logg</string>
     <string name="retrieving_logs">Mottar logger…</string>
-    <string name="syncthing_terminated">Syncthing ble avsluttet</string>
+    <string name="syncthing_terminated">Serva Sync ble avsluttet</string>
     <string name="none">Ingen</string>
     <string name="could_not_access_deviceid">Kunne ikke aksessere enhet ID.</string>
     <string name="type_simple">Type: enkel</string>

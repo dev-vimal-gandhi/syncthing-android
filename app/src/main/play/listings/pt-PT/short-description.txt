@@ -1,1 +1,1 @@
-Invólucro para o Syncthing — Sincronização de ficheiros aberta e descentralizada
+Invólucro para o Serva Sync — Sincronização de ficheiros aberta e descentralizada

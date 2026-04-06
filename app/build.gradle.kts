@@ -45,7 +45,7 @@ dependencies {
 
 android {
     compileSdk = libs.versions.compile.sdk.get().toInt()
-    namespace = "com.nutomic.syncthingandroid"
+    namespace = "com.servalabs.sync"
     ndkVersion = libs.versions.ndk.version.get()
 
     externalNativeBuild {
@@ -59,7 +59,7 @@ android {
     }
 
     defaultConfig {
-        applicationId = "com.github.catfriend1.syncthingfork"
+        applicationId = "com.servalabs.sync"
         minSdk = libs.versions.min.sdk.get().toInt()
         targetSdk = libs.versions.target.sdk.get().toInt()
         versionCode = libs.versions.version.code.get().toInt()
@@ -90,7 +90,7 @@ android {
             isDebuggable = true
             isJniDebuggable = true
             isMinifyEnabled = false
-            signingConfig = null
+            signingConfig = signingConfigs.getByName("debug")
         }
         getByName("release") {
             isMinifyEnabled = false
@@ -106,6 +106,7 @@ android {
     }
 
     kotlin {
+        jvmToolchain(21)
         compilerOptions {
             jvmTarget.set(org.jetbrains.kotlin.gradle.dsl.JvmTarget.JVM_21)
         }

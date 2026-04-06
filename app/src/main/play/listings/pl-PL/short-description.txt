@@ -1,1 +1,1 @@
-Nakładka na Syncthing – otwarta i zdecentralizowana synchronizacja plików
+Nakładka na Serva Sync – otwarta i zdecentralizowana synchronizacja plików

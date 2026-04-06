@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <string name="app_name">Syncthing-Fork</string>
+    <string name="app_name">Serva Sync</string>
     <string name="app_description">Avoin, luotettava ja hajautettu tiedostojensynkronointisovellus.</string>
     <!-- FirstStartActivity -->
     <!-- Title for dialog displayed on first start -->
@@ -8,20 +8,20 @@
     <!-- Welcome wizard -->
     <!-- Slide "Introduction" -->
     <string name="introduction">Johdanto</string>
-    <string name="welcome_text">Syncthing on avoimen lähdekoodin tiedostojensynkronointisovellus. Jakaaksesi tiedostoja muiden laitteiden kanssa tarvitset niiden uniikit laitetunnukset laitelistaasi. Myöhemmin voit valita, mitä kansioita jaat millekin laitteille. \n \n</string>
+    <string name="welcome_text">Serva Sync on avoimen lähdekoodin tiedostojensynkronointisovellus. Jakaaksesi tiedostoja muiden laitteiden kanssa tarvitset niiden uniikit laitetunnukset laitelistaasi. Myöhemmin voit valita, mitä kansioita jaat millekin laitteille. \n \n</string>
     <!-- Slide "Storage Permission" -->
     <string name="storage_permission_title">Tallennustilan lupa</string>
-    <string name="storage_permission_desc">Syncthing on käytettävä tallennustilaa tiedostojen synkronointia varten.</string>
+    <string name="storage_permission_desc">Serva Sync on käytettävä tallennustilaa tiedostojen synkronointia varten.</string>
     <string name="dialog_all_files_access_not_supported">Laitteesi ei tue kaikkien tiedostojen käyttöä</string>
     <!-- Slide "Ignore battery optimizations" -->
     <string name="ignore_doze_permission_title">Akun käytön optimointi</string>
     <string name="ignore_doze_permission_os_notice">Android TV:t tiedettävästi sulkevat toisinaan sovelluksen, kun se on käynnissä taustalla. Ratkaisu on saatavilla wikissä kohdassa \'%1$s/%2$s.</string>
-    <string name="ignore_doze_permission_desc">Android voi lopettaa synkronoinnin jonkin ajan kuluttua. Poista akun käytön optimointi käytöstä estääksesi tämän. Joissakin laitteissa voi olla ylimääräisiä tehtävienlopetussovelluksia esiasennettuna. Syncthing lopettaminen tulisi estää näiden sovellusten asetuksissa.</string>
+    <string name="ignore_doze_permission_desc">Android voi lopettaa synkronoinnin jonkin ajan kuluttua. Poista akun käytön optimointi käytöstä estääksesi tämän. Joissakin laitteissa voi olla ylimääräisiä tehtävienlopetussovelluksia esiasennettuna. Serva Sync lopettaminen tulisi estää näiden sovellusten asetuksissa.</string>
     <string name="toast_ignore_doze_permission_required">Tämä sovellus toimii luotettavasti vain, jos se on sallittu \'doze\'-virransäästötilassa.</string>
     <string name="dialog_disable_battery_optimizations_not_supported">Laitteesi ei tue akun käytön optimoinnin poistamista käytöstä</string>
     <!-- Slide "Location Permission" -->
     <string name="location_permission_title">Sijainnin käyttöoikeus</string>
-    <string name="location_permission_desc">Syncthing voidaan asettaa toimimaan vain valituissa Wi-Fi-verkoissa. Android vaatii sijainnin käyttöoikeuden aktiivisen Wi-Fi-verkon nimen lukemiseksi. Paina yllä olevaa painiketta, jos haluat käyttää tätä ominaisuutta. Voit ohittaa tämän vaiheen. Katso lisätietoja tietosuojakäytännöstämme.</string>
+    <string name="location_permission_desc">Serva Sync voidaan asettaa toimimaan vain valituissa Wi-Fi-verkoissa. Android vaatii sijainnin käyttöoikeuden aktiivisen Wi-Fi-verkon nimen lukemiseksi. Paina yllä olevaa painiketta, jos haluat käyttää tätä ominaisuutta. Voit ohittaa tämän vaiheen. Katso lisätietoja tietosuojakäytännöstämme.</string>
     <string name="location_permission_desc_api_29">Vinkki Android-versioille 10+: \"Salli aina\"</string>
     <!-- Slide "Key Generation" -->
     <string name="key_generation_title">Avainten luonti</string>
@@ -43,16 +43,16 @@
     <string name="refresh">Virkistä</string>
     <!-- PhotoShootActivity -->
     <string name="photo_shoot_launcher_title">Sync. Kamera</string>
-    <string name="photo_shoot_activity_title">Syncthing-Fork Kamera</string>
-    <string name="photo_shoot_intro_welcome_title">Tervetuloa Syncthing Kameraan</string>
+    <string name="photo_shoot_activity_title">Serva Sync Kamera</string>
+    <string name="photo_shoot_intro_welcome_title">Tervetuloa Serva Sync Kameraan</string>
     <string name="photo_shoot_intro_permission_title">Vaaditut käyttöoikeudet</string>
     <string name="photo_shoot_intro_no_camera">Pahoittelut, tässä laitteessa ei ole kameraa.</string>
     <string name="photo_shoot_intro_missing_permissions">Tarvitsemme tallennustilan ja kameran käyttöoikeudet jatkaaksemme.</string>
     <string name="grant_storage_permission">Myönnä tallennustilan käyttöoikeus</string>
     <string name="grant_camera_permission">Myönnä kameran käyttöoikeus</string>
-    <string name="photo_shoot_intro_permission_desc">Syncthing Kamera vaatii lupasi kuvien ottamiseen ja tallentamiseen laitteeseen. Tämä ominaisuus on valinnainen. Käyttääksesi sitä, myönnä käyttöoikeudet ja napauta \"Jatka\". Asetamme sinulle Syncthing Kamera -kansion, jonka voit myöhemmin jakaa muiden Syncthing-laitteiden kanssa.</string>
-    <!-- Label of the folder created by the Syncthing Camera feature. -->
-    <string name="default_syncthing_camera_folder_label">Syncthing Kamera</string>
+    <string name="photo_shoot_intro_permission_desc">Serva Sync Kamera vaatii lupasi kuvien ottamiseen ja tallentamiseen laitteeseen. Tämä ominaisuus on valinnainen. Käyttääksesi sitä, myönnä käyttöoikeudet ja napauta \"Jatka\". Asetamme sinulle Serva Sync Kamera -kansion, jonka voit myöhemmin jakaa muiden Serva Sync-laitteiden kanssa.</string>
+    <!-- Label of the folder created by the Serva Sync Camera feature. -->
+    <string name="default_syncthing_camera_folder_label">Serva Sync Kamera</string>
     <!-- MainActivity -->
     <!-- Main bottom navigation view -->
     <string name="activity_main_bottom_navigation_rescan_all">Skannaa kaikki uudelleen</string>
@@ -135,10 +135,10 @@
     <string name="button_follow_run_conditions">NOUDATA KÄYNTIEHTOJA</string>
     <string name="button_force_start">PAKOTA KÄYNNISTYMINEN \nOHITA KÄYNTIEHDOT</string>
     <string name="button_force_stop">PAKOTA PYSÄYTTÄMINEN \nOHITA KÄYNTIEHDOT</string>
-    <string name="syncthing_starting">Syncthing on käynnistymässä.</string>
-    <string name="syncthing_running">Syncthing on käynnissä.</string>
-    <string name="syncthing_not_running">Syncthing ei ole käynnissä.</string>
-    <string name="syncthing_has_crashed">Syncthing on kaatunut.</string>
+    <string name="syncthing_starting">Serva Sync on käynnistymässä.</string>
+    <string name="syncthing_running">Serva Sync on käynnissä.</string>
+    <string name="syncthing_not_running">Serva Sync ei ole käynnissä.</string>
+    <string name="syncthing_has_crashed">Serva Sync on kaatunut.</string>
     <!-- DrawerFragment -->
     <!-- Same as download_title with a colon and space appended -->
     <string name="download_title_colon">"Lataus: "</string>
@@ -231,12 +231,12 @@
     <string name="settings_title">Asetukset</string>
     <string name="category_run_conditions">Käyntiehdot</string>
     <string name="category_behaviour">Käyttäytyminen</string>
-    <string name="category_syncthing_options">Syncthing asetukset</string>
-    <string name="category_syncthing_options_summary">Tämä valikko on käytettävissä vain, jos Syncthing on käynnissä.</string>
+    <string name="category_syncthing_options">Serva Sync asetukset</string>
+    <string name="category_syncthing_options_summary">Tämä valikko on käytettävissä vain, jos Serva Sync on käynnissä.</string>
     <string name="category_experimental">Kokeellinen</string>
     <!-- Preference screen - Run conditions -->
     <string name="run_conditions_title">Käyntiehdot</string>
-    <string name="run_conditions_summary">Käytä seuraavia valintoja päättääksesi, koska Syncthing on käynnissä.</string>
+    <string name="run_conditions_summary">Käytä seuraavia valintoja päättääksesi, koska Serva Sync on käynnissä.</string>
     <string name="run_on_mobile_data_title">Käytä mobiilidatalla</string>
     <string name="run_on_mobile_data_summary">Käytä laitteen ollessa yhteydessä mobiiliverkkoon. Varoitus: Tämä voi käyttää paljon dataa operaattorisi datansiirtomäärästä, jos synkronoit suuria määriä dataa.</string>
     <string name="run_on_roaming_title">Käytä verkkovierailun aikana</string>
@@ -279,9 +279,9 @@
     <string name="import_config">Tuo asetukset</string>
     <!-- Toast shown after config was imported -->
     <string name="config_imported_successful">Asetukset tuotiin</string>
-    <!-- Title for the preference to reset Syncthing indexes -->
+    <!-- Title for the preference to reset Serva Sync indexes -->
     <string name="st_reset_database_title">Nollaa tietokanta</string>
-    <!-- Syncthing was reset -->
+    <!-- Serva Sync was reset -->
     <string name="st_reset_database_done">Syncthingin tietokannan tyhjentäminen onnistui</string>
     <string name="category_about">Tietoja</string>
     <!-- Settings item that opens the log activity -->
@@ -308,7 +308,7 @@
     <string name="android_log_title">Androidin loki</string>
     <!-- Title of the "log android" menu button -->
     <string name="view_android_log">Näytä Android loki</string>
-    <!-- Title of the "log Syncthing" menu button -->
+    <!-- Title of the "log Serva Sync" menu button -->
     <string name="view_syncthing_log">Näytä Synching loki</string>
     <string name="retrieving_logs">Noudetaan lokeja…</string>
     <!-- Title of the "share log" menu button -->
@@ -332,43 +332,43 @@
     <!-- Sub Folder title -->
     <string name="sub_folder">Alikansio</string>
     <!-- RunConditionMonitor -->
-    <string name="reason_force_start">Syncthing on käynnissä, koska pakotit sen käynnistymään käyntiehdoista riippumatta.</string>
-    <string name="reason_force_stop">Syncthing ei ole käynnissä, koska pakotit sen pysähtymään käyntiehdoista riippumatta.</string>
+    <string name="reason_force_start">Serva Sync on käynnissä, koska pakotit sen käynnistymään käyntiehdoista riippumatta.</string>
+    <string name="reason_force_stop">Serva Sync ei ole käynnissä, koska pakotit sen pysähtymään käyntiehdoista riippumatta.</string>
     <!-- Explanations why syncthing is running or not running -->
     <string name="reason_not_within_time_frame">Otit käyttöön \'Käytä aikataulun mukaisesti\' ja viimeisin synkronointi oli alle tunti sitten.</string>
     <string name="reason_not_on_battery_power">Puhelin ei ole käynnissä akkuvirralla.</string>
-    <string name="reason_not_while_power_saving">Syncthing ei ole käynnissä, koska puhelin on virransäästötilassa.</string>
-    <string name="reason_not_while_auto_sync_data_disabled">Syncthing ei ole käynnissä, koska Androidin asetus \'Synkronoi tiedot automaattisesti\' on pois päältä.</string>
+    <string name="reason_not_while_power_saving">Serva Sync ei ole käynnissä, koska puhelin on virransäästötilassa.</string>
+    <string name="reason_not_while_auto_sync_data_disabled">Serva Sync ei ole käynnissä, koska Androidin asetus \'Synkronoi tiedot automaattisesti\' on pois päältä.</string>
     <!-- … Mobile data -->
-    <string name="reason_mobile_data_disallowed">Syncthing ei ole asetettu käytettäväksi mobiilidatayhteydellä.</string>
+    <string name="reason_mobile_data_disallowed">Serva Sync ei ole asetettu käytettäväksi mobiilidatayhteydellä.</string>
     <string name="reason_on_mobile_data">Syncthingin käyttö mobiilidatalla on sallittu.</string>
     <string name="reason_not_on_mobile_data">Syncthingin käyttö on sallittu mobiilidatayhteydellä, mutta mobiilidatayhteyttä ei ole.</string>
     <!-- … Roaming -->
     <string name="reason_on_roaming_nonroaming_mobile_data">Syncthingin käyttö on sallittu mobiiliverkossa sekä verkkovierailun aikana että kotiverkossa.</string>
     <string name="reason_on_nonroaming_mobile_data">Syncthingin käyttö on sallittu mobiiliverkossa muutoin kuin verkkovierailun aikana. Aktiivinen yhteys on kotiverkkoon.</string>
-    <string name="reason_not_nonroaming_mobile_data">Syncthing ei ole käynnissä, koska kielsit sen käytön verkkovierailun aikana.</string>
+    <string name="reason_not_nonroaming_mobile_data">Serva Sync ei ole käynnissä, koska kielsit sen käytön verkkovierailun aikana.</string>
     <string name="reason_wifi_disallowed">Synthingin käyttöä ei ole sallittu WiFi- tai ethernet-verkoissa.</string>
     <string name="reason_on_wifi">Syncthingin käyttö on sallittu WiFi-verkoissa ja WiFi on tällä hetkellä yhdistettynä.</string>
     <string name="reason_not_on_wifi">Syncthingin käyttö on sallittu WiFi-verkoissa mutta WiFi ei ole tällä hetkellä yhdistettynä tai puhelin on lentotilassa.</string>
     <string name="reason_on_metered_nonmetered_wifi">Syncthingin käyttö on sallittu käytön mukaan laskutettavilla ja kiinteähintaisilla WiFi-verkkoyhteyksillä.</string>
     <string name="reason_on_whitelisted_wifi">Syncthingin käyttö on sallittu yhdistetyssä WiFi-verkossa.</string>
-    <string name="reason_not_on_whitelisted_wifi">Syncthing ei ole käynnissä, koska yhdistetyn WiFi-verkon nimi ei ole sallittujen listalla.</string>
+    <string name="reason_not_on_whitelisted_wifi">Serva Sync ei ole käynnissä, koska yhdistetyn WiFi-verkon nimi ei ole sallittujen listalla.</string>
     <string name="reason_on_nonmetered_wifi">Syncthingin käyttö on sallittu WiFi-yhteyksillä, jotka eivät ole käytön mukaan laskutettavia. Aktiivinen yhteys ei ole käytön mukaan laskutettava.</string>
-    <string name="reason_not_nonmetered_wifi">Syncthing ei ole käynnissä, koska se on estetty käytön mukaan laskutettavilla WiFi-verkkoyhteyksillä.</string>
-    <string name="reason_location_unavailable">Valitsit \'Käytä valituissa WiFi-verkoissa\' asetuksissa. Androidin sijaintipalvelut ovat pois päältä. Androidin rajotteiden mukaisesti Syncthing ei voi selvittää nykyisen WiFi-verkon nimeä päätelläkseen pitäisikö sen olla käytössä. Ratkaisu: Laita sijainti päälle, salli sijainnin käyttöoikeus ja yhdistä uudelleen WiFi-verkkoon.</string>
-    <string name="reason_on_flight_mode">Syncthing on käynnissä, koska sallit sen käytön lentotilassa.</string>
+    <string name="reason_not_nonmetered_wifi">Serva Sync ei ole käynnissä, koska se on estetty käytön mukaan laskutettavilla WiFi-verkkoyhteyksillä.</string>
+    <string name="reason_location_unavailable">Valitsit \'Käytä valituissa WiFi-verkoissa\' asetuksissa. Androidin sijaintipalvelut ovat pois päältä. Androidin rajotteiden mukaisesti Serva Sync ei voi selvittää nykyisen WiFi-verkon nimeä päätelläkseen pitäisikö sen olla käytössä. Ratkaisu: Laita sijainti päälle, salli sijainnin käyttöoikeus ja yhdistä uudelleen WiFi-verkkoon.</string>
+    <string name="reason_on_flight_mode">Serva Sync on käynnissä, koska sallit sen käytön lentotilassa.</string>
     <string name="reason_run_condition_monitor_not_instantiated">RunConditionMonitor ei ole alustettu. Ole hyvä ja käynnistä sovellus uudelleen ja tee bugiraportti, jos tämä virhe ei katoa uudelleenkäynnistyksen jälkeen.</string>
     <!-- SyncthingService -->
     <!-- Text for the exit button on the drawer -->
     <string name="exit">Poistu</string>
     <!-- Title of the notification shown while syncthing is running and enabled -->
-    <string name="syncthing_active">Syncthing on käynnissä</string>
-    <string name="syncthing_active_details">Syncthing on käynnissä: %1$s</string>
+    <string name="syncthing_active">Serva Sync on käynnissä</string>
+    <string name="syncthing_active_details">Serva Sync on käynnissä: %1$s</string>
     <!-- Label of the default folder created of first start (camera folder). -->
     <string name="default_android_camera_folder_label">Android Kamera</string>
     <!-- ID of the default folder created on first start (camera folder). Must only contain 'a-z0-9_-'. Parameter is the device name-->
     <string name="default_folder_id">%1$s-kuvat</string>
-    <string name="notification_crash_title">Syncthing kaatui %1$s</string>
+    <string name="notification_crash_title">Serva Sync kaatui %1$s</string>
     <string name="notification_persistent_waiting_channel">Tarkkaillaan käyntiehtoja</string>
     <!-- RestApi -->
     <!-- Title of the notification shown when a restart is needed -->

@@ -1,1 +1,1 @@
-Syncthing için Sarmalayıcı - Açık ve merkezi olmayan dosya eşitleme
+Serva Sync için Sarmalayıcı - Açık ve merkezi olmayan dosya eşitleme

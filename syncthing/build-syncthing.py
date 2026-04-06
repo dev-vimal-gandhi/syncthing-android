@@ -198,8 +198,28 @@ def install_go():
     
     if not os.path.isfile(go_source_tar):
         print('Downloading Go source to:', go_source_tar)
-        urlretrieve(go_source_url, go_source_tar)
-    print('Downloaded Go source to:', go_source_tar)
+        try:
+            # Use curl -L to follow redirects, and -f to fail on HTTP errors
+            subprocess.check_call(['curl', '-L', '-f', go_source_url, '-o', go_source_tar])
+        except Exception as e:
+            print('curl failed, falling back to urlretrieve:', str(e))
+            urlretrieve(go_source_url, go_source_tar)
+
+    # Verify the downloaded file size. Go source tarball should be at least 20MB.
+    # If it's too small, it's likely a corrupted download or an error page.
+    if os.path.isfile(go_source_tar) and os.path.getsize(go_source_tar) < 10000000:
+        print('Downloaded Go source seems too small (%d bytes), retrying with codeload URL...' % os.path.getsize(go_source_tar))
+        os.remove(go_source_tar)
+        alternate_url = 'https://codeload.github.com/golang/go/tar.gz/refs/tags/go' + expected_version
+        try:
+            subprocess.check_call(['curl', '-L', '-f', alternate_url, '-o', go_source_tar])
+        except Exception:
+            urlretrieve(alternate_url, go_source_tar)
+
+    if not os.path.isfile(go_source_tar) or os.path.getsize(go_source_tar) < 10000000:
+        fail('Failed to download a valid Go source tarball.')
+
+    print('Downloaded Go source to:', go_source_tar, 'size:', os.path.getsize(go_source_tar))
 
     # Extract Go source
     go_extract_dir = os.path.join(prerequisite_tools_dir, 'go-go' + expected_version)
@@ -232,6 +252,20 @@ def install_go():
         subprocess.check_call([build_script], env=build_env, cwd=os.path.join(go_build_dir, 'src'))
     else:
         build_script = os.path.join(go_build_dir, 'src', 'make.bash')
+        if not os.path.isfile(build_script):
+            build_script = os.path.join(go_build_dir, 'src', 'bootstrap.bash')
+            print('make.bash not found, falling back to bootstrap.bash')
+            # bootstrap.bash in newer Go versions requires GOOS and GOARCH to be set
+            if 'GOOS' not in build_env:
+                build_env['GOOS'] = 'darwin' if sys.platform == 'darwin' else 'linux'
+            if 'GOARCH' not in build_env:
+                import platform
+                machine = platform.machine().lower()
+                if machine in ['arm64', 'aarch64']:
+                    build_env['GOARCH'] = 'arm64'
+                else:
+                    build_env['GOARCH'] = 'amd64'
+
         # Make sure the script is executable
         os.chmod(build_script, 0o755)
         subprocess.check_call(['bash', build_script], env=build_env, cwd=os.path.join(go_build_dir, 'src'))

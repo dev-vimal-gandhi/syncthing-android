@@ -9,7 +9,7 @@ on:
   workflow_dispatch:
     inputs:
       tag:
-        description: 'Tag to publish (e.g. v1.0.0.0 or v1.0.0.0-rc.1)'
+        description: "Tag to publish (e.g. v1.0.0.0 or v1.0.0.0-rc.1)"
         required: true
 
 concurrency:
@@ -95,7 +95,7 @@ jobs:
           tag: ${{ github.event.inputs.tag }}
           artifacts: "./artifacts/*.apk"
           artifactErrorsFailBuild: true
-          name: Syncthing-Fork ${{ github.event.inputs.tag }}
+          name: Serva Sync ${{ github.event.inputs.tag }}
           bodyFile: "app/src/main/play/release-notes/en-US/default.txt"
           prerelease: ${{ contains(github.event.inputs.tag, '-rc.') }}
           draft: true

@@ -13,7 +13,7 @@
         android:paddingLeft="10dp"
         android:paddingRight="10dp">
 
-        <com.nutomic.syncthingandroid.views.SegmentedButton
+        <com.servalabs.sync.views.SegmentedButton
             android:id="@+id/forceStartStop"
             android:layout_width="match_parent"
             android:layout_height="match_parent"

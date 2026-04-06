@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <string name="app_name">Syncthing-Fork</string>
+    <string name="app_name">Serva Sync</string>
     <string name="app_description">Một ứng dụng đồng bộ hoá tập tin phi tập trung, mở và đáng tin cậy.</string>
     <!-- FirstStartActivity -->
     <!-- Title for dialog displayed on first start -->
-    <string name="welcome_title">Chào mừng đến với Syncthing cho Android</string>
+    <string name="welcome_title">Chào mừng đến với Serva Sync cho Android</string>
     <!-- Welcome wizard -->
     <!-- Slide "Introduction" -->
     <string name="introduction">Giới thiệu</string>
-    <string name="welcome_text">Syncthing là một ứng dụng đồng bộ hoá tệp mã nguồn mở. \n \nĐể chia sẻ dữ liệu với các thiết bị khác, bạn cần phải thêm các ID thiết bị độc nhất của chúng vào danh sách thiết bị. Sau đó bạn có thể chọn các thư mục mà bạn muốn chia sẻ với các thiết bị. \n \nVui lòng báo cáo những vấn đề bạn gặp qua GitHub.</string>
+    <string name="welcome_text">Serva Sync là một ứng dụng đồng bộ hoá tệp mã nguồn mở. \n \nĐể chia sẻ dữ liệu với các thiết bị khác, bạn cần phải thêm các ID thiết bị độc nhất của chúng vào danh sách thiết bị. Sau đó bạn có thể chọn các thư mục mà bạn muốn chia sẻ với các thiết bị. \n \nVui lòng báo cáo những vấn đề bạn gặp qua GitHub.</string>
     <!-- Slide "Storage Permission" -->
     <string name="storage_permission_title">Quyền Bộ nhớ</string>
-    <string name="storage_permission_desc">Syncthing cần truy cập bộ nhớ của bạn để đồng bộ hoá tệp.</string>
+    <string name="storage_permission_desc">Serva Sync cần truy cập bộ nhớ của bạn để đồng bộ hoá tệp.</string>
     <string name="dialog_all_files_access_not_supported">Thiết bị của bạn không hỗ trợ truy cập tất cả tệp</string>
     <!-- Slide "Ignore battery optimizations" -->
     <string name="ignore_doze_permission_title">Tối ưu hóa pin</string>
     <string name="ignore_doze_permission_os_notice">Các TV chạy Android được biết là đôi khi chúng dừng ứng dụng khi nó đang chạy trong nền. Có một giải pháp trên wiki tại \'%1$s/%2$s\'.</string>
-    <string name="ignore_doze_permission_desc">Android có thể sẽ dừng việc đồng bộ hoá sau một khoảng thòi gian. Để ngăn chặn việc này, hãy tắt tối ưu hoá pin. Một số thiết bị có thêm cả các ứng dụng dừng tiến trình được cài sẵn. Bạn cũng nên thêm Syncthing vào danh sách loại trừ của chúng.</string>
+    <string name="ignore_doze_permission_desc">Android có thể sẽ dừng việc đồng bộ hoá sau một khoảng thòi gian. Để ngăn chặn việc này, hãy tắt tối ưu hoá pin. Một số thiết bị có thêm cả các ứng dụng dừng tiến trình được cài sẵn. Bạn cũng nên thêm Serva Sync vào danh sách loại trừ của chúng.</string>
     <string name="toast_ignore_doze_permission_required">Ứng dụng này chỉ hoạt động một cách đáng tin cậy nếu nó được loại trừ khỏi chế độ tiết kiệm pin.</string>
     <string name="dialog_disable_battery_optimizations_not_supported">Thiết bị của bạn không hỗ trợ tắt tối ưu hoá pin</string>
     <!-- Slide "Location Permission" -->
     <string name="location_permission_title">Quyền Vị trí</string>
-    <string name="location_permission_desc">Syncthing có thể được thiết lập để hoạt động khi có các mạng Wi-Fi được chọn. Android yêu cầu ứng dụng phải có quyền vị trí để đọc tên mạng Wi-Fi đang hoạt động. Nếu bạn muốn sử dụng tính năng này, hãy nhấn nút ở trên. Bạn có thể bỏ qua bước này. Hãy xem chính sách riêng tư của chúng tôi để biết thêm chi tiết.</string>
+    <string name="location_permission_desc">Serva Sync có thể được thiết lập để hoạt động khi có các mạng Wi-Fi được chọn. Android yêu cầu ứng dụng phải có quyền vị trí để đọc tên mạng Wi-Fi đang hoạt động. Nếu bạn muốn sử dụng tính năng này, hãy nhấn nút ở trên. Bạn có thể bỏ qua bước này. Hãy xem chính sách riêng tư của chúng tôi để biết thêm chi tiết.</string>
     <string name="location_permission_desc_api_29">Mẹo cho Android 10+: \"Cho phép mọi lúc\"</string>
     <!-- Slide "Key Generation" -->
     <string name="key_generation_title">Tạo mã khóa</string>
@@ -43,18 +43,18 @@
     <string name="refresh">Làm mới</string>
     <!-- PhotoShootActivity -->
     <string name="photo_shoot_launcher_title">Máy ảnh Sync.</string>
-    <string name="photo_shoot_activity_title">Máy ảnh Syncthing-Fork</string>
-    <string name="photo_shoot_intro_welcome_title">Chào mừng đến Máy ảnh Syncthing</string>
+    <string name="photo_shoot_activity_title">Máy ảnh Serva Sync</string>
+    <string name="photo_shoot_intro_welcome_title">Chào mừng đến Máy ảnh Serva Sync</string>
     <string name="photo_shoot_intro_permission_title">Quyền bắt buộc</string>
     <string name="photo_shoot_intro_no_camera">Xin lỗi, thiết bị này không có máy ảnh.</string>
     <string name="photo_shoot_intro_missing_permissions">Chúng tôi yêu cầu quyền bộ nhớ và máy ảnh để tiếp tục.</string>
     <string name="grant_storage_permission">Cấp quyền bộ nhớ</string>
     <string name="grant_camera_permission">Cấp quyền máy ảnh</string>
-    <string name="photo_shoot_intro_permission_desc">Máy ảnh Syncthing yêu cầu sự đồng ý của bạn để chụp ảnh và lưu trữ chúng trên thiết bị. Tính năng này là không bắt buộc. Để sử dụng, hãy cấp các quyền và nhấn \"Tiếp tục\". Chúng tôi sẽ thiết lập một thư mục Máy ảnh Syncthing cho bạn, bạn có thể chia sẻ nó với các thiết bị Syncthing khác vào lúc sau.</string>
-    <string name="photo_shoot_take_picture_success">Lưu ảnh vào thư mục Máy ảnh Syncthing thành công.</string>
+    <string name="photo_shoot_intro_permission_desc">Máy ảnh Serva Sync yêu cầu sự đồng ý của bạn để chụp ảnh và lưu trữ chúng trên thiết bị. Tính năng này là không bắt buộc. Để sử dụng, hãy cấp các quyền và nhấn \"Tiếp tục\". Chúng tôi sẽ thiết lập một thư mục Máy ảnh Serva Sync cho bạn, bạn có thể chia sẻ nó với các thiết bị Serva Sync khác vào lúc sau.</string>
+    <string name="photo_shoot_take_picture_success">Lưu ảnh vào thư mục Máy ảnh Serva Sync thành công.</string>
     <string name="photo_shoot_take_picture_failure">Chụp ảnh thất bại hoặc bạn đã hủy.</string>
-    <!-- Label of the folder created by the Syncthing Camera feature. -->
-    <string name="default_syncthing_camera_folder_label">Máy ảnh Syncthing</string>
+    <!-- Label of the folder created by the Serva Sync Camera feature. -->
+    <string name="default_syncthing_camera_folder_label">Máy ảnh Serva Sync</string>
     <!-- MainActivity -->
     <!-- Main bottom navigation view -->
     <string name="activity_main_bottom_navigation_rescan_all">Quét lại tất cả</string>
@@ -140,10 +140,10 @@
     <string name="button_follow_run_conditions">LÀM THEO ĐIỀU KIỆN CHẠY</string>
     <string name="button_force_start">BUỘC KHỞI ĐỘNG \nBỎ QUA ĐIỀU KIỆN CHẠY</string>
     <string name="button_force_stop">BUỘC DỪNG \nBỎ QUA ĐIỀU KIỆN CHẠY</string>
-    <string name="syncthing_starting">Syncthing đang khởi động.</string>
-    <string name="syncthing_running">Syncthing đang chạy.</string>
-    <string name="syncthing_not_running">Syncthing đang không chạy.</string>
-    <string name="syncthing_has_crashed">Syncthing đã dừng đột ngột.</string>
+    <string name="syncthing_starting">Serva Sync đang khởi động.</string>
+    <string name="syncthing_running">Serva Sync đang chạy.</string>
+    <string name="syncthing_not_running">Serva Sync đang không chạy.</string>
+    <string name="syncthing_has_crashed">Serva Sync đã dừng đột ngột.</string>
     <!-- DrawerFragment -->
     <!-- Same as download_title with a colon and space appended -->
     <string name="download_title_colon">"Tải xuống: "</string>
@@ -156,7 +156,7 @@
     <!-- Title for uptime status -->
     <string name="uptime">Thời gian hoạt động</string>
     <string name="restart">Kh.chạy lại</string>
-    <string name="dialog_confirm_restart">Bạn có muốn khởi động lại Syncthing không?</string>
+    <string name="dialog_confirm_restart">Bạn có muốn khởi động lại Serva Sync không?</string>
     <!-- FolderActivity -->
     <!-- Setting title -->
     <string name="folder_id">ID thư mục</string>
@@ -186,7 +186,7 @@
     <!-- Menu item to confirm folder creation -->
     <string name="create">Tạo mới</string>
     <!-- Dialog shown when attempting to remove a folder -->
-    <string name="remove_folder_confirm">Có chắc là bạn muốn xoá thư mục này khỏi Syncthing?</string>
+    <string name="remove_folder_confirm">Có chắc là bạn muốn xoá thư mục này khỏi Serva Sync?</string>
     <!-- Toast shown when trying to create a folder with an empty ID -->
     <string name="folder_id_required">Không được để trống ID thư mục</string>
     <!-- Toast shown when trying to create a folder with an empty label -->
@@ -195,9 +195,9 @@
     <string name="folder_path_required">Không được để trống đường dẫn thư mục</string>
     <string name="dialog_discard_changes">Bỏ các thay đổi của bạn?</string>
     <!-- Summary shown if we only have readonly access to the folder path -->
-    <string name="folder_path_readonly">Phiên bản Android của bạn chỉ cấp quyền truy cập chỉ đọc vào thư mục đã chọn cho Syncthing.</string>
+    <string name="folder_path_readonly">Phiên bản Android của bạn chỉ cấp quyền truy cập chỉ đọc vào thư mục đã chọn cho Serva Sync.</string>
     <!-- Summary shown if we only have readwrite access to the folder path -->
-    <string name="folder_path_readwrite">Phiên bản Android của bạn cấp quyền truy cập đọc và ghi vào thư mục đã chọn cho Syncthing.</string>
+    <string name="folder_path_readwrite">Phiên bản Android của bạn cấp quyền truy cập đọc và ghi vào thư mục đã chọn cho Serva Sync.</string>
     <!-- Toast shown if the user selected an invalid location for a new syncthing folder -->
     <string name="toast_invalid_folder_selected">Xin lỗi. Thư mục được chọn không thể được sử dụng. Vui lòng chọn thư mục được đặt trong bộ nhớ trong hoặc ngoài.</string>
     <string name="folder_type_switch_to_receive_encrypted_not_allowed">Việc chuyển các thư mục hiện có sang \'Nhận dữ liệu mã hoá\' không được hỗ trợ.</string>
@@ -210,7 +210,7 @@
     <!-- Status text -->
     <string name="discovered_device_list_empty">Khám phá cục bộ đã không tìm thấy thiết bị nào trên mạng cục bộ. Hãy chạy ứng dụng này trên điện thoại thứ hai. Các tệp cài đặt cho máy tính có sẵn tại: %1$s</string>
     <!-- Status text -->
-    <string name="local_discovery_disabled">Bạn đã tắt khám phá cục bộ trong \'Cài đặt\' &gt; \'Tùy chọn Syncthing\' &gt; \'Khám phá cục bộ\'. Hãy bật nó để tìm kiếm các thiết bị trên mạng cục bộ.</string>
+    <string name="local_discovery_disabled">Bạn đã tắt khám phá cục bộ trong \'Cài đặt\' &gt; \'Tùy chọn Serva Sync\' &gt; \'Khám phá cục bộ\'. Hãy bật nó để tìm kiếm các thiết bị trên mạng cục bộ.</string>
     <!-- Setting title -->
     <string name="name">Tên</string>
     <!-- Setting title -->
@@ -248,7 +248,7 @@
     <!-- Toast shown when trying to create a device with an empty name -->
     <string name="device_name_required">Không được để trống tên thiết bị</string>
     <!-- Toast shown when trying to create a device with invalid addresses -->
-    <string name="device_addresses_invalid">Địa chỉ thiết bị không được định dạng đúng. Vui lòng thử lại. Hãy đọc tài liệu của Syncthing để biết thêm thông tin.</string>
+    <string name="device_addresses_invalid">Địa chỉ thiết bị không được định dạng đúng. Vui lòng thử lại. Hãy đọc tài liệu của Serva Sync để biết thêm thông tin.</string>
     <!-- Content description for device ID qr code icon -->
     <string name="scan_qr_code_description">Quét mã QR</string>
     <!-- Dialog message if no compatible barcode scanner app is installed -->
@@ -284,18 +284,18 @@
     <string name="preference_app_theme_follow_light">Sáng</string>
     <string name="preference_app_theme_follow_dark">Tối</string>
     <string name="category_behaviour">Hành vi</string>
-    <string name="category_syncthing_options">Tuỳ chọn Syncthing</string>
-    <string name="category_syncthing_options_summary">Menu này chỉ có sẵn nếu Syncthing đang chạy.</string>
+    <string name="category_syncthing_options">Tuỳ chọn Serva Sync</string>
+    <string name="category_syncthing_options_summary">Menu này chỉ có sẵn nếu Serva Sync đang chạy.</string>
     <string name="category_backup">Nhập và Xuất</string>
     <string name="category_debug">Xử lý sự cố</string>
     <string name="category_experimental">Thực nghiệm</string>
     <!-- Preference screen - Run conditions -->
     <string name="run_conditions_title">Điều kiện chạy</string>
-    <string name="run_conditions_summary">Sử dụng các tùy chọn sau để quyết định khi nào Syncthing sẽ chạy.</string>
+    <string name="run_conditions_summary">Sử dụng các tùy chọn sau để quyết định khi nào Serva Sync sẽ chạy.</string>
     <string name="run_on_mobile_data_title">Chạy khi có dữ liệu di động</string>
     <string name="run_on_mobile_data_summary">Chạy khi thiết bị có kết nối qua mạng dữ liệu di động. Cảnh báo: Việc này có thể tiêu tốn rất nhiều dữ liệu trong gói dữ liệu của nhà mạng nếu bạn đồng bộ nhiều dữ liệu.</string>
     <string name="run_on_roaming_title">Chạy khi chuyển vùng</string>
-    <string name="run_on_roaming_summary">Cho phép Syncthing sử dụng dữ liệu di động khi chuyển vùng. (!) Vui lòng gửi phản hồi lên GitHub về việc tùy chọn này có hoạt động đúng hay không.</string>
+    <string name="run_on_roaming_summary">Cho phép Serva Sync sử dụng dữ liệu di động khi chuyển vùng. (!) Vui lòng gửi phản hồi lên GitHub về việc tùy chọn này có hoạt động đúng hay không.</string>
     <string name="run_on_wifi_title">Chạy khi có Wi-Fi</string>
     <string name="run_on_wifi_summary">Chạy khi thiết bị có kết nối đến mạng Wi-Fi hoặc có dây.</string>
     <string name="run_on_metered_wifi_title">Chạy khi có Wi-Fi trả phí</string>
@@ -313,11 +313,11 @@
     <string name="power_source_ac_power">AC.</string>
     <string name="power_source_battery_power">Pin.</string>
     <string name="respect_battery_saving_title">Tôn trọng cài đặt tiết kiệm pin của Android</string>
-    <string name="respect_battery_saving_summary">Tắt Syncthing nếu tiết kiệm pin được bật.</string>
+    <string name="respect_battery_saving_summary">Tắt Serva Sync nếu tiết kiệm pin được bật.</string>
     <string name="respect_master_sync_title">Tôn trọng cài đặt \'Tự động đồng bộ dữ liệu\' của Android</string>
-    <string name="respect_master_sync_summary">Tắt Syncthing khi ô cài đặt nhanh \'Tự động đồng bộ dữ liệu\' bị tắt.</string>
+    <string name="respect_master_sync_summary">Tắt Serva Sync khi ô cài đặt nhanh \'Tự động đồng bộ dữ liệu\' bị tắt.</string>
     <string name="run_in_flight_mode_title">Chạy mà không có kết nối mạng</string>
-    <string name="run_in_flight_mode_summary">Việc bật tùy chọn này sẽ làm cho Syncthing chạy kể cả khi bạn đang ngoại tuyến. Hãy bật nếu thiết bị của bạn gặp vấn đề trong việc phát hiện kết nối Wi-Fi thủ công trong chế độ máy bay.</string>
+    <string name="run_in_flight_mode_summary">Việc bật tùy chọn này sẽ làm cho Serva Sync chạy kể cả khi bạn đang ngoại tuyến. Hãy bật nếu thiết bị của bạn gặp vấn đề trong việc phát hiện kết nối Wi-Fi thủ công trong chế độ máy bay.</string>
     <string name="run_on_time_schedule_title">Chạy theo lịch trình thời gian</string>
     <string name="run_on_time_schedule_summary">Việc bật tuỳ chọn này sẽ cố gắng đồng bộ trong khoảng thời gian được đặt nếu điều kiện chạy được đáp ứng và lần đồng bộ trước cách đây hơn 1 tiếng. Việc này có thể tiết kiệm nhiều pin nhưng bắt buộc các thiết bị đồng bộ khác phải có mạng. Vui lòng lưu ý: Việc này có thể để lại các tệp tạm không hoàn chỉnh cho đến lần đồng bộ tiếp theo.</string>
     <string name="sync_duration_minutes_title">Thời gian chu kỳ đồng bộ</string>
@@ -326,7 +326,7 @@
     <string name="behaviour_autostart_title">Tự động khởi động</string>
     <string name="behaviour_autostart_summary">Tự động khởi động ứng dụng khi khởi động hệ điều hành.</string>
     <string name="expert_mode_title">Chế độ chuyên gia</string>
-    <string name="expert_mode_summary">Việc bật tùy chọn này sẽ hiện các tùy chọn thiết lập nâng cao. Bạn nên đọc Tài liệu Syncthing trước để chắc chắn là bạn biết cách sử dụng chúng đúng cách. Các cài đặt không đúng có thể sẽ gây ra hao pin, hết tài nguyên hệ thống hoặc đồng bộ hóa không hoàn thiện.</string>
+    <string name="expert_mode_summary">Việc bật tùy chọn này sẽ hiện các tùy chọn thiết lập nâng cao. Bạn nên đọc Tài liệu Serva Sync trước để chắc chắn là bạn biết cách sử dụng chúng đúng cách. Các cài đặt không đúng có thể sẽ gây ra hao pin, hết tài nguyên hệ thống hoặc đồng bộ hóa không hoàn thiện.</string>
     <string name="preference_language_title">Ngôn ngữ</string>
     <string name="preference_language_summary">Đổi ngôn ngữ ứng dụng</string>
     <string name="pref_language_default">Ngôn ngữ mặc định</string>
@@ -403,40 +403,40 @@
     <string name="environment_variables">Tham số môi trường</string>
     <!-- Toast after entering invalid STTRACE params -->
     <string name="toast_invalid_environment_variables">Giá trị không phải là xâu tham số môi trường hợp lệ</string>
-    <!-- Title for the preference to reset Syncthing indexes -->
+    <!-- Title for the preference to reset Serva Sync indexes -->
     <string name="st_reset_database_title">Cài lại CSDL</string>
-    <!-- Syncthing was reset -->
-    <string name="st_reset_database_question">Hành động này chỉ nên được thực hiện dựa trên khuyến cáo của nhóm hỗ trợ của chúng tôi. \nBạn có chắc bạn muốn xóa cơ sở dữ liệu của Syncthing không?</string>
-    <!-- Syncthing was reset -->
-    <string name="st_reset_database_done">Cài lại thành công CSDL của Syncthing</string>
-    <!-- Title for the preference to reset Syncthing indexes -->
+    <!-- Serva Sync was reset -->
+    <string name="st_reset_database_question">Hành động này chỉ nên được thực hiện dựa trên khuyến cáo của nhóm hỗ trợ của chúng tôi. \nBạn có chắc bạn muốn xóa cơ sở dữ liệu của Serva Sync không?</string>
+    <!-- Serva Sync was reset -->
+    <string name="st_reset_database_done">Cài lại thành công CSDL của Serva Sync</string>
+    <!-- Title for the preference to reset Serva Sync indexes -->
     <string name="st_reset_deltas_title">Đặt lại mục lục Delta</string>
-    <!-- Syncthing was reset -->
-    <string name="st_reset_deltas_question">Hành động này chỉ nên được thực hiện dựa trên khuyến cáo của nhóm hỗ trợ của chúng tôi. \nBạn có chắc bạn muốn xóa mục lục delta của Syncthing không?</string>
-    <!-- Syncthing was reset -->
-    <string name="st_reset_deltas_done">Đặt lại mục lục delta của Syncthing thành công</string>
+    <!-- Serva Sync was reset -->
+    <string name="st_reset_deltas_question">Hành động này chỉ nên được thực hiện dựa trên khuyến cáo của nhóm hỗ trợ của chúng tôi. \nBạn có chắc bạn muốn xóa mục lục delta của Serva Sync không?</string>
+    <!-- Serva Sync was reset -->
+    <string name="st_reset_deltas_done">Đặt lại mục lục delta của Serva Sync thành công</string>
     <string name="category_about">Thông tin về</string>
     <string name="verbose_log_title">Nhật ký chi tiết</string>
     <string name="verbose_log_summary">Việc bật tùy chọn này sẽ giúp tạo nhật ký gỡ lỗi rất chi tiết.</string>
     <!-- Settings item that opens the log activity -->
     <string name="open_log">Mở lịch sử</string>
     <!-- Summary for the log activity -->
-    <string name="open_log_summary">Mở cửa sổ lịch sử của Syncthing và Android</string>
+    <string name="open_log_summary">Mở cửa sổ lịch sử của Serva Sync và Android</string>
     <!-- Settings item that opens issue tracker -->
     <string name="report_issue_title">Báo cáo lỗi</string>
     <!-- Summary for the issue tracker settings item -->
-    <string name="open_issue_tracker_summary">Mở trình theo dõi vấn đề của Syncthing-Fork tại %1$s</string>
+    <string name="open_issue_tracker_summary">Mở trình theo dõi vấn đề của Serva Sync tại %1$s</string>
     <!-- Menu item to donate -->
     <!-- Title of the preference showing upstream version name -->
-    <string name="syncthing_version_title">Phiên bản Syncthing</string>
+    <string name="syncthing_version_title">Phiên bản Serva Sync</string>
     <!-- Title of the preference showing this app's version name -->
-    <string name="app_version_title">Phiên bản Wrapper Syncthing-Fork</string>
+    <string name="app_version_title">Phiên bản Wrapper Serva Sync</string>
     <!-- Title of the preference showing the REST API key -->
-    <string name="syncthing_api_key">Mã API Syncthing (nhấn để sao chép)</string>
+    <string name="syncthing_api_key">Mã API Serva Sync (nhấn để sao chép)</string>
     <!-- Shown when the API key is copied to the clipboard -->
-    <string name="api_key_copied_to_clipboard">Đã sao chép mã API Syncthing vào bộ nhớ tạm</string>
+    <string name="api_key_copied_to_clipboard">Đã sao chép mã API Serva Sync vào bộ nhớ tạm</string>
     <!-- Title of the preference showing database size -->
-    <string name="syncthing_database_size">Kích cỡ cơ sở dữ liệu của Syncthing</string>
+    <string name="syncthing_database_size">Kích cỡ cơ sở dữ liệu của Serva Sync</string>
     <!-- Title of the preference showing the OS open file limit -->
     <string name="os_open_file_limit">Giới hạn mở tệp của Android</string>
     <!-- FolderPickerAcitivity -->
@@ -456,12 +456,12 @@
     <!-- Menu item to go up to parent folder -->
     <string name="folder_go_up">Đi lên</string>
     <!-- LogActivity -->
-    <string name="syncthing_log_title">Nhật ký Syncthing</string>
+    <string name="syncthing_log_title">Nhật ký Serva Sync</string>
     <string name="android_log_title">Nhật ký Android</string>
     <!-- Title of the "log android" menu button -->
     <string name="view_android_log">Xem lịch sử Android</string>
-    <!-- Title of the "log Syncthing" menu button -->
-    <string name="view_syncthing_log">Xem lịch sử Syncthing</string>
+    <!-- Title of the "log Serva Sync" menu button -->
+    <string name="view_syncthing_log">Xem lịch sử Serva Sync</string>
     <string name="retrieving_logs">Đang lấy nhật ký…</string>
     <!-- Title of the "share log" menu button -->
     <string name="share_title">Chia sẻ</string>
@@ -469,7 +469,7 @@
     <!-- Toast if user didn't complete the welcome wizard yet -->
     <string name="complete_welcome_wizard_first">Trước tiên, hãy khởi động ứng dụng từ ngăn ứng dụng và hoàn thành trình hướng dẫn trước khi chia sẻ tệp.</string>
     <!-- Title of the "share" activity -->
-    <string name="share_activity_title">Lưu vào Syncthing</string>
+    <string name="share_activity_title">Lưu vào Serva Sync</string>
     <!-- Title of the "save" button -->
     <string name="save_title">Lưu</string>
     <!-- Title of the "cancel" button -->
@@ -498,8 +498,8 @@
     <!-- Sub Folder title -->
     <string name="sub_folder">Thư mục con</string>
     <!-- RunConditionMonitor -->
-    <string name="reason_force_start">Syncthing đang chạy vì bạn đã buộc nó khởi động mà không tính đến điều kiện chạy.</string>
-    <string name="reason_force_stop">Syncthing đang không chạy vì bạn đã buộc nó dừng mà không tính đến điều kiện chạy.</string>
+    <string name="reason_force_start">Serva Sync đang chạy vì bạn đã buộc nó khởi động mà không tính đến điều kiện chạy.</string>
+    <string name="reason_force_stop">Serva Sync đang không chạy vì bạn đã buộc nó dừng mà không tính đến điều kiện chạy.</string>
     <!-- Explanations why syncthing is running or not running -->
     <string name="reason_not_within_time_frame">Bạn đã bật \'Chạy theo lịch trình thời gian\' và lần đồng bộ trước cách đây không quá một tiếng.</string>
     <string name="reason_not_within_time_frame_2">Bạn đã bật \'Chạy theo lịch trình thời gian\' và lần đồng bộ trước cách đây %s.</string>
@@ -509,26 +509,26 @@
     </plurals>
     <string name="reason_not_charging">Điện thoại đang không sạc.</string>
     <string name="reason_not_on_battery_power">Điện thoại đang không chạy bằng pin.</string>
-    <string name="reason_not_while_power_saving">Syncthing đang không chạy vì điện thoại hiện đang tiết kiệm pin.</string>
-    <string name="reason_not_while_auto_sync_data_disabled">Syncthing đang không chạy vì Android đã tắt \'Tự động đồng bộ dữ liệu\'.</string>
+    <string name="reason_not_while_power_saving">Serva Sync đang không chạy vì điện thoại hiện đang tiết kiệm pin.</string>
+    <string name="reason_not_while_auto_sync_data_disabled">Serva Sync đang không chạy vì Android đã tắt \'Tự động đồng bộ dữ liệu\'.</string>
     <!-- … Mobile data -->
-    <string name="reason_mobile_data_disallowed">Syncthing không được thiết lập để chạy khi có kết nối dữ liệu di động.</string>
-    <string name="reason_on_mobile_data">Syncthing được cho phép chạy khi có dữ liệu di động.</string>
-    <string name="reason_not_on_mobile_data">Syncthing được cho phép chạy khi có kết nối dữ liệu di động nhưng không có kết nối dữ liệu di động.</string>
+    <string name="reason_mobile_data_disallowed">Serva Sync không được thiết lập để chạy khi có kết nối dữ liệu di động.</string>
+    <string name="reason_on_mobile_data">Serva Sync được cho phép chạy khi có dữ liệu di động.</string>
+    <string name="reason_not_on_mobile_data">Serva Sync được cho phép chạy khi có kết nối dữ liệu di động nhưng không có kết nối dữ liệu di động.</string>
     <!-- … Roaming -->
-    <string name="reason_on_roaming_nonroaming_mobile_data">Syncthing được cho phép chạy khi có kết nối dữ liệu di động chuyển vùng và không chuyển vùng.</string>
-    <string name="reason_on_nonroaming_mobile_data">Syncthing được cho phép chạy khi có kết nối dữ liệu di động không chuyển vùng. Kết nối đang hoạt động là không chuyển vùng.</string>
-    <string name="reason_not_nonroaming_mobile_data">Syncthing đang không chạy vì bạn đã không cho phép chạy khi có kết nối dữ liệu di động chuyển vùng.</string>
-    <string name="reason_wifi_disallowed">Syncthing không được cho phép chạy khi có WiFi hoặc mạng có dây.</string>
-    <string name="reason_on_wifi">Syncthing được cho phép chạy khi có WiFi và hiện tại đang có kết nối WIFi.</string>
-    <string name="reason_not_on_wifi">Syncthing được cho phép chạy khi có WiFi nhưng hiện tại không có kết nối WIFi hoặc điện thoại đang ở chế độ máy bay.</string>
-    <string name="reason_on_metered_nonmetered_wifi">Syncthing được cho phép chạy khi có kết nối WiFi trả phí và không trả phí.</string>
-    <string name="reason_on_whitelisted_wifi">Syncthing được cho phép chạy khi có mạng WiFi hiện tại.</string>
-    <string name="reason_not_on_whitelisted_wifi">Syncthing đang không chạy vì tên mạng WiFi hiện tại không được cho phép.</string>
-    <string name="reason_on_nonmetered_wifi">Syncthing được cho phép chạy khi có kết nối WiFi không trả phí. Kết nối WiFi hiện tại là không trả phí.</string>
-    <string name="reason_not_nonmetered_wifi">Syncthing đang không chạy vì bạn đã không cho phép chạy khi có kết nối WiFi trả phí.</string>
-    <string name="reason_location_unavailable">Bạn đã bật \'Chạy khi có mạng WiFi được chọn\' trong cài đặt. Dịch vụ vị trí của Android hiện đang bị tắt. Theo như hạn chế của Android, Syncthing không thể xác định tên mạng WiFi hiện tại để quyết định xem có nên chạy hay không. Giải pháp: Bật vị trí, cấp quyền vị trí và kết nối lại với WiFi.</string>
-    <string name="reason_on_flight_mode">Syncthing đang chạy vì bạn đã cho phép chạy khi chế độ máy bay đang hoạt động.</string>
+    <string name="reason_on_roaming_nonroaming_mobile_data">Serva Sync được cho phép chạy khi có kết nối dữ liệu di động chuyển vùng và không chuyển vùng.</string>
+    <string name="reason_on_nonroaming_mobile_data">Serva Sync được cho phép chạy khi có kết nối dữ liệu di động không chuyển vùng. Kết nối đang hoạt động là không chuyển vùng.</string>
+    <string name="reason_not_nonroaming_mobile_data">Serva Sync đang không chạy vì bạn đã không cho phép chạy khi có kết nối dữ liệu di động chuyển vùng.</string>
+    <string name="reason_wifi_disallowed">Serva Sync không được cho phép chạy khi có WiFi hoặc mạng có dây.</string>
+    <string name="reason_on_wifi">Serva Sync được cho phép chạy khi có WiFi và hiện tại đang có kết nối WIFi.</string>
+    <string name="reason_not_on_wifi">Serva Sync được cho phép chạy khi có WiFi nhưng hiện tại không có kết nối WIFi hoặc điện thoại đang ở chế độ máy bay.</string>
+    <string name="reason_on_metered_nonmetered_wifi">Serva Sync được cho phép chạy khi có kết nối WiFi trả phí và không trả phí.</string>
+    <string name="reason_on_whitelisted_wifi">Serva Sync được cho phép chạy khi có mạng WiFi hiện tại.</string>
+    <string name="reason_not_on_whitelisted_wifi">Serva Sync đang không chạy vì tên mạng WiFi hiện tại không được cho phép.</string>
+    <string name="reason_on_nonmetered_wifi">Serva Sync được cho phép chạy khi có kết nối WiFi không trả phí. Kết nối WiFi hiện tại là không trả phí.</string>
+    <string name="reason_not_nonmetered_wifi">Serva Sync đang không chạy vì bạn đã không cho phép chạy khi có kết nối WiFi trả phí.</string>
+    <string name="reason_location_unavailable">Bạn đã bật \'Chạy khi có mạng WiFi được chọn\' trong cài đặt. Dịch vụ vị trí của Android hiện đang bị tắt. Theo như hạn chế của Android, Serva Sync không thể xác định tên mạng WiFi hiện tại để quyết định xem có nên chạy hay không. Giải pháp: Bật vị trí, cấp quyền vị trí và kết nối lại với WiFi.</string>
+    <string name="reason_on_flight_mode">Serva Sync đang chạy vì bạn đã cho phép chạy khi chế độ máy bay đang hoạt động.</string>
     <string name="reason_run_condition_monitor_not_instantiated">RunConditionMonitor không được khởi tạo. Vui lòng khởi động lại ứng dụng và tạo báo cáo lỗi nếu lỗi này không biến mất sau khi khởi động lại.</string>
     <!-- Sync Conditions Dialog -->
     <string name="custom_wifi_ssid_whitelist_empty">Không có SSID WiFi nào được cho phép. Vui lòng chỉ định trong cài đặt.</string>
@@ -536,8 +536,8 @@
     <!-- Text for the exit button on the drawer -->
     <string name="exit">Thoát</string>
     <!-- Title of the notification shown while syncthing is running and enabled -->
-    <string name="syncthing_active">Syncthing đang chạy</string>
-    <string name="syncthing_active_details">Syncthing đang chạy: %1$s</string>
+    <string name="syncthing_active">Serva Sync đang chạy</string>
+    <string name="syncthing_active_details">Serva Sync đang chạy: %1$s</string>
     <string name="no_remote_devices_connected">Không có thiết bị trên mạng nào được kết nối</string>
     <plurals name="device_online_up_to_date">
         <item quantity="other">%1$d thiết bị trực tuyến và đã cập nhật</item>
@@ -545,8 +545,8 @@
     <plurals name="syncthing_active_syncing_device_online">
         <item quantity="other">Đang đồng bộ: %1$d%% hoàn tất, %2$d thiết bị trực tuyến</item>
     </plurals>
-    <string name="syncthing_disabled">Syncthing đang ngủ</string>
-    <string name="syncthing_terminated">Syncthing đã bị dừng</string>
+    <string name="syncthing_disabled">Serva Sync đang ngủ</string>
+    <string name="syncthing_terminated">Serva Sync đã bị dừng</string>
     <!-- Toast shown if syncthing failed to create or read the config -->
     <string name="executable_not_found">Tệp thực thi cốt lõi \"%s\" bị thiếu. Hãy kiểm tra bản dựng và nhật ký đầu ra.</string>
     <string name="config_create_failed">Tạo thiết lập thất bại. Hãy kiểm tra nhật ký đầu ra.</string>
@@ -559,9 +559,9 @@
     <string name="default_android_camera_folder_label">Máy ảnh Android</string>
     <!-- ID of the default folder created on first start (camera folder). Must only contain 'a-z0-9_-'. Parameter is the device name-->
     <string name="default_folder_id">%1$s-ảnh</string>
-    <string name="notification_crash_title">Syncthing đã dừng đột ngột (mã thoát %1$s)</string>
+    <string name="notification_crash_title">Serva Sync đã dừng đột ngột (mã thoát %1$s)</string>
     <string name="notification_crash_text">Nhấn để xem nhật ký (%1$s)</string>
-    <string name="notifications_persistent_channel">Syncthing đang hoạt động</string>
+    <string name="notifications_persistent_channel">Serva Sync đang hoạt động</string>
     <string name="notification_persistent_waiting_channel">Đang giám sát điều kiện chạy</string>
     <string name="notifications_other_channel">Thông báo khác</string>
     <!-- EventProcessor -->
@@ -572,7 +572,7 @@
     <!-- Text for positive button in restart dialog -->
     <!-- Text for the dismiss button of the restart Activity -->
     <!-- Text of the notification shown when a restart is needed -->
-    <string name="restart_notification_text">Nhấp để kh.động lại Syncthing ngay</string>
+    <string name="restart_notification_text">Nhấp để kh.động lại Serva Sync ngay</string>
     <!-- Shown when a device ID is copied to the clipboard -->
     <string name="device_id_copied_to_clipboard">Đã chép ID thiết bị vào clipboard</string>
     <!-- Strings representing units for file sizes, from smallest to largest -->
@@ -639,15 +639,15 @@
     <string name="maximum_age">Tuổi thọ tối đa</string>
     <string name="clean_out_after">Dọn sau</string>
     <string name="file_versioning">Tạo phiên bản tệp</string>
-    <string name="file_versioning_generic_description">Syncthing hỗ trợ lưu trữ phiên bản cũ của tệp khi nó bị xóa hoặc thay thế bằng phiên bản mới hơn từ cụm. Nhấn để xem các sự sắp đặt phiên bản có sẵn. Việc tạo phiên bản tệp được thiết lập cho mỗi thư mục, theo mỗi thiết bị. Sự sắp đặt đã chọn:</string>
+    <string name="file_versioning_generic_description">Serva Sync hỗ trợ lưu trữ phiên bản cũ của tệp khi nó bị xóa hoặc thay thế bằng phiên bản mới hơn từ cụm. Nhấn để xem các sự sắp đặt phiên bản có sẵn. Việc tạo phiên bản tệp được thiết lập cho mỗi thư mục, theo mỗi thiết bị. Sự sắp đặt đã chọn:</string>
     <string name="none">Không có</string>
     <string name="versions_path">Đường dẫn phiên bản</string>
     <string name="command">Lệnh</string>
     <!-- File versioning dialog descriptions for file versioning types and file versioning configuration options. -->
     <string name="keep_versions_description">Số phiên bản cũ được giữ, cho mỗi tệp.</string>
-    <string name="simple_file_versioning_description">Các tệp được di chuyển vào phiên bản được đánh dấu thời gian trong thư mục .stversions khi bị Syncthing thay thế hoặc xóa.</string>
-    <string name="trashcan_versioning_description">Các tệp được di chuyển vào thư mục .stversions khi bị Syncthing thay thế hoặc xóa.</string>
-    <string name="staggered_versioning_description">Các tệp được di chuyển vào phiên bản được đánh dấu thời gian khi bị Syncthing thay thế hoặc xóa. Các phiên bản bị tự động xóa nếu chúng cũ hơn tuổi thọ tối đa hoặc vượt quá số tệp được cho phép trong một khoảng thời gian. \n \nCác khoảng thời gian sau được sử dụng: trong giờ đầu tiên một phiên bản được giữ mỗi 30 giây, trong ngày đầu tiên một phiên bản được giữ mỗi tiếng, trong 30 ngày đầu tiên một phiên bản được giữ mỗi ngày, cho đến tuổi thọ tối đa một phiên bản được giữ mỗi tuần.</string>
+    <string name="simple_file_versioning_description">Các tệp được di chuyển vào phiên bản được đánh dấu thời gian trong thư mục .stversions khi bị Serva Sync thay thế hoặc xóa.</string>
+    <string name="trashcan_versioning_description">Các tệp được di chuyển vào thư mục .stversions khi bị Serva Sync thay thế hoặc xóa.</string>
+    <string name="staggered_versioning_description">Các tệp được di chuyển vào phiên bản được đánh dấu thời gian khi bị Serva Sync thay thế hoặc xóa. Các phiên bản bị tự động xóa nếu chúng cũ hơn tuổi thọ tối đa hoặc vượt quá số tệp được cho phép trong một khoảng thời gian. \n \nCác khoảng thời gian sau được sử dụng: trong giờ đầu tiên một phiên bản được giữ mỗi 30 giây, trong ngày đầu tiên một phiên bản được giữ mỗi tiếng, trong 30 ngày đầu tiên một phiên bản được giữ mỗi ngày, cho đến tuổi thọ tối đa một phiên bản được giữ mỗi tuần.</string>
     <string name="maximum_age_description">Thời gian tối đa để giữ một phiên bản (tính bằng ngày, đặt là 0 để giữ các phiên bản mãi mãi).</string>
     <string name="versions_path_description">Đường dẫn nơi các phiên bản nên được lưu trữ (để trống để dùng thư mục .stversions mặc định trong thư mục được chia sẻ).</string>
     <string name="cleanout_after_description">Số ngày để giữ các tệp trong thùng rác. Không nghĩa là mãi mãi</string>

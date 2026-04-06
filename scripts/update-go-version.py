@@ -2,7 +2,7 @@
 """
 Update the Go version in gradle/libs.versions.toml.
 
-Auto-detects the base version from the Syncthing workflow and 
+Auto-detects the base version from the Serva Sync workflow and 
 updates to the latest patch release.
 
 Usage:
@@ -31,7 +31,7 @@ def get_latest_patch_version(base_version):
 
 
 def parse_workflow_version():
-    """Parse GO_VERSION from Syncthing workflow. ~1.25.0 -> 1.25"""
+    """Parse GO_VERSION from Serva Sync workflow. ~1.25.0 -> 1.25"""
     script_dir = os.path.dirname(os.path.abspath(__file__))
     workflow_path = os.path.join(
         os.path.dirname(script_dir),

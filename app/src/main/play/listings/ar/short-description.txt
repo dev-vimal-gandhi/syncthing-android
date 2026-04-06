@@ -1,1 +1,1 @@
-Wrapper for Syncthing - مُزامنة ملفات مفتوحة ولامركزيَة
+Wrapper for Serva Sync - مُزامنة ملفات مفتوحة ولامركزيَة

@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <string name="app_name">Syncthing-Fork</string>
+    <string name="app_name">Serva Sync</string>
     <string name="app_description">Um aplicativo aberto, confiável e descentralizado para sincronização de arquivos.</string>
     <!-- FirstStartActivity -->
     <!-- Title for dialog displayed on first start -->
-    <string name="welcome_title">Boas-vindas ao Syncthing para Android</string>
+    <string name="welcome_title">Boas-vindas ao Serva Sync para Android</string>
     <!-- Welcome wizard -->
     <!-- Slide "Introduction" -->
     <string name="introduction">Introdução</string>
-    <string name="welcome_text">O Syncthing é um aplicativo de sincronização de arquivos de código aberto. Para compartilhar dados com outros dispositivos, você precisa adicionar seus IDs únicos de dispositivos à lista de dispositivos. Depois disso, você pode selecionar quais pastas compartilhar com quais dispositivos. \n \nPor favor, reporte qualquer problema que você enfrentar pelo GitHub.</string>
+    <string name="welcome_text">O Serva Sync é um aplicativo de sincronização de arquivos de código aberto. Para compartilhar dados com outros dispositivos, você precisa adicionar seus IDs únicos de dispositivos à lista de dispositivos. Depois disso, você pode selecionar quais pastas compartilhar com quais dispositivos. \n \nPor favor, reporte qualquer problema que você enfrentar pelo GitHub.</string>
     <!-- Slide "Storage Permission" -->
     <string name="storage_permission_title">Permissão de armazenamento</string>
-    <string name="storage_permission_desc">O Syncthing precisa acessar seu armazenamento para fazer a sincronização de arquivos.</string>
+    <string name="storage_permission_desc">O Serva Sync precisa acessar seu armazenamento para fazer a sincronização de arquivos.</string>
     <string name="dialog_all_files_access_not_supported">Seu dispositivo não suporta o acesso a todos os arquivos</string>
     <!-- Slide "Ignore battery optimizations" -->
     <string name="ignore_doze_permission_title">Otimização de bateria</string>
     <string name="ignore_doze_permission_os_notice">Dispositivos Android TVs são conhecidos por ocasionalmente encerrar o app quando está rodando em segundo plano. Uma solução está disponível na wiki em \'%1$s/%2$s\'.</string>
-    <string name="ignore_doze_permission_desc">O Android pode interromper a sincronização após algum tempo. Para evitar isso, desative a otimização da bateria. Alguns dispositivos têm apps adicionais pré-instalados que encerram apps em segundo plano. Você também deve adicionar o Syncthing às exceções deles.</string>
+    <string name="ignore_doze_permission_desc">O Android pode interromper a sincronização após algum tempo. Para evitar isso, desative a otimização da bateria. Alguns dispositivos têm apps adicionais pré-instalados que encerram apps em segundo plano. Você também deve adicionar o Serva Sync às exceções deles.</string>
     <string name="toast_ignore_doze_permission_required">Este app só funciona de forma estável se for isentado do modo de economia de energia \"doze\".</string>
     <string name="dialog_disable_battery_optimizations_not_supported">Seu dispositivo não suporta a desativação das otimizações de bateria</string>
     <!-- Slide "Location Permission" -->
     <string name="location_permission_title">Permissão de localização</string>
-    <string name="location_permission_desc">O Syncthing pode ser configurado para funcionar somente em redes Wi-Fi selecionadas. O Android requer que o app tenha a permissão de localização para ler o nome da rede Wi-Fi ativa. Se você quiser usar esse recurso, pressione o botão acima. Você pode pular esta etapa. Veja nossa política de privacidade para mais detalhes.</string>
+    <string name="location_permission_desc">O Serva Sync pode ser configurado para funcionar somente em redes Wi-Fi selecionadas. O Android requer que o app tenha a permissão de localização para ler o nome da rede Wi-Fi ativa. Se você quiser usar esse recurso, pressione o botão acima. Você pode pular esta etapa. Veja nossa política de privacidade para mais detalhes.</string>
     <string name="location_permission_desc_api_29">Dica para Android 10+: \"Permitir o tempo todo\"</string>
     <!-- Slide "Key Generation" -->
     <string name="key_generation_title">Geração de chaves</string>
@@ -43,16 +43,16 @@
     <string name="refresh">Recarregar</string>
     <!-- PhotoShootActivity -->
     <string name="photo_shoot_launcher_title">Câmera do Sync.</string>
-    <string name="photo_shoot_activity_title">Câmera do Syncthing-Fork</string>
-    <string name="photo_shoot_intro_welcome_title">Boas-vindas à Câmera do Syncthing</string>
+    <string name="photo_shoot_activity_title">Câmera do Serva Sync</string>
+    <string name="photo_shoot_intro_welcome_title">Boas-vindas à Câmera do Serva Sync</string>
     <string name="photo_shoot_intro_permission_title">Permissões necessárias</string>
     <string name="photo_shoot_intro_no_camera">Desculpe, este dispositivo não tem uma câmera.</string>
     <string name="photo_shoot_intro_missing_permissions">Precisamos das permissões de armazenamento e de câmera para continuar.</string>
     <string name="grant_storage_permission">Conceder permissão de armazenamento</string>
     <string name="grant_camera_permission">Conceder permissão de câmera</string>
     <string name="photo_shoot_take_picture_failure">Falha ao tirar uma foto ou você cancelou.</string>
-    <!-- Label of the folder created by the Syncthing Camera feature. -->
-    <string name="default_syncthing_camera_folder_label">Câmera do Syncthing</string>
+    <!-- Label of the folder created by the Serva Sync Camera feature. -->
+    <string name="default_syncthing_camera_folder_label">Câmera do Serva Sync</string>
     <!-- MainActivity -->
     <!-- Main bottom navigation view -->
     <string name="activity_main_bottom_navigation_rescan_all">Recarregar tudo</string>
@@ -139,10 +139,10 @@
     <string name="button_follow_run_conditions">SEGUIR CONDIÇÕES DE EXECUÇÃO</string>
     <string name="button_force_start">INÍCIO FORÇADO \nIGNORAR CONDIÇÕES DE EXECUÇÃO</string>
     <string name="button_force_stop">PARADA FORÇADA \nIGNORAR CONDIÇÕES DE EXECUÇÃO</string>
-    <string name="syncthing_starting">O Syncthing está iniciando.</string>
-    <string name="syncthing_running">O Syncthing está em execução.</string>
-    <string name="syncthing_not_running">O Syncthing não está em execução.</string>
-    <string name="syncthing_has_crashed">O Syncthing travou.</string>
+    <string name="syncthing_starting">O Serva Sync está iniciando.</string>
+    <string name="syncthing_running">O Serva Sync está em execução.</string>
+    <string name="syncthing_not_running">O Serva Sync não está em execução.</string>
+    <string name="syncthing_has_crashed">O Serva Sync travou.</string>
     <!-- DrawerFragment -->
     <!-- Same as download_title with a colon and space appended -->
     <string name="download_title_colon">"Recepção: "</string>
@@ -155,7 +155,7 @@
     <!-- Title for uptime status -->
     <string name="uptime">Tempo de atividade</string>
     <string name="restart">Reiniciar</string>
-    <string name="dialog_confirm_restart">Quer mesmo reiniciar o Syncthing?</string>
+    <string name="dialog_confirm_restart">Quer mesmo reiniciar o Serva Sync?</string>
     <!-- FolderActivity -->
     <!-- Setting title -->
     <string name="folder_id">ID da pasta</string>
@@ -185,7 +185,7 @@
     <!-- Menu item to confirm folder creation -->
     <string name="create">Criar</string>
     <!-- Dialog shown when attempting to remove a folder -->
-    <string name="remove_folder_confirm">Quer mesmo remover esta pasta do Syncthing?</string>
+    <string name="remove_folder_confirm">Quer mesmo remover esta pasta do Serva Sync?</string>
     <!-- Toast shown when trying to create a folder with an empty ID -->
     <string name="folder_id_required">O ID da pasta não pode ficar vazio</string>
     <!-- Toast shown when trying to create a folder with an empty label -->
@@ -194,9 +194,9 @@
     <string name="folder_path_required">O caminho da pasta não pode ficar vazio</string>
     <string name="dialog_discard_changes">Descartar suas alterações?</string>
     <!-- Summary shown if we only have readonly access to the folder path -->
-    <string name="folder_path_readonly">Sua versão de Android concede apenas acesso de leitura ao Syncthing na pasta selecionada.</string>
+    <string name="folder_path_readonly">Sua versão de Android concede apenas acesso de leitura ao Serva Sync na pasta selecionada.</string>
     <!-- Summary shown if we only have readwrite access to the folder path -->
-    <string name="folder_path_readwrite">Sua versão do Android concede ao Syncthing acesso de leitura e gravação na pasta selecionada.</string>
+    <string name="folder_path_readwrite">Sua versão do Android concede ao Serva Sync acesso de leitura e gravação na pasta selecionada.</string>
     <string name="folder_type_switch_to_receive_encrypted_not_allowed">A mudança de pastas existentes para \'Receber criptografado\' não é suportada.</string>
     <string name="ignore_patterns">Filtros</string>
     <!-- DeviceActivity -->
@@ -268,14 +268,14 @@
     <string name="preference_app_theme_follow_light">Claro</string>
     <string name="preference_app_theme_follow_dark">Escuro</string>
     <string name="category_behaviour">Comportamento</string>
-    <string name="category_syncthing_options">Opções do Syncthing</string>
-    <string name="category_syncthing_options_summary">Este menu só estará disponível se o Syncthing estiver em execução.</string>
+    <string name="category_syncthing_options">Opções do Serva Sync</string>
+    <string name="category_syncthing_options_summary">Este menu só estará disponível se o Serva Sync estiver em execução.</string>
     <string name="category_backup">Importação e exportação</string>
     <string name="category_debug">Resolução de problemas</string>
     <string name="category_experimental">Experimentais</string>
     <!-- Preference screen - Run conditions -->
     <string name="run_conditions_title">Condições de execução</string>
-    <string name="run_conditions_summary">Use as seguintes opções para decidir quando o Syncthing será executado.</string>
+    <string name="run_conditions_summary">Use as seguintes opções para decidir quando o Serva Sync será executado.</string>
     <string name="run_on_mobile_data_title">Executar nos dados móveis</string>
     <string name="run_on_wifi_title">Executar no Wi-Fi</string>
     <string name="run_on_metered_wifi_title">Executar em Wi-Fi limitado</string>
@@ -292,9 +292,9 @@
     <string name="power_source_ac_power">Carregamento.</string>
     <string name="power_source_battery_power">Bateria.</string>
     <string name="respect_battery_saving_title">Respeitar a configuração de economia de bateria do Android</string>
-    <string name="run_in_flight_mode_summary">Ao ativar esta opção, o Syncthing será executado mesmo quando desconectado. Ative isto se o seu dispositivo tem problemas detectando conexões Wi-Fi durante o modo avião.</string>
+    <string name="run_in_flight_mode_summary">Ao ativar esta opção, o Serva Sync será executado mesmo quando desconectado. Ative isto se o seu dispositivo tem problemas detectando conexões Wi-Fi durante o modo avião.</string>
     <string name="expert_mode_title">Modo de especialista</string>
-    <string name="expert_mode_summary">Ao ativar esta opção, opções de configurações avançadas serão exibidas. Você deve dar uma olhada na documentação do Syncthing primeiro para se certificar de que sabe como usá-las corretamente. Configurações incorretas podem causar drenagem de bateria, esgotamento dos recursos do sistema ou sincronização incompleta.</string>
+    <string name="expert_mode_summary">Ao ativar esta opção, opções de configurações avançadas serão exibidas. Você deve dar uma olhada na documentação do Serva Sync primeiro para se certificar de que sabe como usá-las corretamente. Configurações incorretas podem causar drenagem de bateria, esgotamento dos recursos do sistema ou sincronização incompleta.</string>
     <string name="preference_language_title">Idioma</string>
     <string name="preference_language_summary">Altere o idioma do aplicativo</string>
     <string name="pref_language_default">Idioma padrão</string>
@@ -337,7 +337,7 @@
     <string name="http_proxy_address_title">Proxy HTTP(S)</string>
     <!-- Toast after entering invalid http proxy address -->
     <string name="toast_invalid_http_proxy_address">Entrada viola sintaxe do proxy \'http://[IP/HOSTNAME]:[PORT]\'</string>
-    <string name="broadcast_service_control_summary">Padrão: Desativado. Ative esta opção para permitir que o adb ou apps de terceiros, por exemplo, apps de automação instruam que o Syncthing siga condições de execução, ou faça um início ou parada forçada.</string>
+    <string name="broadcast_service_control_summary">Padrão: Desativado. Ative esta opção para permitir que o adb ou apps de terceiros, por exemplo, apps de automação instruam que o Serva Sync siga condições de execução, ou faça um início ou parada forçada.</string>
     <!-- Dialog shown before config export -->
     <string name="dialog_confirm_export">Quer mesmo exportar a configuração? O arquivo existente será substituído.</string>
     <!-- Dialog shown before config import -->
@@ -353,11 +353,11 @@
     <string name="environment_variables">Variáveis de ambiente</string>
     <!-- Toast after entering invalid STTRACE params -->
     <string name="toast_invalid_environment_variables">O valor da variável de ambiente não é um valor válido</string>
-    <!-- Title for the preference to reset Syncthing indexes -->
+    <!-- Title for the preference to reset Serva Sync indexes -->
     <string name="st_reset_database_title">Redefinir banco de dados</string>
-    <!-- Syncthing was reset -->
-    <string name="st_reset_database_done">O banco de dados do Syncthing foi redefinido com sucesso</string>
-    <!-- Title for the preference to reset Syncthing indexes -->
+    <!-- Serva Sync was reset -->
+    <string name="st_reset_database_done">O banco de dados do Serva Sync foi redefinido com sucesso</string>
+    <!-- Title for the preference to reset Serva Sync indexes -->
     <string name="st_reset_deltas_title">Redefinir índices delta</string>
     <string name="category_about">Sobre</string>
     <string name="verbose_log_title">Registros verbosos</string>
@@ -365,18 +365,18 @@
     <!-- Settings item that opens the log activity -->
     <string name="open_log">Abrir registros</string>
     <!-- Summary for the log activity -->
-    <string name="open_log_summary">Abrir a janela de registros do Syncthing e do Android</string>
+    <string name="open_log_summary">Abrir a janela de registros do Serva Sync e do Android</string>
     <!-- Settings item that opens issue tracker -->
     <string name="report_issue_title">Reportar problema</string>
     <!-- Summary for the issue tracker settings item -->
-    <string name="open_issue_tracker_summary">Abra o rastreador de problemas do Syncthing-Fork em %1$s</string>
+    <string name="open_issue_tracker_summary">Abra o rastreador de problemas do Serva Sync em %1$s</string>
     <!-- Menu item to donate -->
     <!-- Title of the preference showing upstream version name -->
-    <string name="syncthing_version_title">Versão do Syncthing</string>
+    <string name="syncthing_version_title">Versão do Serva Sync</string>
     <!-- Title of the preference showing the REST API key -->
-    <string name="syncthing_api_key">Chave de API do Syncthing (clique para copiar)</string>
+    <string name="syncthing_api_key">Chave de API do Serva Sync (clique para copiar)</string>
     <!-- Shown when the API key is copied to the clipboard -->
-    <string name="api_key_copied_to_clipboard">Chave de API do Syncthing copiada pra área de transferência</string>
+    <string name="api_key_copied_to_clipboard">Chave de API do Serva Sync copiada pra área de transferência</string>
     <!-- FolderPickerAcitivity -->
     <!-- Activity title -->
     <string name="folder_picker_title">Seletor de pasta</string>
@@ -390,17 +390,17 @@
     <!-- Menu item to go up to parent folder -->
     <string name="folder_go_up">Ir à pasta-mãe</string>
     <!-- LogActivity -->
-    <string name="syncthing_log_title">Registros do Syncthing</string>
+    <string name="syncthing_log_title">Registros do Serva Sync</string>
     <string name="android_log_title">Registros do Android</string>
     <!-- Title of the "log android" menu button -->
     <string name="view_android_log">Visualize os registros do Android</string>
-    <!-- Title of the "log Syncthing" menu button -->
-    <string name="view_syncthing_log">Visualize os registros do Syncthing</string>
+    <!-- Title of the "log Serva Sync" menu button -->
+    <string name="view_syncthing_log">Visualize os registros do Serva Sync</string>
     <string name="retrieving_logs">Buscando registros…</string>
     <!-- Title of the "share log" menu button -->
     <string name="share_title">Compartilhar</string>
     <!-- Title of the "share" activity -->
-    <string name="share_activity_title">Salvar para o Syncthing</string>
+    <string name="share_activity_title">Salvar para o Serva Sync</string>
     <!-- Title of the "save" button -->
     <string name="save_title">Salvar</string>
     <!-- Title of the "cancel" button -->
@@ -434,7 +434,7 @@
     </plurals>
     <!-- Sub Folder title -->
     <string name="sub_folder">Subpasta</string>
-    <string name="reason_force_stop">O Syncthing não está em execução pois você forçou que ele parasse independente das condições de execução.</string>
+    <string name="reason_force_stop">O Serva Sync não está em execução pois você forçou que ele parasse independente das condições de execução.</string>
     <string name="reason_not_within_time_frame_0_min">menos de um minuto</string>
     <plurals name="reason_not_within_time_frame_minutes">
         <item quantity="one">%d minuto</item>
@@ -443,18 +443,18 @@
     </plurals>
     <string name="reason_not_charging">O celular não está carregando.</string>
     <string name="reason_not_on_battery_power">O celular não está utilizando a energia da bateria.</string>
-    <string name="reason_not_while_power_saving">O Syncthing não está em execução pois o celular está no modo de economia de bateria no momento.</string>
-    <string name="reason_on_mobile_data">O Syncthing está autorizado a executar nos dados móveis.</string>
-    <string name="reason_not_nonroaming_mobile_data">O Syncthing não está em execução pois você não permitiu que ele fosse executado em conexões de dados móveis.</string>
-    <string name="reason_wifi_disallowed">O Syncthing não está autorizado a executar no Wi-Fi ou Ethernet.</string>
-    <string name="reason_on_wifi">O Syncthing está autorizado a executar no Wi-Fi e o Wi-Fi está conectado no momento.</string>
-    <string name="reason_not_on_wifi">O Syncthing está autorizado a executar no Wi-Fi mas o Wi-Fi não está conectado ou o celular está no modo avião.</string>
-    <string name="reason_on_metered_nonmetered_wifi">O Syncthing está autorizado a executar em conexões Wi-Fi limitadas e ilimitadas.</string>
-    <string name="reason_on_whitelisted_wifi">O Syncthing está autorizado a executar na rede Wi-Fi atual.</string>
-    <string name="reason_not_on_whitelisted_wifi">O Syncthing não está em execução pois o nome da rede Wi-Fi atual não está na lista de redes permitidas.</string>
-    <string name="reason_on_nonmetered_wifi">O Syncthing está autorizado a executar em conexões Wi-Fi ilimitadas. A conexão Wi-Fi ativa é ilimitada.</string>
-    <string name="reason_not_nonmetered_wifi">O Syncthing não está em execução pois você não permitiu que ele fosse executado em conexões Wi-Fi limitadas.</string>
-    <string name="reason_on_flight_mode">O Syncthing está em execução pois você autorizou que fosse executado enquanto o modo avião está ativo.</string>
+    <string name="reason_not_while_power_saving">O Serva Sync não está em execução pois o celular está no modo de economia de bateria no momento.</string>
+    <string name="reason_on_mobile_data">O Serva Sync está autorizado a executar nos dados móveis.</string>
+    <string name="reason_not_nonroaming_mobile_data">O Serva Sync não está em execução pois você não permitiu que ele fosse executado em conexões de dados móveis.</string>
+    <string name="reason_wifi_disallowed">O Serva Sync não está autorizado a executar no Wi-Fi ou Ethernet.</string>
+    <string name="reason_on_wifi">O Serva Sync está autorizado a executar no Wi-Fi e o Wi-Fi está conectado no momento.</string>
+    <string name="reason_not_on_wifi">O Serva Sync está autorizado a executar no Wi-Fi mas o Wi-Fi não está conectado ou o celular está no modo avião.</string>
+    <string name="reason_on_metered_nonmetered_wifi">O Serva Sync está autorizado a executar em conexões Wi-Fi limitadas e ilimitadas.</string>
+    <string name="reason_on_whitelisted_wifi">O Serva Sync está autorizado a executar na rede Wi-Fi atual.</string>
+    <string name="reason_not_on_whitelisted_wifi">O Serva Sync não está em execução pois o nome da rede Wi-Fi atual não está na lista de redes permitidas.</string>
+    <string name="reason_on_nonmetered_wifi">O Serva Sync está autorizado a executar em conexões Wi-Fi ilimitadas. A conexão Wi-Fi ativa é ilimitada.</string>
+    <string name="reason_not_nonmetered_wifi">O Serva Sync não está em execução pois você não permitiu que ele fosse executado em conexões Wi-Fi limitadas.</string>
+    <string name="reason_on_flight_mode">O Serva Sync está em execução pois você autorizou que fosse executado enquanto o modo avião está ativo.</string>
     <!-- Sync Conditions Dialog -->
     <string name="custom_wifi_ssid_whitelist_empty">Sem SSIDs de Wi-Fi na lista de redes permitidas. Especifique alguns nas configurações.</string>
     <!-- SyncthingService -->
@@ -469,7 +469,7 @@
     <!-- ID of the default folder created on first start (camera folder). Must only contain 'a-z0-9_-'. Parameter is the device name-->
     <string name="default_folder_id">Fotos de %1$s</string>
     <string name="notification_crash_title">Travou (código de saída: %1$s)</string>
-    <string name="notifications_persistent_channel">Syncthing está ativo</string>
+    <string name="notifications_persistent_channel">Serva Sync está ativo</string>
     <string name="notification_persistent_waiting_channel">Monitoramento das condições de execução</string>
     <string name="notifications_other_channel">Outras notificações</string>
     <!-- RestApi -->
@@ -478,7 +478,7 @@
     <!-- Text for positive button in restart dialog -->
     <!-- Text for the dismiss button of the restart Activity -->
     <!-- Text of the notification shown when a restart is needed -->
-    <string name="restart_notification_text">Toque aqui para reiniciar o Syncthing agora</string>
+    <string name="restart_notification_text">Toque aqui para reiniciar o Serva Sync agora</string>
     <!-- Shown when a device ID is copied to the clipboard -->
     <string name="device_id_copied_to_clipboard">ID do dispositivo copiado pra área de transferência</string>
     <!-- Strings representing units for file sizes, from smallest to largest -->
@@ -543,8 +543,8 @@
     <string name="command">Comando</string>
     <!-- File versioning dialog descriptions for file versioning types and file versioning configuration options. -->
     <string name="keep_versions_description">Quantas versões antigas manter, por arquivo.</string>
-    <string name="simple_file_versioning_description">Os arquivos são movidos para versões estampadas com a data em um diretório .stversions quando substituídos ou apagados pelo Syncthing.</string>
-    <string name="trashcan_versioning_description">Os arquivos são movidos para o diretório .stversions quando substituídos ou apagados pelo Syncthing.</string>
+    <string name="simple_file_versioning_description">Os arquivos são movidos para versões estampadas com a data em um diretório .stversions quando substituídos ou apagados pelo Serva Sync.</string>
+    <string name="trashcan_versioning_description">Os arquivos são movidos para o diretório .stversions quando substituídos ou apagados pelo Serva Sync.</string>
     <string name="maximum_age_description">O tempo máximo para manter uma versão (em dias, use 0 para manter as versões para sempre).</string>
     <string name="versions_path_description">Caminho do diretório onde as versões são salvas (deixe em branco para que seja o diretório padrão .stversions dentro da pasta compartilhada).</string>
     <string name="cleanout_after_description">O número de dias em que são mantidos os arquivos na lixeira. Zero significa para sempre</string>
@@ -574,25 +574,25 @@
     <string name="dialog_confirm_skip_ignore_doze_permission">Cuidado: Se o SyncthingNative for interrompido e fizer algo estranho, é sua culpa. Apenas pule se seu dispositivo não suportar a concessão da permissão. Você realmente quer pular?</string>
     <string name="notification_permission_title">Permissão de notificação</string>
     <string name="notification_permission_desc">Necessário para mostrar notificações sobre conexões de dispositivos novos, solicitações de compartilhamento de pasta, e para manter o serviço ativo e conectado.</string>
-    <string name="toast_notification_permission_required">O Syncthing requer a permissão de notificação para manter o serviço ativo e conectado.</string>
-    <string name="photo_shoot_take_picture_success">Foto salva com sucesso à pasta da Câmera do Syncthing.</string>
+    <string name="toast_notification_permission_required">O Serva Sync requer a permissão de notificação para manter o serviço ativo e conectado.</string>
+    <string name="photo_shoot_take_picture_success">Foto salva com sucesso à pasta da Câmera do Serva Sync.</string>
     <string name="device_id_invalid">O ID do dispositivo não está formatado corretamente. Por favor tente novamente e digite o ID correto.</string>
     <string name="device_name_required">O nome do dispositivo não pode ficar vazio</string>
     <string name="toast_invalid_folder_selected">Desculpe. A pasta selecionada não pode ser usada. Por favor selecione uma pasta localizada no armazenamento interno ou externo.</string>
     <string name="discovered_device_list_empty">A descoberta local não encontrou nenhum dispositivo na rede local. Execute esse app em um segundo dispositivo. Arquivos de instalação para computadores estão disponíveis em: %1$s</string>
     <string name="untrusted_device_explanation">Todas as pastas compartilhadas com este dispositivo devem estar protegidas por uma senha, de forma que os dados enviados não são legíveis sem a senha correta.</string>
     <string name="autoAcceptFolders">Aceitar automaticamente</string>
-    <string name="local_discovery_disabled">Você desativou a descoberta local em \'Configurações\' &gt; \'Opções do Syncthing\' &gt; \'Descoberta local\'. Ative-a para buscar dispositivos na rede local.</string>
-    <string name="photo_shoot_intro_permission_desc">A Câmera do Syncthing requer seu consentimento para tirar fotos e armazená-las no seu dispositivo. Esse recurso é opcional. Para usá-lo, conceda as permissões e toque em \"Continuar\". Nós iremos configurar uma pasta para a Câmera do Syncthing para você, que você pode compartilhar com outros dispositivos do Syncthing depois.</string>
+    <string name="local_discovery_disabled">Você desativou a descoberta local em \'Configurações\' &gt; \'Opções do Serva Sync\' &gt; \'Descoberta local\'. Ative-a para buscar dispositivos na rede local.</string>
+    <string name="photo_shoot_intro_permission_desc">A Câmera do Serva Sync requer seu consentimento para tirar fotos e armazená-las no seu dispositivo. Esse recurso é opcional. Para usá-lo, conceda as permissões e toque em \"Continuar\". Nós iremos configurar uma pasta para a Câmera do Serva Sync para você, que você pode compartilhar com outros dispositivos do Serva Sync depois.</string>
     <string name="exception_known_bug_notice">Um bug conhecido que não foi resolvido ainda ocorreu. Veja %1$s/%2$s para mais informações. Por favor, nos deixe uma descrição precisa do que aconteceu antes disso acontecer.</string>
     <string name="run_on_mobile_data_summary">Execute quando o dispositivo estiver conectado pela rede de dados móveis. Alerta: Isto pode consumir muitos dados do seu plano de dados da operadora se você sincronizar grandes quantidades de dados.</string>
     <string name="run_on_roaming_title">Executar enquanto estiver em roaming</string>
-    <string name="run_on_roaming_summary">Permita que o Syncthing utilize os dados móveis ao estar em roaming. (!) Envie um retorno no GitHub se isto funcionar corretamente.</string>
+    <string name="run_on_roaming_summary">Permita que o Serva Sync utilize os dados móveis ao estar em roaming. (!) Envie um retorno no GitHub se isto funcionar corretamente.</string>
     <string name="run_on_wifi_summary">Execute quando o dispositivo estiver conectado à uma rede Wi-Fi ou Ethernet.</string>
     <string name="sync_only_wifi_ssids_wifi_turn_on_location">Por favor, ative a localização para selecionar as redes.</string>
-    <string name="respect_battery_saving_summary">Desative o Syncthing se a economia de bateria estiver ativa.</string>
+    <string name="respect_battery_saving_summary">Desative o Serva Sync se a economia de bateria estiver ativa.</string>
     <string name="folder_run_script_caption">Executar script</string>
-    <string name="device_addresses_invalid">Os endereços do dispositivo não estão formatados corretamente. Tente novamente. Consulte a documentação do Syncthing para mais informações.</string>
+    <string name="device_addresses_invalid">Os endereços do dispositivo não estão formatados corretamente. Tente novamente. Consulte a documentação do Serva Sync para mais informações.</string>
     <string name="install_barcode_scanner_app_message">Isto requer um aplicativo de leitura de código de barras. Gostaria de instalar o aplicativo \"Binary Eye\" do F-Droid?</string>
     <string name="power_source_title">Executar enquanto alimentado por</string>
     <string name="folder_run_script_description">Opção avançada para executar scripts após uma pasta alterar seu estado de sincronização. Scripts em \'.stfolder/*.sh\' serão executados; outros locais não são suportados por questões de segurança.\nExemplo de chamada de script: \'.stfolder/rename-files.sh sync_complete\'</string>
@@ -605,7 +605,7 @@
         <item quantity="other">%1$d conflitos</item>
     </plurals>
     <string name="respect_master_sync_title">Respeitar a configuração de sincronização automática do Android</string>
-    <string name="respect_master_sync_summary">Desative o Syncthing quando o bloco de \"Sincronização automática\" das configurações rápidas está desativado.</string>
+    <string name="respect_master_sync_summary">Desative o Serva Sync quando o bloco de \"Sincronização automática\" das configurações rápidas está desativado.</string>
     <string name="run_in_flight_mode_title">Executar sem conexão à rede</string>
     <string name="run_on_time_schedule_title">Executar de acordo com o cronograma</string>
     <string name="run_on_time_schedule_summary">Ao ativar esta opção, a sincronização será executada por uma duração configurada, se as condições forem cumpridas, e se um certo tempo passou desde a última sincronização. Isto pode economizar bastante bateria, mas requer que os parceiros de sincronização estejam conectados. Observação: Isto pode deixar arquivos temporários incompletos até que a próxima sincronização agendada seja executada.</string>
@@ -619,8 +619,8 @@
     <string name="webui_username_title">Nome de usuário da interface web</string>
     <string name="webui_password_title">Senha da interface web</string>
     <string name="clear_stversions_title">Esvaziar todas as pastas de versionamento</string>
-    <string name="clear_stversions_summary">Os arquivos são movidos para o diretório .stversions ao serem substituidos ou apagados pelo Syncthing. Você provavelmente consegue encontrar e recuperar arquivos acidentalmente apagados alí, mas versões antigas dos arquivos usam espaço de armazenamento no seu dispositivo.</string>
-    <string name="clear_stversions_question">Isto apagará todas as versões antigas dos arquivos gerenciados pelo Syncthing. Continuar?</string>
+    <string name="clear_stversions_summary">Os arquivos são movidos para o diretório .stversions ao serem substituidos ou apagados pelo Serva Sync. Você provavelmente consegue encontrar e recuperar arquivos acidentalmente apagados alí, mas versões antigas dos arquivos usam espaço de armazenamento no seu dispositivo.</string>
+    <string name="clear_stversions_question">Isto apagará todas as versões antigas dos arquivos gerenciados pelo Serva Sync. Continuar?</string>
     <string name="clear_stversions_done">Pastas .stversions limpas com sucesso.</string>
     <string name="download_support_bundle_title">Baixar support bundle</string>
     <string name="download_support_bundle_in_progress">Preparando download do support bundle …</string>
@@ -631,7 +631,7 @@
     <string name="undo_ignored_devices_folders_done">Decisões desfeitas com sucesso.</string>
     <string name="backup_rel_path_to_zip">Caminho relativo ao arquivo de configuração</string>
     <string name="backup_password_title">Senha de proteção da configuração</string>
-    <string name="backup_password_summary">ℹ️ Recomendado:\nDigite uma senha forte usada para criptografar sua configuração durante a exportação, e descriptografar durante a importação. Mantenha esta senha em um lugar seguro para o processo de recuperação. Você precisará dela para o recurso de importação.\n\n⚠️ Não recomendado:\nNão usar uma senha, outros apps podem ler e manipular sua configuração do Syncthing. Expor a configuração leva com si o risco de uma pessoa mal-intencionada conseguir acesso desautorizado aos seus arquivos usando exportações de configurações furtados.</string>
+    <string name="backup_password_summary">ℹ️ Recomendado:\nDigite uma senha forte usada para criptografar sua configuração durante a exportação, e descriptografar durante a importação. Mantenha esta senha em um lugar seguro para o processo de recuperação. Você precisará dela para o recurso de importação.\n\n⚠️ Não recomendado:\nNão usar uma senha, outros apps podem ler e manipular sua configuração do Serva Sync. Expor a configuração leva com si o risco de uma pessoa mal-intencionada conseguir acesso desautorizado aos seus arquivos usando exportações de configurações furtados.</string>
     <string name="backup_password_set">✅ Senha configurada: %1$s</string>
     <string name="backup_password_not_set">⚠ Senha não configurada.</string>
     <string name="invalid_port_number" tools:ignore="PluralsCandidate">Número de porta não válido. Por favor, digite uma porta entre %1$d e %2$d.</string>
@@ -643,33 +643,33 @@
     <string name="config_export_successful_no_path">A configuração foi exportada. Por favor, certifique-se de lembrar da senha para importar futuramente.</string>
     <string name="config_export_failed">Falha na exportação da configuração. Vá até Configurações -&gt; Resolução de problemas -&gt; Abrir registros, para ver detalhes.</string>
     <string name="config_import_failed_no_path">Falha ao importar a configuração. Vá até Configurações -&gt; Resolução de problemas -&gt; Abrir registros, para ver os detalhes.</string>
-    <string name="st_reset_database_question">Esta ação só deve ser feita ao receber uma recomendação da nossa equipe de suporte.\nVocê tem certeza que quer limpar o banco de dados do Syncthing?</string>
-    <string name="st_reset_deltas_question">Esta ação só pode ser feita se recomendada pela nossa equipe de suporte.\nVocê tem certeza que quer limpar os índices delta do Syncthing?</string>
-    <string name="st_reset_deltas_done">Índices delta do Syncthing redefinidos com sucesso</string>
+    <string name="st_reset_database_question">Esta ação só deve ser feita ao receber uma recomendação da nossa equipe de suporte.\nVocê tem certeza que quer limpar o banco de dados do Serva Sync?</string>
+    <string name="st_reset_deltas_question">Esta ação só pode ser feita se recomendada pela nossa equipe de suporte.\nVocê tem certeza que quer limpar os índices delta do Serva Sync?</string>
+    <string name="st_reset_deltas_done">Índices delta do Serva Sync redefinidos com sucesso</string>
     <string name="log_to_file_title">Registros para arquivo</string>
     <string name="log_to_file_summary">A saída do SyncthingNative será gravada em um arquivo.</string>
-    <string name="syncthing_forum_title">Fórum do Syncthing</string>
-    <string name="syncthing_forum_summary">Vá ao Fórum do Syncthing e obtenha ajuda</string>
+    <string name="syncthing_forum_title">Fórum do Serva Sync</string>
+    <string name="syncthing_forum_summary">Vá ao Fórum do Serva Sync e obtenha ajuda</string>
     <string name="pizza_url_title">» Gatos amam pizza « 😺🍕</string>
     <string name="pizza_url_summary">Com somente um toque, você pode deixar uma fatia quentinha de gentileza - coberta com extras vibes boas para manter os gatos ronronando.</string>
     <string name="privacy_summary">Abra a política de privacidade do syncthing-android, que cobre o uso (se qualquer) de dados pessoais, como a localização.</string>
-    <string name="app_version_title">Versão do pacote do Syncthing-Fork</string>
-    <string name="syncthing_database_size">Tamanho do banco de dados do Syncthing</string>
+    <string name="app_version_title">Versão do pacote do Serva Sync</string>
+    <string name="syncthing_database_size">Tamanho do banco de dados do Serva Sync</string>
     <string name="os_open_file_limit">Limite de abrir arquivos do Android</string>
     <string name="advanced_storage_path_overview">Visão geral do caminho de armazenamento avançado</string>
     <string name="current_path">Caminho atual: %1$s</string>
     <string name="share_log_file_missing">O arquivo de registros a compartilhar está ausente.</string>
     <string name="share_log_file">Compartilhar arquivo de registros</string>
     <string name="complete_welcome_wizard_first">Primeiro, abra o app pela tela inicial, e conclua o assistente de configuração inicial antes de compartilhar arquivos.</string>
-    <string name="reason_force_start">O Syncthing está em execução pois você forçou que ele iniciasse independentemente das condições de execução.</string>
+    <string name="reason_force_start">O Serva Sync está em execução pois você forçou que ele iniciasse independentemente das condições de execução.</string>
     <string name="reason_not_within_time_frame">Você ativou \"Executar de acordo com o cronograma\" e a última sincronização foi a menos de uma hora atrás.</string>
     <string name="reason_not_within_time_frame_2">Você ativou \"Executar de acordo com o cronograma\" e a última sincronização foi há %s.</string>
-    <string name="reason_not_while_auto_sync_data_disabled">O Syncthing não está em execução pois o Android está com a \"Sincronização automática\" desativada.</string>
-    <string name="reason_mobile_data_disallowed">O Syncthing não está configurado para ser executado em uma conexão de dados móveis.</string>
-    <string name="reason_not_on_mobile_data">O Syncthing está autorizado a executar em conexão de dados móveis mas os dados móveis não estão conectados.</string>
-    <string name="reason_on_roaming_nonroaming_mobile_data">O Syncthing está autorizado a executar nos dados móveis com ou sem roaming.</string>
-    <string name="reason_on_nonroaming_mobile_data">O Syncthing está autorizado a executar em conexões de dados móveis sem roaming. A conexão atual não está em roaming.</string>
-    <string name="reason_location_unavailable">Você ativou \"Executar em redes Wi-Fi selecionadas\" nas configurações. Os serviços de localização do Android estão desativados no momento. De acordo com as restrições do Android, o Syncthing não pode determinar o nome da rede Wi-Fi atual para saber se deve ou não ser executado. Solução: Ative a localização, dê a permissão de localização, e reconecte o Wi-Fi.</string>
+    <string name="reason_not_while_auto_sync_data_disabled">O Serva Sync não está em execução pois o Android está com a \"Sincronização automática\" desativada.</string>
+    <string name="reason_mobile_data_disallowed">O Serva Sync não está configurado para ser executado em uma conexão de dados móveis.</string>
+    <string name="reason_not_on_mobile_data">O Serva Sync está autorizado a executar em conexão de dados móveis mas os dados móveis não estão conectados.</string>
+    <string name="reason_on_roaming_nonroaming_mobile_data">O Serva Sync está autorizado a executar nos dados móveis com ou sem roaming.</string>
+    <string name="reason_on_nonroaming_mobile_data">O Serva Sync está autorizado a executar em conexões de dados móveis sem roaming. A conexão atual não está em roaming.</string>
+    <string name="reason_location_unavailable">Você ativou \"Executar em redes Wi-Fi selecionadas\" nas configurações. Os serviços de localização do Android estão desativados no momento. De acordo com as restrições do Android, o Serva Sync não pode determinar o nome da rede Wi-Fi atual para saber se deve ou não ser executado. Solução: Ative a localização, dê a permissão de localização, e reconecte o Wi-Fi.</string>
     <string name="syncthing_active_details">Em execução: %1$s</string>
     <plurals name="device_online_up_to_date">
         <item quantity="one">%1$d dispositivo conectado e atualizado</item>
@@ -694,8 +694,8 @@
     <string name="state_sync_preparing">Preparando para sincronizar</string>
     <string name="folder_type_sendonly_description">Os arquivos estão protegidos de alterações feitas em outros dispositivos, mas alterações feitas neste dispositivo serão enviadas para o resto do grupo.</string>
     <string name="folder_type_receiveonly_description">Os arquivos são sincronizados pelo grupo, mas qualquer alteração feita localmente não será enviada para outros dispositivos.</string>
-    <string name="file_versioning_generic_description">O Syncthing suporta arquivar a versão antiga de um arquivo quando é apagada ou substituída com uma versão nova pelo grupo. Clique para ver as estratégias de versionamento disponíveis. O versionamento de arquivos é configurado por pasta, e por dispositivo. Estratégia selecionada:</string>
-    <string name="staggered_versioning_description">Os arquivos são movidos para versões estampadas com a data em um diretório .stversions quando substituídos ou apagados pelo Syncthing. As versões são apagadas automaticamente se mais antigas que a idade máxima ou passam do número permitido de arquivos de um intervalo.\n\nOs seguintes intervalos são usados: na primeira hora, uma versão é mantida a cada 30 segundos, no primeiro dia, uma versão é mantida por hora, e pelos primeiros 30 dias, uma versão é mantida todo dia, até a idade máxima que uma versão é mantida por semana.</string>
+    <string name="file_versioning_generic_description">O Serva Sync suporta arquivar a versão antiga de um arquivo quando é apagada ou substituída com uma versão nova pelo grupo. Clique para ver as estratégias de versionamento disponíveis. O versionamento de arquivos é configurado por pasta, e por dispositivo. Estratégia selecionada:</string>
+    <string name="staggered_versioning_description">Os arquivos são movidos para versões estampadas com a data em um diretório .stversions quando substituídos ou apagados pelo Serva Sync. As versões são apagadas automaticamente se mais antigas que a idade máxima ou passam do número permitido de arquivos de um intervalo.\n\nOs seguintes intervalos são usados: na primeira hora, uma versão é mantida a cada 30 segundos, no primeiro dia, uma versão é mantida por hora, e pelos primeiros 30 dias, uma versão é mantida todo dia, até a idade máxima que uma versão é mantida por semana.</string>
     <string name="run_on_whitelisted_wifi_summary">Ative a lista de permitidos para restringir a sincronização para acontecer somente em redes Wi-Fi selecionadas.</string>
     <string name="custom_sync_conditions_dialog">Especificar condições de sincronização</string>
     <string name="qs_force_label">Execução forçada</string>

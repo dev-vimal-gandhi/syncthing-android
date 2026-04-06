@@ -8,7 +8,7 @@
         tools:context=".activities.FirstStartActivity"
         tools:showIn="@layout/activity_first_start">
 
-        <com.nutomic.syncthingandroid.views.CustomViewPager
+        <com.servalabs.sync.views.CustomViewPager
                 android:id="@+id/view_pager"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -47,7 +47,7 @@
                     android:layout_alignParentBottom="true"
                     android:layout_alignParentStart="true"
                     android:text="@string/back"
-                    style="@style/Theme.Syncthing.GreyButton" />
+                    style="@style/Theme.ServaSync.GreyButton" />
 
             <Button
                     android:id="@+id/btn_next"
@@ -57,7 +57,7 @@
                     android:layout_alignParentBottom="true"
                     android:layout_alignParentEnd="true"
                     android:text="@string/cont"
-                    style="@style/Theme.Syncthing.GreyButton" >
+                    style="@style/Theme.ServaSync.GreyButton" >
             </Button>
 
     </RelativeLayout>

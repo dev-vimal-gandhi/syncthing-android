@@ -73,14 +73,14 @@
         <item quantity="one">%1$d fail on kopeeritud „%2$s“ kausta</item>
         <item quantity="other">%1$d faili on kopeeritud „%2$s“ kausta</item>
     </plurals>
-    <string name="app_name">Syncthing-Fork</string>
+    <string name="app_name">Serva Sync</string>
     <string name="add_folder">Lisa kaust</string>
     <string name="app_description">Avatud, vaba, usaldusväärne ja hajutatud võrgul põhinev failide sünkroonimisrakendus.</string>
-    <string name="welcome_title">Tere tulemast - see on Syncthing Androidi jaoks</string>
+    <string name="welcome_title">Tere tulemast - see on Serva Sync Androidi jaoks</string>
     <string name="introduction">Sissejuhatus</string>
-    <string name="welcome_text">Syncthing on avatud lähtekoodiga failide sünkroonimisrakendus. Jagamaks andmeid muude seadmetega pead lisama nende unikaalsed tunnused oma seadmete loendisse. Hiljem saad valida mis kaustu missuguste seadmetega soovid jagada.\n\nKui töö käigus märkad vigu, siis palju teavita neid GitHubis.</string>
+    <string name="welcome_text">Serva Sync on avatud lähtekoodiga failide sünkroonimisrakendus. Jagamaks andmeid muude seadmetega pead lisama nende unikaalsed tunnused oma seadmete loendisse. Hiljem saad valida mis kaustu missuguste seadmetega soovid jagada.\n\nKui töö käigus märkad vigu, siis palju teavita neid GitHubis.</string>
     <string name="storage_permission_title">Õigused andmeruumi kasutamiseks</string>
-    <string name="storage_permission_desc">Failide sünkroonimise korraldamiseks vajab Syncthing õigust sinu arvuti/seadme andmeruumi kasutamiseks.</string>
+    <string name="storage_permission_desc">Failide sünkroonimise korraldamiseks vajab Serva Sync õigust sinu arvuti/seadme andmeruumi kasutamiseks.</string>
     <string name="dialog_all_files_access_not_supported">Sinu nutiseade ei toeta võimalust lubada ligipääsu kõikidele failidele</string>
     <string name="ignore_doze_permission_os_notice">Teadaolevalt Android TV kipub taustal töötava rakenduse vahetevahel sulgema. Üks võimalikke lahendusi leidub meie vikis: %1$s/%2$s.</string>
     <string name="device_state_unknown">Tundmatu</string>
@@ -153,7 +153,7 @@
     <string name="notification_permission_title">Õigused teavituste kuvamiseks</string>
     <string name="key_generation_title">Krüptovõtmete loomine</string>
     <string name="photo_shoot_launcher_title">Kaamera sünkroonimine</string>
-    <string name="photo_shoot_activity_title">Syncthing-Fork\'i kaamera</string>
+    <string name="photo_shoot_activity_title">Serva Sync\'i kaamera</string>
     <string name="photo_shoot_intro_permission_title">Nõutavad õigused</string>
     <string name="default_syncthing_camera_folder_label">Syncthingi kaamera</string>
     <string name="activity_main_bottom_navigation_rescan_all">Skaneeri kõik uuesti</string>
@@ -224,7 +224,7 @@
     <string name="sub_folder">Alamkaust</string>
     <string name="syncthing_active_details">Töös: %1$s</string>
     <string name="default_android_camera_folder_label">Androidi kaamera</string>
-    <string name="notifications_persistent_channel">Syncthing on aktiivne</string>
+    <string name="notifications_persistent_channel">Serva Sync on aktiivne</string>
     <string name="notifications_other_channel">Muud teavitused</string>
     <string name="restart_title">Taaskäivitamine on vajalik</string>
     <string name="state_local_additions">Kohalikud lisandused</string>
@@ -263,9 +263,9 @@
     <string name="device_disconnected_not_synced">Ühendus on katkestatud (%1$s ootel)</string>
     <string name="device_last_seen">Viimati nähtud: %1$s</string>
     <string name="button_follow_run_conditions">JÄRGI KÄIVITAMISTINGIMUSI</string>
-    <string name="syncthing_starting">Syncthing on käivitumas.</string>
-    <string name="syncthing_running">Syncthing on töös.</string>
-    <string name="syncthing_has_crashed">Syncthing on kokku jooksnud.</string>
+    <string name="syncthing_starting">Serva Sync on käivitumas.</string>
+    <string name="syncthing_running">Serva Sync on töös.</string>
+    <string name="syncthing_has_crashed">Serva Sync on kokku jooksnud.</string>
     <string name="folder_fileWatcher">Jälgi muudatusi</string>
     <string name="close_device_id">Sulge seadmetunnus</string>
     <string name="scan_qr_code_description">Skaneeri QR-koodi</string>
@@ -290,7 +290,7 @@
     <string name="device_disconnected">Ühendus on katkestatud</string>
     <string name="device_paused">Peatatud</string>
     <string name="device_state_unused">Kasutamata</string>
-    <string name="syncthing_not_running">Syncthing pole töös.</string>
+    <string name="syncthing_not_running">Serva Sync pole töös.</string>
     <string name="dialog_confirm_restart">Kas sa soovid Syncthingi uuesti käivitada?</string>
     <string name="remove_device_confirm">Kas sa kindlasti soovid selle seadme eemaldada?</string>
     <string name="device_id_required">Seadme tunnus ei saa jääda tühjaks</string>
@@ -301,8 +301,8 @@
     <string name="folders_list_empty">Ühtegi kausta pole seadistatud. Klõpsa uue kausta lisamiseks.</string>
     <string name="no_recent_changes">Hiljutisi muudatusi pole.</string>
     <string name="web_page_loading">Laadin veebilehte: \n%1$s …</string>
-    <string name="category_syncthing_options_summary">See menüü on saadaval vaid siis, kui Syncthing töötab.</string>
-    <string name="run_conditions_summary">Järgnevate eelistustega saad määrata millal Syncthing töötab.</string>
+    <string name="category_syncthing_options_summary">See menüü on saadaval vaid siis, kui Serva Sync töötab.</string>
+    <string name="run_conditions_summary">Järgnevate eelistustega saad määrata millal Serva Sync töötab.</string>
     <string name="run_on_metered_wifi_title">Käivita mahupõhistes WiFi-võrkudes</string>
     <string name="run_on_wifi_summary">Käivita siis, kui nutiseade on ühendatud WiFi- või kohtvõrguga.</string>
     <string name="run_on_metered_wifi_summary">Käivita siis, kui nutiseade on ühendatud mahupõhise WiFi-võrguga, milleks võib olla kuumkoht või teisest nutiseadmest jagatud võrk. Tähelepanu: kui sünkroonid palju andmeid, siis see võib kulutada märgatava osa sinu lepingus lubatud andmemahust.</string>
@@ -329,7 +329,7 @@
     <string name="log_to_file_title">Logi faili</string>
     <string name="pizza_url_title">» Kassidele maitseb pitsa « 😺🍕</string>
     <string name="syncthing_api_key">Syncthingi API võti (klõpsa kopeerimiseks)</string>
-    <string name="api_key_copied_to_clipboard">Syncthing API võti on kopeeritud lõikelauale</string>
+    <string name="api_key_copied_to_clipboard">Serva Sync API võti on kopeeritud lõikelauale</string>
     <string name="syncthing_database_size">Syncthingi andmebaasi suurus</string>
     <string name="os_open_file_limit">Avatud failide ülempiir Androidis</string>
     <string name="open_source_licenses_title">Avatud lähtekoodiga tarkvara litsentsid</string>
@@ -352,7 +352,7 @@
     <string name="reason_not_charging">Telefon pole laadimas.</string>
     <string name="reason_not_on_battery_power">Telefon ei tööta akutoitel.</string>
     <string name="no_remote_devices_connected">Ühtegi kaugseadet pole ühendatud</string>
-    <string name="ignore_doze_permission_desc">Android võib mingi aja möödumisel lõpetada sünkroonimise. Sellise olukorra vältimiseks luba selle rakenduse puhul keelata akukasutuse optimeerimine. Mõnes nutiseadmes võib leiduda ka täiendav keeluloend eelpaigaldatud rakenduste jaoks ja siis lisa Syncthing ka sinna.</string>
+    <string name="ignore_doze_permission_desc">Android võib mingi aja möödumisel lõpetada sünkroonimise. Sellise olukorra vältimiseks luba selle rakenduse puhul keelata akukasutuse optimeerimine. Mõnes nutiseadmes võib leiduda ka täiendav keeluloend eelpaigaldatud rakenduste jaoks ja siis lisa Serva Sync ka sinna.</string>
     <string name="toast_ignore_doze_permission_required">See rakendus toimib töökindlalt vaid siis, kui „doze“ energiasäästurežiimi tema puhul ei kohaldata.</string>
     <string name="dialog_disable_battery_optimizations_not_supported">Sinu nutiseadme tarkvara ei võimalda rakendusekohast akukasutuse optimeerimise kasutamist</string>
     <string name="download_support_bundle_title">Laadi alla tugiteenuste pakk (Support Bundle)</string>

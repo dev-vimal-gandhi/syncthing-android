@@ -57,7 +57,7 @@
                 android:paddingRight="@dimen/grant_button_padding"
                 android:text="@string/grant_storage_permission"
                 android:textSize="12sp"
-                style="@style/Theme.Syncthing.GreyButton" />
+                style="@style/Theme.ServaSync.GreyButton" />
 
             <Button
                 android:id="@+id/btnGrantCameraPerm"
@@ -73,7 +73,7 @@
                 android:paddingRight="@dimen/grant_button_padding"
                 android:text="@string/grant_camera_permission"
                 android:textSize="12sp"
-                style="@style/Theme.Syncthing.GreyButton" />
+                style="@style/Theme.ServaSync.GreyButton" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -114,7 +114,7 @@
                 android:layout_alignParentBottom="true"
                 android:layout_alignParentStart="true"
                 android:text="@string/back"
-                style="@style/Theme.Syncthing.GreyButton" />
+                style="@style/Theme.ServaSync.GreyButton" />
 
         <Button
                 android:id="@+id/btn_go"
@@ -124,7 +124,7 @@
                 android:layout_alignParentBottom="true"
                 android:layout_alignParentEnd="true"
                 android:text="@string/cont"
-                style="@style/Theme.Syncthing.GreyButton" >
+                style="@style/Theme.ServaSync.GreyButton" >
         </Button>
 
     </RelativeLayout>

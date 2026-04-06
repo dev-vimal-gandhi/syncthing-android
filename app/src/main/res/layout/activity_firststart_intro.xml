@@ -40,7 +40,7 @@
                 android:layout_height="50dp"
                 android:layout_marginTop="5dp"
                 android:contentDescription="@null"
-                app:srcCompat="@drawable/ic_syncthing_logo" />
+                app:srcCompat="@mipmap/ic_launcher" />
 
             <TextView
                 android:layout_width="wrap_content"

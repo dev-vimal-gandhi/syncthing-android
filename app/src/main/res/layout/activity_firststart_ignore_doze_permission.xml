@@ -53,7 +53,7 @@
             android:paddingEnd="@dimen/grant_button_padding"
             android:text="@string/grant_permission"
             android:textSize="12sp"
-            style="@style/Theme.Syncthing.GreyButton" />
+            style="@style/Theme.ServaSync.GreyButton" />
 
         <TextView
             android:id="@+id/tvIgnoreDozePermissionOsNotice"

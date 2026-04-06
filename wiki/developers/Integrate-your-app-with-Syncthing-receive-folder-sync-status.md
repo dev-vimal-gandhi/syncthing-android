@@ -1,16 +1,19 @@
-# Integrate your app with Syncthing
+# Integrate your app with Serva Sync
 
 ### Receive notification after a folder completed its sync progress
 
-You can receive the folder sync complete event from Syncthing-Fork by using a BroadcastReceiver to subscribe.
+You can receive the folder sync complete event from Serva Sync by using a BroadcastReceiver to subscribe.
 
 Prerequisites:
+
 - Declare our permission in your "AndroidManifest.xml"
+
 ```
 <uses-permission android:name="com.github.catfriend1.syncthingfork.permission.RECEIVE_SYNC_STATUS" />
 ```
 
 - Add a receiver to your "AndroidManifest.xml"
+
 ```
 <receiver android:name=".SyncStatusReceiver" android:exported="true">
     <intent-filter>
@@ -20,6 +23,7 @@ Prerequisites:
 ```
 
 - File a pull request against "service/RestApi.java" to let us add your app's package id as a receiver for the status broadcasts. Refer to function ["sendBroadcastToApps"](../../app/src/main/java/com/nutomic/syncthingandroid/service/RestApi.java), "packageIdList".
+
 ```
 String[] packageIdList = {
     "com.example.syncthingreceiver"
@@ -27,7 +31,9 @@ String[] packageIdList = {
 ```
 
 Implementation:
+
 - Wait for the desired notification to arrive in your receiver code.
+
 ```
 public class SyncStatusReceiver extends BroadcastReceiver {
     @Override
@@ -46,6 +52,7 @@ public class SyncStatusReceiver extends BroadcastReceiver {
 ```
 
 - [Test app source](../../scripts/debug/SyncthingReceiverTestApp)
+
 ```
 # git clone ...
 cd "scripts/debug/SyncthingReceiverTestApp/"
@@ -54,7 +61,8 @@ cd "scripts/debug/SyncthingReceiverTestApp/"
 ./gradlew assembleDebug
 ```
 
-- Start test app and follow the logcat while Syncthing-Fork is running and about to complete a folder sync progress.
+- Start test app and follow the logcat while Serva Sync is running and about to complete a folder sync progress.
+
 ```
 # adb logcat v:* * | grep 'SyncStatusReceiver'
 05-12 23:59:37.143 D setRemoteCompletionInfo: Completed folder=[android_sdk_built_for_x86_64_u3dz-photos]
